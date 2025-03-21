@@ -28,6 +28,8 @@ It contains a little about me
 * Honesty
 # Recommended texts
 * Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens and Stephen A. Rago
+# Credits
+I would like to thank Microsoft and GitHub Team for providing this increadible platform where I can share details about me for free
 
 
 <!--
