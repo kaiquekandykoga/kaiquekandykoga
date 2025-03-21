@@ -6,9 +6,9 @@
   * FreeBSD
   * openSUSE
 * Programming Languages
-  * Ruby
   * C
   * JavaScript
+  * Ruby
 
 <!--
 ## Hi there 👋
