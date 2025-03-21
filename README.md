@@ -3,6 +3,7 @@
 I try to keep this page up to date as much as I can
 
 It contains a little about me
+
 # My interests
 * API development (Find ways to scale monolithic APIs; microservice integration)
 * Troubleshooting (API observability in distributed systems)
