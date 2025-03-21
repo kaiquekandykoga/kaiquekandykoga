@@ -16,6 +16,8 @@
 * Text Editors
   * Emacs
   * Vim
+# Recommended Texts
+* Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens and Stephen A. Rago
 
 
 <!--
