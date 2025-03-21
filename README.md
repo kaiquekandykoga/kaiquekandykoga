@@ -25,6 +25,7 @@ It contains a little about me
   * C
   * JavaScript
   * Ruby
+  * SQL
 * Text Editors
   * Emacs
   * Vim
