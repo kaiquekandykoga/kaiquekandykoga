@@ -2,6 +2,11 @@
 # My interests
 * Programming Languages
   * Ruby
+  * C
+  * JavaScript
+* Operating Systems
+  * FreeBSD
+  * openSUSE
 
 <!--
 ## Hi there 👋
