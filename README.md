@@ -9,6 +9,8 @@ It contains a little about me
 # Technical tools
 * Databases
   * PostgreSQL
+* Cloud Platforms
+  * AWS
 * Miscellaneous
   * Docker
   * Git
