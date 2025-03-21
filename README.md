@@ -41,11 +41,11 @@ It contains a little about me
 <details>
 <summary>Operating Systems</summary>
 
-* Android 
-* FreeBSD
-* macOS
-* openSUSE
-* Windows
+* Android (Personal use)
+* FreeBSD (Programming)
+* macOS (Programming)
+* openSUSE (Programming)
+* Windows (Gaming)
 </details>
 
 <details>
