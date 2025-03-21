@@ -2,7 +2,7 @@
 # My interests
 * API development (Find ways to scale monolithic APIs; microservice integration)
 * Troubleshooting (API observability in distributed systems)
-# My tools
+# Technical tools
 * Databases
   * PostgreSQL
 * Miscellaneous
