@@ -15,6 +15,7 @@ It contains a little about me
   * Docker
   * Git
   * Firefox
+  * Kubernetes
   * POSIX.1 utils (e.g. grep and find)
   * tmux
 * Operating Systems
