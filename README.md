@@ -19,6 +19,9 @@
 * Text Editors
   * Emacs
   * Vim
+# My values
+* Respect
+* Honesty
 # Recommended texts
 * Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens and Stephen A. Rago
 
