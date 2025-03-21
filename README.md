@@ -4,6 +4,7 @@
   * PostgreSQL
 * Miscellaneous
   * Git
+  * POSIX.1 utils (e.g. grep and find)
   * tmux
 * Operating Systems
   * FreeBSD
