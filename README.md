@@ -6,34 +6,60 @@ It contains a little about me
 # My interests
 * API development (Find ways to scale monolithic APIs; microservice integration)
 * Troubleshooting (API observability in distributed systems)
+
 # Technical tools
-* Databases
-  * MariaDB
-  * Memcached
-  * PostgreSQL
-  * Redis
-* Cloud Platforms
-  * AWS
-* Miscellaneous
-  * Docker
-  * Git
-  * Firefox
-  * Jails (FreeBSD)
-  * Kubernetes
-  * POSIX.1 utils (e.g. grep and find)
-    * I prefer BSD utils
-  * tmux
-* Operating Systems
-  * FreeBSD
-  * openSUSE
-* Programming Languages
-  * C
-  * JavaScript
-  * Ruby
-  * SQL
-* Text Editors
-  * Emacs
-  * Vim
+
+<details>
+<summary>Databases</summary>
+
+* MariaDB
+* Memcached
+* PostgreSQL
+* Redis
+</details>
+
+<details>
+<summary>Cloud Platforms</summary>
+
+* AWS
+</details>
+
+<details>
+<summary>Miscellaneous</summary>
+ 
+* Docker
+* Git
+* Firefox
+* Jails (FreeBSD)
+* Kubernetes
+* POSIX.1 utils (e.g. grep and find)
+  * I prefer BSD utils
+* tmux
+</details>
+
+<details>
+<summary>Operating Systems</summary>
+ 
+* FreeBSD
+* openSUSE
+</details>
+
+<details>
+<summary>Programming Languages</summary>
+
+* C
+* JavaScript
+* Ruby
+* SQL
+</details>
+
+<details>
+<summary>Text Editors</summary>
+ 
+* Emacs
+* Vim
+</details>
+
 # My values
 * Respect
 * Honesty
