@@ -11,6 +11,14 @@ It contains a little about me
 # Technical tools
 
 <details>
+<summary>Cloud Platforms</summary>
+
+* AWS
+</details>
+
+<details>
+
+<details>
 <summary>Databases</summary>
 
 * MariaDB
@@ -18,14 +26,6 @@ It contains a little about me
 * PostgreSQL
 * Redis
 </details>
-
-<details>
-<summary>Cloud Platforms</summary>
-
-* AWS
-</details>
-
-<details>
 
 <summary>Miscellaneous</summary>
  
