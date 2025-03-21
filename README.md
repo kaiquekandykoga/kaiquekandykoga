@@ -8,6 +8,7 @@ It contains a little about me
 * Troubleshooting (API observability in distributed systems)
 # Technical tools
 * Databases
+  * MariaDB
   * PostgreSQL
 * Cloud Platforms
   * AWS
