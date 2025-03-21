@@ -9,6 +9,7 @@ It contains a little about me
 # Technical tools
 * Databases
   * MariaDB
+  * Memcached
   * PostgreSQL
   * Redis
 * Cloud Platforms
