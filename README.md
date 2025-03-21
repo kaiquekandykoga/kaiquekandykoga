@@ -2,6 +2,9 @@
 # My interests
 * Databases
   * PostgreSQL
+* Miscellaneous
+  * Git
+  * tmux
 * Operating Systems
   * FreeBSD
   * openSUSE
