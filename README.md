@@ -10,6 +10,7 @@ It contains a little about me
 * Databases
   * MariaDB
   * PostgreSQL
+  * Redis
 * Cloud Platforms
   * AWS
 * Miscellaneous
