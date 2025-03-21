@@ -1,6 +1,11 @@
-## Hi there 👋
+
+# My interests
+* Programming Languages
+  * Ruby
 
 <!--
+## Hi there 👋
+
 **kaiquekandykoga/kaiquekandykoga** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
