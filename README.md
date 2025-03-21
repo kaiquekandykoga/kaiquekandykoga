@@ -18,7 +18,7 @@ It contains a little about me
   * Docker
   * Git
   * Firefox
-  * Jails
+  * Jails (FreeBSD)
   * Kubernetes
   * POSIX.1 utils (e.g. grep and find)
   * tmux
