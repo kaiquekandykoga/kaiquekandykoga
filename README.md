@@ -10,6 +10,7 @@ It contains a little about me
 * Databases
   * PostgreSQL
 * Miscellaneous
+  * Docker
   * Git
   * Firefox
   * POSIX.1 utils (e.g. grep and find)
