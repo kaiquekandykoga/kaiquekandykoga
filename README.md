@@ -1,12 +1,14 @@
 
 # My interests
+* Databases
+  * PostgreSQL
+* Operating Systems
+  * FreeBSD
+  * openSUSE
 * Programming Languages
   * Ruby
   * C
   * JavaScript
-* Operating Systems
-  * FreeBSD
-  * openSUSE
 
 <!--
 ## Hi there 👋
