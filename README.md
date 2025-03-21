@@ -9,6 +9,10 @@
   * C
   * JavaScript
   * Ruby
+* Text Editors
+  * Emacs
+  * Vim
+
 
 <!--
 ## Hi there 👋
