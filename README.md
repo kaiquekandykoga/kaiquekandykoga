@@ -11,6 +11,7 @@ It contains a little about me
   * PostgreSQL
 * Miscellaneous
   * Git
+  * Firefox
   * POSIX.1 utils (e.g. grep and find)
   * tmux
 * Operating Systems
