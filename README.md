@@ -17,8 +17,6 @@ It contains a little about me
 </details>
 
 <details>
-
-<details>
 <summary>Databases</summary>
 
 * MariaDB
@@ -27,6 +25,7 @@ It contains a little about me
 * Redis
 </details>
 
+<details>
 <summary>Miscellaneous</summary>
  
 * Docker
