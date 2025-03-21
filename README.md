@@ -21,6 +21,7 @@ It contains a little about me
   * Jails (FreeBSD)
   * Kubernetes
   * POSIX.1 utils (e.g. grep and find)
+    * I prefer BSD utils
   * tmux
 * Operating Systems
   * FreeBSD
