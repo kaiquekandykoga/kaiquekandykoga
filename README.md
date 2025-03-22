@@ -74,7 +74,7 @@ It contains a little about me
 * Honesty
 
 
-# Recommended texts
+# Recommended texts 📕
 * Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens and Stephen A. Rago
 
 # Credits 🏆
