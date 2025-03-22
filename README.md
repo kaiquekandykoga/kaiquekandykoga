@@ -48,6 +48,7 @@ It contains a little about me
 #### POSIX.1 utils (e.g. grep and find)
 * I prefer BSD utils
 #### tmux
+* I always use tmux with xterm and Alacritty
 
 </details>
 
