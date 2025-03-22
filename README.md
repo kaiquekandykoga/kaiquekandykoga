@@ -69,7 +69,7 @@ It contains a little about me
 * Vim
 </details>
 
-# My values
+# My values ❤️
 * Respect
 * Honesty
 
