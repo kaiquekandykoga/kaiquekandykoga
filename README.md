@@ -1,5 +1,5 @@
 
-# Summary
+# Summary ⚡
 I try to keep this page up to date as much as I can
 
 It contains a little about me
