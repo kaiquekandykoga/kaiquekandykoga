@@ -12,6 +12,7 @@ It contains a little about me
   * Troubleshooting (API observability in distributed systems)
  
 * UNIX
+  * Read up system libraries
 
 # Technical tools 🔧
 
