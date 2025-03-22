@@ -42,6 +42,7 @@ It contains a little about me
 #### Docker
 #### Git
 #### Firefox
+* I like the Developer Tools
 #### Jails (FreeBSD)
 #### Kubernetes
 #### POSIX.1 utils (e.g. grep and find)
