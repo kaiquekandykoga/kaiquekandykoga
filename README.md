@@ -79,8 +79,11 @@ It contains a little about me
 <details>
 <summary>Text Editors</summary>
  
-* Emacs
-* Vim
+#### Emacs
+* I am a newbie, but I enjoy using it
+#### Vim
+* I use Vim on a daily basis
+
 </details>
 
 # My values ❤️
