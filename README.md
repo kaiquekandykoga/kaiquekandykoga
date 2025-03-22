@@ -24,10 +24,15 @@ It contains a little about me
 <details>
 <summary>Databases</summary>
 
-* MariaDB
-* Memcached
-* PostgreSQL
-* Redis
+#### MariaDB
+* I use MariaDB with Ruby on Rails
+#### Memcached
+* I use Memcached with caching
+#### PostgreSQL
+* I use PostgreSQL with Ruby on Rails
+#### Redis
+* I use Redis with Sidekiq
+
 </details>
 
 <details>
@@ -59,6 +64,7 @@ It contains a little about me
 #### Windows
 * Gaming - I do not play games anymore
 * C# programming, .NET development
+
 </details>
 
 <details>
