@@ -47,16 +47,18 @@ It contains a little about me
 <summary>Operating Systems</summary>
 
 #### Android
-* Personal use
+* Personal use in tablets
 #### FreeBSD
-* C Programming
+* C programming using Clang
 #### macOS
-* Ruby Programming
+* Ruby programming with Ruby on Rails
 #### openSUSE
-* C and Ruby Programming
+* I usually use openSUSE. I sometimes use Alpine, Ubuntu and Debian in Docker images and servers
+* C programming using GCC
+* Ruby programming with Ruby on Rails
 #### Windows
-* Gaming
-* C# Programming
+* Gaming - I do not play games anymore
+* C# programming, .NET development
 </details>
 
 <details>
