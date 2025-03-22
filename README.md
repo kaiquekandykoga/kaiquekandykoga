@@ -6,13 +6,13 @@ It contains a little about me
 
 # My interests 😁
 
-* API development
-  * Find ways to scale monolithic APIs
-  * Microservice integration
-  * Troubleshooting (API observability in distributed systems)
+#### API development
+* Find ways to scale monolithic APIs
+* Microservice integration
+* Troubleshooting (API observability in distributed systems)
  
-* UNIX
-  * Read up system libraries
+#### UNIX
+* Read up system libraries
 
 # Technical tools 🔧
 
