@@ -46,11 +46,17 @@ It contains a little about me
 <details>
 <summary>Operating Systems</summary>
 
-#### Android (Personal use)
-#### FreeBSD (Programming)
-#### macOS (Programming)
-#### openSUSE (Programming)
-#### Windows (Gaming)
+#### Android
+* Personal use
+#### FreeBSD
+* C Programming
+#### macOS
+* Ruby Programming
+#### openSUSE
+* C and Ruby Programming
+#### Windows
+* Gaming
+* C# Programming
 </details>
 
 <details>
