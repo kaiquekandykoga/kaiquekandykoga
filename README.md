@@ -18,7 +18,8 @@ It contains a little about me
 <details>
 <summary>Cloud Platforms</summary>
 
-* AWS
+#### AWS
+  
 </details>
 
 <details>
@@ -38,14 +39,15 @@ It contains a little about me
 <details>
 <summary>Miscellaneous</summary>
  
-* Docker
-* Git
-* Firefox
-* Jails (FreeBSD)
-* Kubernetes
-* POSIX.1 utils (e.g. grep and find)
-  * I prefer BSD utils
-* tmux
+#### Docker
+#### Git
+#### Firefox
+#### Jails (FreeBSD)
+#### Kubernetes
+#### POSIX.1 utils (e.g. grep and find)
+* I prefer BSD utils
+#### tmux
+
 </details>
 
 <details>
@@ -70,10 +72,11 @@ It contains a little about me
 <details>
 <summary>Programming Languages</summary>
 
-* C
-* JavaScript
-* Ruby
-* SQL
+#### C
+#### JavaScript
+#### Ruby
+#### SQL
+
 </details>
 
 <details>
