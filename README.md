@@ -13,7 +13,7 @@ It contains a little about me
  
 * UNIX
 
-# Technical tools
+# Technical tools 🔧
 
 <details>
 <summary>Cloud Platforms</summary>
