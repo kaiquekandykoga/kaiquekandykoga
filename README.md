@@ -14,6 +14,10 @@ It contains a little about me
 #### UNIX
 * Read up system libraries
 
+#### Desktop development
+* I am learning C++ and Qt Framework
+
+
 # Technical tools 🔧
 
 <details>
