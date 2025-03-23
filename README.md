@@ -70,6 +70,7 @@ It contains a little about me
 * I usually use openSUSE. I sometimes use Alpine, Ubuntu and Debian in Docker images and servers
 * C programming using GCC
 * Ruby programming with Ruby on Rails
+* C++ programming using Qt
 #### Windows
 * Gaming - I do not play games anymore
 * C# programming, .NET development
