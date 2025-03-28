@@ -81,6 +81,7 @@ It contains a little about me
 <summary>Programming Languages</summary>
 
 #### C
+#### C#
 #### JavaScript
 #### Ruby
 #### SQL
