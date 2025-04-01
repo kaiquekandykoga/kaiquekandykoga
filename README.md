@@ -98,11 +98,6 @@ It contains a little about me
 
 </details>
 
-# Open Source
-
-#### Advices for researching areas
-https://github.com/kaiquekandykoga/kandy_learn
-
 # My values ❤️
 * Respect
 * Honesty
