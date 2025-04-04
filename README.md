@@ -82,6 +82,7 @@ It contains a little about me
 
 #### C
 #### C#
+#### Java
 #### JavaScript
 #### Ruby
 #### SQL
