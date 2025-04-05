@@ -1,8 +1,31 @@
 
 # Summary ⚡
-I try to keep this page up to date as much as I can
 
-It contains a little about me
+I am developing my own learning system
+
+# Learning System
+
+I arrange my thoughts using code. I have a primary repository (private access) where I create documentation in .rb files about anything that I reasearch including subjects like algorithms, GNU Bison, English and X11. When I say anything, I mean it
+
+Just an example to have a taste of it. If I am learning Vim, I can create a vim.rb file with the content
+
+```
+class Vim
+  def grep
+    [
+      ":grep"
+    ]
+
+    # example grep
+    [
+      ":grep colima -r ."
+    ]
+  end
+end
+```
+
+Why do I make effort in doing that? The simple answer for this question is: Because I like it
+
 
 # My interests 😁
 
