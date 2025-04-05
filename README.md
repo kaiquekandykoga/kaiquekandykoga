@@ -5,7 +5,7 @@ I am developing my own learning system
 
 # Learning System
 
-I arrange my thoughts using code. I have a primary repository (private access) where I create documentation in .rb files about anything that I reasearch including subjects like algorithms, GNU Bison, English and X11. When I say anything, I mean it
+I arrange my thoughts using code. I have a primary repository (private access) where I create documentation in .rb files about anything that I reasearch including subjects like algorithms, GNU Bison, English and X11. When I say anything, I mean it. The advantage of having a single repository for everything is the simplicity to manage large amount of code, a public example of what I am talking about is the FreeBSD src
 
 Just an example to have a taste of it. If I am learning Vim, I can create a vim.rb file with the content
 
