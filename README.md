@@ -7,7 +7,9 @@ I am developing my own learning system
 
 I arrange my thoughts using code. I have a primary repository (private access) where I create documentation in .rb files about anything that I reasearch including subjects like algorithms, GNU Bison, English and X11. When I say anything, I mean it. The advantage of having a single repository for everything is the simplicity to manage large amount of code, a public example of what I am talking about is the FreeBSD src
 
-Just an example to have a taste of it. If I am learning Vim, I can create a vim.rb file with the content
+Giving examples to have a taste of it
+
+#### If I am learning Vim, I can create a vim.rb file with the content
 
 ```
 class Vim
@@ -19,6 +21,52 @@ class Vim
     # example grep
     [
       ":grep colima -r ."
+    ]
+  end
+end
+```
+
+#### If I am creating repositories, I have something like
+
+```
+class BitBucket
+  def private
+    [
+      # list repositories
+    ]
+  end
+
+  def public
+    [
+      # list repositories
+    ]
+  end
+end
+
+class GitHub
+  def private
+    [
+      # list repositories
+    ]
+  end
+
+  def public
+    [
+      # list repositories
+    ]
+  end
+end
+
+class GitLab
+  def private
+    [
+      # list repositories
+    ]
+  end
+
+  def public
+    [
+      # list repositories
     ]
   end
 end
