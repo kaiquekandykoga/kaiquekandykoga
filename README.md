@@ -94,13 +94,6 @@ I am studying ways to handle many repositories (private and public access) for m
 # Technical tools 🔧
 
 <details>
-<summary>Cloud Platforms</summary>
-
-#### AWS
-  
-</details>
-
-<details>
 <summary>Databases</summary>
 
 #### MariaDB
