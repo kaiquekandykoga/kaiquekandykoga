@@ -151,18 +151,6 @@ I am studying ways to handle many repositories (private and public access) for m
 </details>
 
 <details>
-<summary>Programming Languages</summary>
-
-#### C
-#### C#
-#### Java
-#### JavaScript
-#### Ruby
-#### SQL
-
-</details>
-
-<details>
 <summary>Text Editors</summary>
  
 #### Emacs
