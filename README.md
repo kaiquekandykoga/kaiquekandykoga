@@ -123,6 +123,8 @@ Docker, Git, Firefox, Jails (FreeBSD), Kubernetes, POSIX.1 utils (e.g. grep and 
 
 Android, FreeBSD, macOS, openSUSE and Windows
 
+I have used a few Linux distributions, and openSUSE is the best for me
+
 # My values ❤️
 
 Respect
