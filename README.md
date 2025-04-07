@@ -124,12 +124,15 @@ Docker, Git, Firefox, Jails (FreeBSD), Kubernetes, POSIX.1 utils (e.g. grep and 
 Android, FreeBSD, macOS, openSUSE and Windows
 
 # My values ❤️
-* Respect
-* Honesty
+
+Respect
+
+Honesty
 
 
 # Recommended texts 📕
-* Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens and Stephen A. Rago
+
+Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens and Stephen A. Rago
 
 # Credits 🏆
 
