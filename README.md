@@ -109,22 +109,11 @@ Link: https://github.com/kaiquekandykoga/kandy_java
 #### Desktop development
 * I am learning C++ and Qt Framework
 
-
 # Technical tools 🔧
 
-<details>
-<summary>Databases</summary>
+#### Databases
 
-#### MariaDB
-* I use MariaDB with Ruby on Rails
-#### Memcached
-* I use Memcached with caching
-#### PostgreSQL
-* I use PostgreSQL with Ruby on Rails
-#### Redis
-* I use Redis with Sidekiq
-
-</details>
+MariaDB, Memcached, PostgreSQL and Redis
 
 #### Miscellaneous
 
