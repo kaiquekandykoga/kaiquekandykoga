@@ -80,11 +80,21 @@ I am studying ways to handle many repositories (private and public access) for m
 
 #### primary (private access)
 
-My research
+Description: My research
+
+Link: \<unavailable data\>
 
 #### kandy_public (public access)
 
-It is an extension of primary where I make the files public
+Description: It is an extension of primary where I make the files public
+
+Link: https://github.com/kaiquekandykoga/kandy_public
+
+#### kandy_java (public access)
+
+Description: Research and tests in Java language
+
+Link: https://github.com/kaiquekandykoga/kandy_java
 
 # My interests 😁
 
