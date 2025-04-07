@@ -76,14 +76,6 @@ Why do I make effort in doing that? The simple answer for this question is: Beca
 
 I am studying ways to handle many repositories (private and public access) for my researches. I still think that having a single repository is better than multiple repositories, I just want to challenge myself to understand the influences of doing that in a practical way
 
-# My apps
-
-#### primary (private access)
-
-Description: My research
-
-Link: \<unavailable data\>
-
 # My interests 😁
 
 #### API development
