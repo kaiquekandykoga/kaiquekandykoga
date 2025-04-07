@@ -126,51 +126,13 @@ Link: https://github.com/kaiquekandykoga/kandy_java
 
 </details>
 
-<details>
-<summary>Miscellaneous</summary>
- 
-#### Docker
-#### Git
-#### Firefox
-* I like the Developer Tools
-#### Jails (FreeBSD)
-#### Kubernetes
-#### POSIX.1 utils (e.g. grep and find)
-* I prefer BSD utils
-#### tmux
-* I always use tmux with xterm and Alacritty
+#### Miscellaneous
 
-</details>
+Docker, Git, Firefox, Jails (FreeBSD), Kubernetes, POSIX.1 utils (e.g. grep and find) and tmux
 
-<details>
-<summary>Operating Systems</summary>
+#### Operating systems
 
-#### Android
-* Personal use in tablets
-#### FreeBSD
-* C programming using Clang
-#### macOS
-* Ruby programming with Ruby on Rails
-#### openSUSE
-* I usually use openSUSE. I sometimes use Alpine, Ubuntu and Debian in Docker images and servers
-* C programming using GCC
-* Ruby programming with Ruby on Rails
-* C++ programming using Qt
-#### Windows
-* Gaming - I do not play games anymore
-* C# programming, .NET development
-
-</details>
-
-<details>
-<summary>Text Editors</summary>
- 
-#### Emacs
-* I am a newbie, but I enjoy using it
-#### Vim
-* I use Vim on a daily basis
-
-</details>
+Android, FreeBSD, macOS, openSUSE and Windows
 
 # My values ❤️
 * Respect
