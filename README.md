@@ -84,18 +84,6 @@ Description: My research
 
 Link: \<unavailable data\>
 
-#### kandy_public (public access)
-
-Description: It is an extension of primary where I make the files public
-
-Link: https://github.com/kaiquekandykoga/kandy_public
-
-#### kandy_java (public access)
-
-Description: Research and tests in Java language
-
-Link: https://github.com/kaiquekandykoga/kandy_java
-
 # My interests 😁
 
 #### API development
