@@ -13,9 +13,6 @@ I am a Ruby developer working mostly with backend development, and I am diving i
 #### UNIX
 * Read up system libraries
 
-#### Desktop development
-* I am learning C++ and Qt Framework
-
 ## Technical tools 🔧
 
 #### Databases
@@ -38,7 +35,7 @@ Secondary: FreeBSD
 
 Primary: Ruby
 
-Secondary: JavaScript, Java, C#, C and C++
+Secondary: JavaScript, Java, .NET (C#), C and C++ (Qt)
 
 # Learning System
 
