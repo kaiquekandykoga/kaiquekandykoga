@@ -34,6 +34,12 @@ Primary: openSUSE
 
 Secondary: FreeBSD
 
+#### Programming languages
+
+Primary: Ruby
+
+Secondary: JavaScript, Java, C#, C and C++
+
 # Learning System
 
 I am developing my own learning system
