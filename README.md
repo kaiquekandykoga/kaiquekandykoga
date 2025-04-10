@@ -20,7 +20,9 @@ I am a Ruby developer working mostly with backend development, and I am diving i
 
 #### Databases
 
-MariaDB, Memcached, PostgreSQL and Redis
+Primary: PostgreSQL
+
+Secondary: MariaDB, Memcached and Redis
 
 #### Miscellaneous
 
