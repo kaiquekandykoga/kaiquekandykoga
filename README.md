@@ -30,9 +30,9 @@ Docker, Git, Firefox, Jails (FreeBSD), Kubernetes, POSIX.1 utils (e.g. grep and 
 
 #### Operating systems
 
-Android, FreeBSD, macOS, openSUSE and Windows
+Primary: openSUSE
 
-I have used a few Linux distributions, and openSUSE is the best for me
+Secondary: FreeBSD
 
 # Learning System
 
