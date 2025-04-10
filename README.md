@@ -3,6 +3,20 @@
 
 I am a Ruby developer working mostly with backend development, and I am diving into Java to expand my skills
 
+## My interests 😁
+
+#### API development
+* Find ways to scale monolithic APIs
+* Microservice integration
+* Troubleshooting (API observability in distributed systems)
+ 
+#### UNIX
+* Read up system libraries
+
+#### Desktop development
+* I am learning C++ and Qt Framework
+
+
 # Learning System
 
 I am developing my own learning system
@@ -77,19 +91,6 @@ end
 Why do I make effort in doing that? The simple answer for this question is: Because I like it
 
 I am studying ways to handle many repositories (private and public access) for my researches. I still think that having a single repository is better than multiple repositories, I just want to challenge myself to understand the influences of doing that in a practical way
-
-# My interests 😁
-
-#### API development
-* Find ways to scale monolithic APIs
-* Microservice integration
-* Troubleshooting (API observability in distributed systems)
- 
-#### UNIX
-* Read up system libraries
-
-#### Desktop development
-* I am learning C++ and Qt Framework
 
 # Technical tools 🔧
 
