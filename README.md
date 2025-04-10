@@ -16,6 +16,21 @@ I am a Ruby developer working mostly with backend development, and I am diving i
 #### Desktop development
 * I am learning C++ and Qt Framework
 
+## Technical tools 🔧
+
+#### Databases
+
+MariaDB, Memcached, PostgreSQL and Redis
+
+#### Miscellaneous
+
+Docker, Git, Firefox, Jails (FreeBSD), Kubernetes, POSIX.1 utils (e.g. grep and find) and tmux
+
+#### Operating systems
+
+Android, FreeBSD, macOS, openSUSE and Windows
+
+I have used a few Linux distributions, and openSUSE is the best for me
 
 # Learning System
 
@@ -91,22 +106,6 @@ end
 Why do I make effort in doing that? The simple answer for this question is: Because I like it
 
 I am studying ways to handle many repositories (private and public access) for my researches. I still think that having a single repository is better than multiple repositories, I just want to challenge myself to understand the influences of doing that in a practical way
-
-# Technical tools 🔧
-
-#### Databases
-
-MariaDB, Memcached, PostgreSQL and Redis
-
-#### Miscellaneous
-
-Docker, Git, Firefox, Jails (FreeBSD), Kubernetes, POSIX.1 utils (e.g. grep and find) and tmux
-
-#### Operating systems
-
-Android, FreeBSD, macOS, openSUSE and Windows
-
-I have used a few Linux distributions, and openSUSE is the best for me
 
 # My values ❤️
 
