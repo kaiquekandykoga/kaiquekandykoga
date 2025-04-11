@@ -3,7 +3,7 @@
 
 I am a Ruby developer working mostly with backend development, and I am diving into Java to expand my skills
 
-## My interests 😁
+# My interests 😁
 
 #### API development
 * Find ways to scale monolithic APIs
@@ -13,7 +13,7 @@ I am a Ruby developer working mostly with backend development, and I am diving i
 #### UNIX
 * Read up system libraries
 
-## Interpersonal skills
+# Interpersonal skills
 
 #### Communication
 
@@ -31,7 +31,7 @@ I am a Ruby developer working mostly with backend development, and I am diving i
 
 \<I still need to put details\>
 
-## Technical skills 🔧
+# Technical skills 🔧
 
 #### Databases
 
