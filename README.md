@@ -15,7 +15,7 @@ I am a Ruby developer focused on backend systems, especially in API design and s
 
 While my main focus is backend engineering, I regularly work on data structures and algorithms to sharpen my problem-solving skills
 
-# Interpersonal skills
+# Interpersonal Skills 🌱
 
 #### Communication
 
@@ -33,7 +33,7 @@ While my main focus is backend engineering, I regularly work on data structures 
 
 \<I still need to put details\>
 
-# Technical skills 🔧
+# Technical Skills 🔧
 
 #### Databases
 
