@@ -104,33 +104,15 @@ Why do I do it this way?
 
 # My values ❤️
 
-Respect
+- Respect
 
-Honesty
+- Honesty
 
 
 # Recommended texts 📕
 
-Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens and Stephen A. Rago
+- Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens and Stephen A. Rago
 
 # Credits 🏆
 
-I would like to thank Microsoft and GitHub Team for providing this incredible platform where I can share details about me for free
-
-
-<!--
-## Hi there 👋
-
-**kaiquekandykoga/kaiquekandykoga** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Big thanks to Microsoft and the GitHub team for this incredible platform where I can share my work and thoughts freely
