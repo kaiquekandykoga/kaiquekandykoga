@@ -11,9 +11,9 @@ I am a Ruby developer working mostly with backend development, and I am diving i
 * Troubleshooting (API observability in distributed systems)
 * Databases
  
-#### UNIX
+#### Data Structures and Algorithms
 
-* Read up system libraries
+I usually focus on backend development, but I am allocating some time to work on data structures and algorithms as a way of improving my problem-solving techniques
 
 # Interpersonal skills
 
