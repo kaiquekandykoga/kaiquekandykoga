@@ -13,7 +13,25 @@ I am a Ruby developer working mostly with backend development, and I am diving i
 #### UNIX
 * Read up system libraries
 
-## Technical tools 🔧
+## Interpersonal skills
+
+#### Communication
+
+\<I still need to put details\>
+
+#### Teamwork
+
+\<I still need to put details\>
+
+#### Problem-solving
+
+\<I still need to put details\>
+
+#### Time management
+
+\<I still need to put details\>
+
+## Technical skills 🔧
 
 #### Databases
 
