@@ -13,7 +13,7 @@ I am a Ruby developer focused on backend systems, especially in API design and s
  
 #### Data Structures and Algorithms
 
-I usually focus on backend development, but I am allocating some time to work on data structures and algorithms as a way of improving my problem-solving techniques
+While my main focus is backend engineering, I regularly work on data structures and algorithms to sharpen my problem-solving skills
 
 # Interpersonal skills
 
