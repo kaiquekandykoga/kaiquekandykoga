@@ -61,7 +61,7 @@ Secondary: JavaScript, Java, .NET (C#), C and C++ (Qt)
 
 I am developing my own learning system
 
-I arrange my thoughts using code. I have a primary repository (private access) where I create documentation in .rb files about anything that I reasearch including subjects like algorithms, GNU Bison, English and X11. When I say anything, I mean it. The advantage of having a single repository for everything is the simplicity to manage large amount of code, a public example of what I am talking about is the FreeBSD src
+I arrange my thoughts using code. I have a primary repository (private access) where I create documentation in .rb files about anything that I reasearch including subjects like algorithms, GNU Bison, English and X11. When I say 'anything', I mean it — from algorithms to English grammar. The advantage of having a single repository for everything is the simplicity to manage large amount of code, a public example of what I am talking about is the FreeBSD src
 
 Giving examples to have a taste of it
 
