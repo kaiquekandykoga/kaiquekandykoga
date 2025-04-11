@@ -5,12 +5,14 @@ I am a Ruby developer working mostly with backend development, and I am diving i
 
 # My interests 😁
 
-#### API development
-* Find ways to scale monolithic APIs
-* Microservice integration
+#### Backend Development
+
+* API development (Monoliths; Microservices)
 * Troubleshooting (API observability in distributed systems)
+* Databases
  
 #### UNIX
+
 * Read up system libraries
 
 # Interpersonal skills
