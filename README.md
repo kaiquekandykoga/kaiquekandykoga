@@ -43,7 +43,7 @@ Secondary: MariaDB, Memcached and Redis
 
 #### Miscellaneous
 
-Docker, Git, Kubernetes, POSIX.1 utils (e.g. grep and find) and tmux
+Docker, Git, Kubernetes, POSIX.1 utils (e.g. grep and find), VirtualBox and tmux
 
 #### Operating systems
 
