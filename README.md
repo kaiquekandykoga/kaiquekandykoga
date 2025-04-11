@@ -37,9 +37,9 @@ While my main focus is backend engineering, I regularly work on data structures 
 
 #### Databases
 
-Primary: PostgreSQL
+- **Primary:** PostgreSQL
 
-Secondary: MariaDB, Memcached, Redis
+- **Secondary:** MariaDB, Memcached, Redis
 
 #### Miscellaneous
 
@@ -47,15 +47,15 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 #### Operating systems
 
-**Primary:** openSUSE
+- **Primary:** openSUSE
 
-**Secondary:** FreeBSD, Alpine Linux
+- **Secondary:** FreeBSD, Alpine Linux
 
 #### Programming languages
 
-**Primary:** Ruby
+- **Primary:** Ruby
 
-**Secondary:** JavaScript, Java, C#, C, C++ (Qt)
+- **Secondary:** JavaScript, Java, C#, C, C++ (Qt)
 
 # Learning System
 
