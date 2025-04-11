@@ -59,13 +59,9 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 # Learning System
 
-I am developing my own learning system
+I created a personal learning system to document everything I study. I use `.rb` files to structure knowledge—writing class-based notes on tools, languages, and concepts ranging from Vim to GNU Bison to X11. This helps me think through code and organize large amounts of information efficiently
 
-I arrange my thoughts using code. I have a primary repository (private access) where I create documentation in .rb files about anything that I research including subjects like algorithms, GNU Bison, English and X11. When I say 'anything', I mean it — from algorithms to English grammar. The advantage of having a single repository for everything is the simplicity to manage large amount of code, a public example of what I am talking about is the FreeBSD src
-
-Giving examples to have a taste of it
-
-#### If I am learning Vim, I can create a vim.rb file with the content
+### Example: Vim
 
 ```
 class Vim
@@ -82,7 +78,7 @@ class Vim
 end
 ```
 
-#### If I am creating repositories, I have something like
+### Example: Repositories
 
 ```
 class BitBucket
@@ -98,39 +94,13 @@ class BitBucket
     ]
   end
 end
-
-class GitHub
-  def private
-    [
-      # list repositories
-    ]
-  end
-
-  def public
-    [
-      # list repositories
-    ]
-  end
-end
-
-class GitLab
-  def private
-    [
-      # list repositories
-    ]
-  end
-
-  def public
-    [
-      # list repositories
-    ]
-  end
-end
 ```
 
-Why do I make effort in doing that? The simple answer for this question is: Simply because I enjoy it
+This approach is inspired by how FreeBSD maintains everything in one tree. I am currently experimenting with managing multiple repositories while keeping my single-repo philosophy
 
-I am studying ways to handle many repositories (private and public access) for my researches. I still think that having a single repository is better than multiple repositories, I just want to challenge myself to understand the influences of doing that in a practical way
+Why do I do it this way?
+
+**Simply because I enjoy it**
 
 # My values ❤️
 
