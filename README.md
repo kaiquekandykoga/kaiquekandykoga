@@ -108,7 +108,7 @@ Why do I do it this way?
 
 ---
 
-# My values ❤️
+# My Values ❤️
 
 - Respect
 
@@ -116,7 +116,7 @@ Why do I do it this way?
 
 ---
 
-# Recommended texts 📕
+# Recommended Readings 📕
 
 - Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens and Stephen A. Rago
 
