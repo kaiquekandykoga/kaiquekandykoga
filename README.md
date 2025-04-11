@@ -7,9 +7,9 @@ I am a Ruby developer focused on backend systems, especially in API design and s
 
 #### Backend Development
 
-* API development (Monoliths; Microservices)
-* Troubleshooting (API observability in distributed systems)
-* Databases
+* API development (Monoliths & Microservices)
+* Troubleshooting & observability in distributed systems
+* Databases and system design
  
 #### Data Structures and Algorithms
 
