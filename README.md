@@ -49,7 +49,7 @@ Docker, Git, Kubernetes, POSIX.1 utils (e.g. grep and find) and tmux
 
 Primary: openSUSE
 
-Secondary: FreeBSD
+Secondary: FreeBSD and Alpine
 
 #### Programming languages
 
