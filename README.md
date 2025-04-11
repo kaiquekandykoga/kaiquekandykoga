@@ -85,7 +85,7 @@ end
 ### Example: Repositories
 
 ```
-class BitBucket
+class Bitbucket
   def private
     [
       # list private repos
