@@ -1,7 +1,7 @@
 
 # About me ⚡
 
-I am a Ruby developer working mostly with backend development, and I am diving into Java to expand my skills
+I am a Ruby developer focused on backend systems, and I am diving into Java to expand my skills
 
 # My interests 😁
 
