@@ -3,6 +3,8 @@
 
 I am a Ruby developer focused on backend systems, especially in API design and system observability. I am currently diving into Java to expand my skills
 
+---
+
 # My interests 😁
 
 #### Backend Development
@@ -14,6 +16,8 @@ I am a Ruby developer focused on backend systems, especially in API design and s
 #### Data Structures and Algorithms
 
 While my main focus is backend engineering, I regularly work on data structures and algorithms to sharpen my problem-solving skills
+
+---
 
 # Interpersonal Skills 🌱
 
@@ -32,6 +36,8 @@ While my main focus is backend engineering, I regularly work on data structures 
 #### Time management
 
 \<I still need to put details\>
+
+---
 
 # Technical Skills 🔧
 
@@ -57,7 +63,9 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 - **Secondary:** JavaScript, Java, C#, C, C++ (Qt)
 
-# Learning System
+---
+
+# My Learning System 🧠
 
 I created a personal learning system to document everything I study. I use `.rb` files to structure knowledge—writing class-based notes on tools, languages, and concepts ranging from Vim to GNU Bison to X11. This helps me think through code and organize large amounts of information efficiently
 
@@ -102,16 +110,21 @@ Why do I do it this way?
 
 **Simply because I enjoy it**
 
+---
+
 # My values ❤️
 
 - Respect
 
 - Honesty
 
+---
 
 # Recommended texts 📕
 
 - Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens and Stephen A. Rago
+
+---
 
 # Credits 🏆
 
