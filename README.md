@@ -75,11 +75,7 @@ I created a personal learning system to document everything I study. I use `.rb`
 class Vim
   def grep
     [
-      ":grep"
-    ]
-
-    # example grep
-    [
+      ":grep",
       ":grep colima -r ."
     ]
   end
@@ -92,13 +88,13 @@ end
 class BitBucket
   def private
     [
-      # list repositories
+      # list private repos
     ]
   end
 
   def public
     [
-      # list repositories
+      # list public repos
     ]
   end
 end
