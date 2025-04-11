@@ -61,7 +61,7 @@ Secondary: JavaScript, Java, .NET (C#), C and C++ (Qt)
 
 I am developing my own learning system
 
-I arrange my thoughts using code. I have a primary repository (private access) where I create documentation in .rb files about anything that I reasearch including subjects like algorithms, GNU Bison, English and X11. When I say 'anything', I mean it — from algorithms to English grammar. The advantage of having a single repository for everything is the simplicity to manage large amount of code, a public example of what I am talking about is the FreeBSD src
+I arrange my thoughts using code. I have a primary repository (private access) where I create documentation in .rb files about anything that I research including subjects like algorithms, GNU Bison, English and X11. When I say 'anything', I mean it — from algorithms to English grammar. The advantage of having a single repository for everything is the simplicity to manage large amount of code, a public example of what I am talking about is the FreeBSD src
 
 Giving examples to have a taste of it
 
@@ -145,7 +145,7 @@ Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens 
 
 # Credits 🏆
 
-I would like to thank Microsoft and GitHub Team for providing this increadible platform where I can share details about me for free
+I would like to thank Microsoft and GitHub Team for providing this incredible platform where I can share details about me for free
 
 
 <!--
