@@ -23,7 +23,7 @@ While my main focus is backend engineering, I regularly work on data structures 
 
 #### Communication
 
-\<I still need to put details\>
+* How am I using Confluence effectively? https://kaiquekandykoga.atlassian.net/wiki/x/QwAN
 
 #### Teamwork
 
