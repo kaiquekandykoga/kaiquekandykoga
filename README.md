@@ -25,6 +25,11 @@ While my main focus is backend engineering, I regularly work on data structures 
 
 * How am I using Atlassian Confluence effectively? https://kaiquekandykoga.atlassian.net/wiki/x/QwAN
 
+Recommended tools:
+
+* draw.io
+* Atlassian Confluence
+
 #### Teamwork
 
 \<I still need to put details\>
@@ -35,7 +40,9 @@ While my main focus is backend engineering, I regularly work on data structures 
 
 #### Time management
 
-\<I still need to put details\>
+Recommended tools:
+
+* Google Calendar
 
 ---
 
