@@ -38,7 +38,7 @@ Recommended tools:
 
 #### Problem-solving
 
-\<I still need to put details\>
+* How do I solve complex problems effectively? https://kaiquekandykoga.atlassian.net/wiki/x/twAN
 
 #### Time management
 
