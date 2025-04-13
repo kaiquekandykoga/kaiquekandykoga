@@ -32,7 +32,9 @@ Recommended tools:
 
 #### Teamwork
 
-\<I still need to put details\>
+Recommended tools:
+
+* GitHub
 
 #### Problem-solving
 
