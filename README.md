@@ -1,7 +1,7 @@
 
 # About me ⚡
 
-I am a Ruby developer focused on backend systems, especially in API design and system observability. I am currently diving into Java to expand my skills
+I am a Ruby and C# developer focused on backend systems, especially in API design and system observability. I am currently diving into Java to expand my skills
 
 ---
 
@@ -62,15 +62,15 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 #### Operating systems
 
-- **Primary:** openSUSE
+- **Primary:** openSUSE, Windows
 
 - **Secondary:** FreeBSD, Alpine Linux
 
 #### Programming languages
 
-- **Primary:** Ruby
+- **Primary:** Ruby, C#
 
-- **Secondary:** JavaScript, Java, C#, C, C++ (Qt)
+- **Secondary:** JavaScript, Java, C, C++ (Qt)
 
 ---
 
