@@ -62,9 +62,9 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 #### Operating systems
 
-- **Primary:** openSUSE Tumbleweed, openSUSE Leap
+- **Primary:** Linux
 
-- **Secondary:** FreeBSD, Alpine Linux
+- **Secondary:** FreeBSD
 
 #### Programming languages
 
