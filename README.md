@@ -3,6 +3,8 @@
 
 I am a Ruby and C# developer focused on backend systems, especially in API design and system observability. I am currently diving into Java to expand my skills
 
+When deciding what to learn next, I think in terms of Information Systems, which include five key parts: hardware, software, data, people, and processes. This helps me stay focused on building a balanced and practical set of skills
+
 ---
 
 # My interests 😁
