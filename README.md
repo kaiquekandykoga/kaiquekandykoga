@@ -128,6 +128,7 @@ Why do I do it this way?
 # Recommended Readings 📕
 
 - Advanced Programming in the UNIX environment Third Edition - W. Richard Stevens and Stephen A. Rago
+- Designing Data-Intensive Applications - Martin Kleppmann
 
 ---
 
