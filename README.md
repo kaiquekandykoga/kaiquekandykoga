@@ -74,6 +74,10 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 - **Secondary:** JavaScript, Java, C, C++ (Qt)
 
+#### Text editors
+
+Vim, VS Code
+
 ---
 
 # My Learning System 🧠
