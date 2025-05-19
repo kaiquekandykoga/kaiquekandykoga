@@ -56,7 +56,7 @@ Recommended tools:
 
 - **Primary:** PostgreSQL
 
-- **Secondary:** MariaDB, Memcached, Redis
+- **Secondary:** MariaDB, Memcached, Redis, SQLite
 
 #### Miscellaneous
 
@@ -72,7 +72,7 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 - **Primary:** Ruby, C#
 
-- **Secondary:** JavaScript, Java, C, C++ (Qt)
+- **Secondary:** Bash, JavaScript, Java, C, C++ (Qt)
 
 #### Text editors
 
