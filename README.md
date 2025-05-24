@@ -82,6 +82,15 @@ Vim, VS Code
 
 # My Learning System 🧠
 
+## Choosing a career path
+
+I have identified three approaches to choosing a learning path:
+* **Tool-first:** Start by learning a specific tool, then explore the broader areas where that tool is commonly used
+* **Area-first:** Begin by studying a particular domain or field, then learn the tools typically used within that area
+* **Company-first:** Focus on a specific company, then identify the technologies and domains it emphasizes, and learn accordingly
+
+## Documentation technique
+
 I created a personal learning system to document everything I study. I use `.rb` files to structure knowledge—writing class-based notes on tools, languages, and concepts ranging from Vim to GNU Bison to X11. This helps me think through code and organize large amounts of information efficiently
 
 ### Example: Vim
