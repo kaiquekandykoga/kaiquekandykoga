@@ -72,7 +72,7 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 - **Primary:** Ruby, C#
 
-- **Secondary:** Bash, PowerShell, JavaScript, Java, C, C++ (Qt)
+- **Secondary:** Bash, PowerShell, JavaScript, TypeScript, Java, C, C++ (Qt)
 
 #### Text editors
 
