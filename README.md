@@ -47,6 +47,7 @@ Recommended tools:
 Recommended tools:
 
 * Google Calendar
+* Google Sheets
 
 ---
 
