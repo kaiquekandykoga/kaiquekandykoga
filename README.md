@@ -72,7 +72,7 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 #### Programming languages
 
 - **Primary:**
-  - **Backend** Ruby, C#
+  - **Backend** Ruby, C#, SQL
   - **Frontend** HTML, CSS, JavaScript, TypeScript
 
 - **Secondary:** sh (Bourne Shell), Bash (Bourne Again Shell), PowerShell, Java, C, C++ (Qt)
