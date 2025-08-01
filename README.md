@@ -77,9 +77,14 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 - **Secondary:** sh (Bourne Shell), Bash (Bourne Again Shell), PowerShell, Java, C, C++ (Qt)
 
+#### Terminals
+
+- **Primary:** Alacritty, xterm, Warp
+- **Secondary:** Kitty
+
 #### Text editors
 
-- **Primary:** Vim, VS Code
+- **Primary:** Vim, VS Code, Cursor, Zed
 - **Secondary:** Emacs
 
 ---
