@@ -57,7 +57,7 @@ Recommended tools:
 
 - **Primary:** PostgreSQL
 
-- **Secondary:** MariaDB, MySQL, SQL Server, Memcached, Redis, SQLite
+- **Secondary:** MariaDB, MySQL, SQL Server, Memcached, Redis, SQLite, Oracle
 
 #### Miscellaneous
 
