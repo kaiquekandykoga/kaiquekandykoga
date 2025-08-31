@@ -65,9 +65,9 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 #### Operating systems
 
-- **Primary:** Linux (openSUSE, Debian, Ubuntu, RHEL, Qubes OS, Alpine, NixOS), macOS
+- **Primary:** Linux (openSUSE), macOS
 
-- **Secondary:** FreeBSD
+- **Secondary:** Linux (Debian, Ubuntu, RHEL, Qubes OS, Alpine, NixOS), FreeBSD
 
 #### Programming languages
 
@@ -84,8 +84,13 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 #### Text editors
 
-- **Primary:** Vim, Zed
-- **Secondary:** Emacs, VS Code, Cursor
+- **Primary:** Vim, Zed, Emacs
+- **Secondary:** VS Code, Cursor
+
+#### Web browsers
+
+- **Primary:** Firefox
+- **Secondary:** Chrome
 
 ---
 
