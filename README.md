@@ -76,8 +76,8 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 #### Terminals
 
-- **Primary:** Alacritty, xterm, Warp
-- **Secondary:** Kitty
+- **Primary:** Alacritty, xterm
+- **Secondary:** Kitty, Warp
 
 #### Text editors
 
