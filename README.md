@@ -29,18 +29,12 @@ I like to provide regular asynchronous updates through messages. This approach h
 
 #### Teamwork
 
-Recommended tools:
-
-* GitHub
 
 #### Problem-solving
 
+
 #### Time management
 
-Recommended tools:
-
-* Google Calendar
-* Google Sheets
 
 ---
 
