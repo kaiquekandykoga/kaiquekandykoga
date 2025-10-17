@@ -1,7 +1,7 @@
 
 # About me ⚡
 
-I am a Ruby and C# developer focused on backend systems, especially in API design and system observability
+I am a programmer focused on backend systems, especially in API design and system observability
 
 When deciding what to learn next, I think in terms of Information Systems, which include five key parts: hardware, software, data, people, and processes. This helps me stay focused on building a balanced and practical set of skills
 
@@ -25,10 +25,7 @@ While my main focus is backend engineering, I regularly work on data structures 
 
 #### Communication
 
-Recommended tools:
-
-* draw.io
-* Atlassian Confluence
+I like to provide regular asynchronous updates through messages. This approach helps a wide audience stay informed about my work and brings greater clarity to what I am doing
 
 #### Teamwork
 
