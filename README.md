@@ -73,7 +73,8 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 #### Text editors
 
 - **Primary:** Vim, Zed, Emacs, Qt Creator
-- **Secondary:** VS Code, Cursor
+- **Secondary:** VS Code
+- **Dabbled with:** Cursor
 
 #### Web browsers
 
