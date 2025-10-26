@@ -143,6 +143,16 @@ Why do I do it this way?
 
 - Honesty
 
+尊
+
+敬
+
+と
+
+正
+
+直
+
 ---
 
 # Recommended Readings 📕
