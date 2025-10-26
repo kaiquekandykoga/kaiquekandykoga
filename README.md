@@ -139,15 +139,7 @@ Why do I do it this way?
 
 # My Values ❤️
 
-尊
-
-敬
-
-と
-
-正
-
-直
+尊敬と正直
 
 ---
 
