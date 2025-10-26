@@ -139,10 +139,6 @@ Why do I do it this way?
 
 # My Values ❤️
 
-- Respect
-
-- Honesty
-
 尊
 
 敬
