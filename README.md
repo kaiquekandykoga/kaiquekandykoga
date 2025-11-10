@@ -29,6 +29,7 @@ I like to provide regular asynchronous updates through messages. This approach h
 
 #### Teamwork
 
+I enjoy supporting others' ideas when they ask for my help. It's a good way to explore different perspectives and maintain an open mindset. I believe there will always be opportunities to put my own ideas into practice when the time is right
 
 #### Problem-solving
 
