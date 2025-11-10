@@ -3,7 +3,7 @@
 
 I am a programmer focused on backend systems, especially in API design and system observability
 
-When deciding what to learn next, I think in terms of Information Systems, which include five key parts: hardware, software, data, people, and processes. This helps me stay focused on building a balanced and practical set of skills
+When deciding what to learn next, I approach it like building a tree, connecting new skills to the ones I already have, expanding my knowledge in a structured and meaningful way
 
 ---
 
