@@ -95,7 +95,7 @@ I have identified three approaches to choosing a learning path:
 
 ## Documentation technique
 
-I created a personal learning system to document everything I study. I use `.rb` files to structure knowledge—writing class-based notes on tools, languages, and concepts ranging from Vim to GNU Bison to X11. This helps me think through code and organize large amounts of information efficiently
+I created a personal learning system to document everything I study. I use `.rb` files to structure knowledge, writing class-based notes on tools, languages, and concepts ranging from Vim to GNU Bison to X11. This helps me think through code and organize large amounts of information efficiently
 
 ### Example: Vim
 
