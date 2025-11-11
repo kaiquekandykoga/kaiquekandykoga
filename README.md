@@ -57,7 +57,7 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 - **Secondary:** Linux (Debian, Ubuntu, Alpine), FreeBSD
 
-- **Dabbled with:** Linux (RHEL, Qubes OS, NixOS)
+- **Dabbled with:** Linux (RHEL, Qubes OS, NixOS), OpenBSD, NetBSD
 
 #### Programming languages
 
