@@ -63,9 +63,7 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
   - **Backend** Ruby, C#, SQL
   - **Frontend** HTML, CSS, JavaScript, TypeScript
   - **Desktop** C++ (Qt)
-
 - **Secondary:** sh (Bourne Shell), Bash (Bourne Again Shell), PowerShell, Java, C
-
 - **Dabbled with:** Python, Go, Rust, Haskell
 
 #### Terminals
