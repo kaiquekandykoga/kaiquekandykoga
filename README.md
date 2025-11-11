@@ -44,7 +44,6 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 #### Databases
 
 - **Primary:** PostgreSQL
-
 - **Secondary:** MariaDB, MySQL, SQL Server, Memcached, Redis, SQLite, Oracle
 
 #### Miscellaneous
