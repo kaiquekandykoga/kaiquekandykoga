@@ -45,7 +45,7 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 - **Primary:** Gemini, Copilot
 - **Secondary:** ChatGPT
-- **Dabbled with:** Perplexy, Claude, Ollama
+- **Dabbled with:** Perplexy, Claude
 
 #### Databases
 
