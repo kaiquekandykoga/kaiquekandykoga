@@ -41,6 +41,12 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 # Technical Skills 🔧
 
+#### AI assistants
+
+- **Primary:** Gemini, Copilot
+- **Secondary:** ChatGPT
+- **Dabbled with:** Perplexy, Claude
+
 #### Databases
 
 - **Primary:** PostgreSQL
