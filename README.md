@@ -5,6 +5,8 @@ I am a programmer focused on backend systems, especially in API design and syste
 
 When deciding what to learn next, I approach it like building a tree, connecting new skills to the ones I already have, expanding my knowledge in a structured and meaningful way
 
+Learning ひらがな
+
 ---
 
 # My interests 😁
