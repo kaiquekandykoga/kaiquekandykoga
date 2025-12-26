@@ -49,6 +49,11 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 - **Secondary:** ChatGPT
 - **Dabbled with:** Perplexy, Claude
 
+#### Cloud platforms
+
+- **Primary:** AWS
+- **Secondary:** Heroku
+
 #### Databases
 
 - **Primary:** PostgreSQL
