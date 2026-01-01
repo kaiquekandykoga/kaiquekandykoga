@@ -60,7 +60,7 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 #### Miscellaneous
 
-Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmux
+Docker, Git, Kubernetes, POSIX utilities (grep, find, etc.), VirtualBox, tmux
 
 #### Operating systems
 
