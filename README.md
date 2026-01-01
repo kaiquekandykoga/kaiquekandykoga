@@ -98,59 +98,13 @@ Docker, Git, Kubernetes, POSIX utilities (`grep`, `find`, etc.), VirtualBox, tmu
 
 # My Learning System 🧠
 
-## Choosing a career path
-
-I have identified three approaches to choosing a learning path:
-* **Tool-first:** Start by learning a specific tool, then explore the broader areas where that tool is commonly used
-* **Area-first:** Begin by studying a particular domain or field, then learn the tools typically used within that area
-* **Company-first:** Focus on a specific company, then identify the technologies and domains it emphasizes, and learn accordingly
-
-## Documentation technique
-
-I created a personal learning system to document everything I study. I use `.rb` files to structure knowledge, writing class-based notes on tools, languages, and concepts ranging from Vim to GNU Bison to X11. This helps me think through code and organize large amounts of information efficiently
-
-### Example: Vim
-
-```
-class Vim
-  def grep
-    [
-      ":grep",
-      ":grep colima -r ."
-    ]
-  end
-end
-```
-
-### Example: Repositories
-
-```
-class Bitbucket
-  def private
-    [
-      # list private repos
-    ]
-  end
-
-  def public
-    [
-      # list public repos
-    ]
-  end
-end
-```
-
-This approach is inspired by how FreeBSD maintains everything in one tree. I am currently experimenting with managing multiple repositories while keeping my single-repo philosophy
-
-Why do I do it this way?
-
-**Simply because I enjoy it**
+I learn by doing and by documenting everything I engage with. Hands‑on experience is the most effective way for me to retain skills, so I focus on practical application rather than passive consumption. I specialise in a small number of core subjects to build real depth, while still maintaining a broad awareness of adjacent areas to stay versatile and well‑rounded
 
 ---
 
 # My Values ❤️
 
-尊敬と正直
+Respect and Honesty ALWAYS
 
 ---
 
