@@ -50,12 +50,13 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 - **Primary:** AWS
 - **Secondary:** Heroku
+- **Dabbled with:** Cloudflare, Vultr
 
 #### Databases
 
 - **Primary:** PostgreSQL
-- **Secondary:** MariaDB, SQL Server, Memcached, Redis, SQLite, Oracle
-- **Dabbled with:** MySQL
+- **Secondary:** MariaDB, SQL Server, Memcached, Redis, Oracle
+- **Dabbled with:** MySQL, SQLite
 
 #### Miscellaneous
 
