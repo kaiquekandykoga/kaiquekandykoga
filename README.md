@@ -4,6 +4,8 @@
 I’m a programmer focused on Ruby. Although Ruby is a high‑level language, I make time to deepen my understanding of what happens closer to the operating system as well
 
 
+My daily routine revolves around CrossFit, work, and discovering great places to eat. In 2026, my goals are to continue deepening my understanding of Japanese culture and to further develop my DevOps skills
+
 ---
 
 # My interests 😁
