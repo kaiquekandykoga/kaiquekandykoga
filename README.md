@@ -1,10 +1,8 @@
 
 # About me ⚡
 
-I’m a programmer focused on Ruby. Although Ruby is a high‑level language, I make time to deepen my understanding of what happens closer to the operating system as well
+I am Nikkei Sansei, with my maternal grandparents being Japanese. I am a programmer primarily focused on Ruby. While Ruby is a high-level language, I make a conscious effort to deepen my understanding of what happens closer to the operating system. My daily routine revolves around CrossFit, work, and discovering great places to eat. My current goals are to continue deepening my understanding of Japanese culture and to further develop my DevOps skills
 
-
-My daily routine revolves around CrossFit, work, and discovering great places to eat. In 2026, my goals are to continue deepening my understanding of Japanese culture and to further develop my DevOps skills
 
 ---
 
