@@ -8,15 +8,12 @@ I am Nikkei Sansei, with my maternal grandparents being Japanese. I am a softwar
 
 # My interests 😁
 
-#### Backend Development
+#### Software Development
 
 * API development (Monoliths & Microservices)
 * Troubleshooting & observability in distributed systems
 * System Design (Scalability, Reliability, Maintainability)
- 
-#### Data Structures and Algorithms
 
-While my main focus is backend engineering, I regularly work on data structures and algorithms to sharpen my problem-solving skills
 
 ---
 
