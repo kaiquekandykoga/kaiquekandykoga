@@ -41,7 +41,7 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 - **Primary:** Gemini, Copilot
 - **Secondary:** ChatGPT
-- **Dabbled with:** Perplexy, Claude
+- **Dabbled with:** Perplexy, Claude, Ollama
 
 #### Cloud platforms
 
@@ -57,7 +57,7 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 #### Miscellaneous
 
-Docker, Git, Kubernetes, POSIX utilities (grep, find, etc.), VirtualBox, tmux
+Docker, Git, Kubernetes, POSIX utilities (grep, find, etc.), VirtualBox, tmux, Postman
 
 #### Operating systems
 
@@ -81,8 +81,8 @@ Docker, Git, Kubernetes, POSIX utilities (grep, find, etc.), VirtualBox, tmux
 
 #### Text editors
 
-- **Primary:** Vim, Zed, Emacs, Qt Creator
-- **Secondary:** VS Code
+- **Primary:** Vim, Zed
+- **Secondary:** VS Code, Emacs, Qt Creator
 - **Dabbled with:** Cursor
 
 #### Web browsers
