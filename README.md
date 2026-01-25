@@ -45,7 +45,7 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 #### Cloud platforms
 
-- **Primary:** AWS
+- **Primary:** AWS, Terraform
 - **Secondary:** Heroku
 - **Dabbled with:** Cloudflare, Vultr, Azure, GCP, OCI
 
