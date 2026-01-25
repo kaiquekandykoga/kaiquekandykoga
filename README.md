@@ -45,7 +45,7 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 #### Cloud platforms
 
-- **Primary:** AWS, Terraform
+- **Primary:** AWS
 - **Secondary:** Heroku
 - **Dabbled with:** Cloudflare, Vultr, Azure, GCP, OCI
 
@@ -57,7 +57,7 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 #### Miscellaneous
 
-Docker, Git, Kubernetes, POSIX utilities (grep, find, etc.), VirtualBox, tmux, Postman
+Docker, Git, Kubernetes, POSIX utilities (grep, find, etc.), VirtualBox, tmux, Postman, Terraform
 
 #### Operating systems
 
