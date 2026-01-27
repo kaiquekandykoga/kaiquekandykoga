@@ -39,8 +39,8 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 #### AI assistants
 
-- **Primary:** Gemini, Copilot
-- **Secondary:** ChatGPT
+- **Primary:** Copilot
+- **Secondary:** Gemini, ChatGPT
 - **Dabbled with:** Perplexy, Claude, Ollama
 
 #### Cloud platforms
