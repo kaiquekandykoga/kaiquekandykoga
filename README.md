@@ -56,40 +56,38 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 #### Containerization
 
-- **Primary:** Docker, Kubernetes
+- **Primary:** Docker, Kubernetes, Rancher Desktop
 - **Secondary:** containerd
 - **Dabbled with:** Podman
 
 #### Databases
 
 - **Primary:** PostgreSQL
-- **Secondary:** MariaDB, SQL Server, Memcached, Redis, Oracle
-- **Dabbled with:** MySQL, SQLite
+- **Secondary:** Memcached, Redis
+- **Dabbled with:** MySQL, SQLite, MariaDB, SQL Server, Oracle
 
 #### Miscellaneous
 
 VirtualBox, Terraform
 
-Git, POSIX utilities (grep, find, etc.), tmux
-
 #### Operating systems
 
 - **Primary:** Linux (openSUSE), macOS
-- **Secondary:** Linux (Debian, Ubuntu, Alpine), FreeBSD
-- **Dabbled with:** Linux (RHEL, Qubes OS, NixOS), OpenBSD, NetBSD
+- **Secondary:** Linux (Alpine), FreeBSD
+- **Dabbled with:** Linux (RHEL, Qubes OS, NixOS, Debian, Ubuntu), OpenBSD, NetBSD
 
 #### Programming languages
 
 - **Primary:**
-  - **Backend** Ruby, C#, SQL
+  - **Backend** Ruby, SQL
   - **Frontend** HTML, CSS (Sass), JavaScript, TypeScript
-  - **Desktop** C++ (Qt)
-- **Secondary:** sh (Bourne Shell), Bash (Bourne Again Shell), Java, C
-- **Dabbled with:** Python, Go, Rust, Haskell, COBOL, PowerShell
+- **Secondary:** C#
+- **Dabbled with:** sh (Bourne Shell), Bash (Bourne Again Shell), Java, C, C++ (Qt), Python, Go, Rust, Haskell, COBOL, PowerShell
 
 #### Terminals
 
 - **Primary:** Alacritty, xterm
+  - **Utilities** Git, POSIX utilities (grep, find, etc.), tmux, ag (The Silver Searcher), rg (ripgrep), fzf
 - **Secondary:** Kitty
 - **Dabbled with:** Warp
 
