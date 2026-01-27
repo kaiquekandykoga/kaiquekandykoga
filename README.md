@@ -57,7 +57,9 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 #### Miscellaneous
 
-Docker, Git, Kubernetes, POSIX utilities (grep, find, etc.), VirtualBox, tmux, Postman, Terraform
+Docker, Kubernetes, containerd, VirtualBox, Terraform
+
+Git, POSIX utilities (grep, find, etc.), tmux, Postman
 
 #### Operating systems
 
