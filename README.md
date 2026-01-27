@@ -84,13 +84,14 @@ Git, POSIX utilities (grep, find, etc.), tmux
   - **Backend** Ruby, C#, SQL
   - **Frontend** HTML, CSS (Sass), JavaScript, TypeScript
   - **Desktop** C++ (Qt)
-- **Secondary:** sh (Bourne Shell), Bash (Bourne Again Shell), PowerShell, Java, C
-- **Dabbled with:** Python, Go, Rust, Haskell, COBOL
+- **Secondary:** sh (Bourne Shell), Bash (Bourne Again Shell), Java, C
+- **Dabbled with:** Python, Go, Rust, Haskell, COBOL, PowerShell
 
 #### Terminals
 
 - **Primary:** Alacritty, xterm
-- **Secondary:** Kitty, Warp
+- **Secondary:** Kitty
+- **Dabbled with:** Warp
 
 #### Text editors
 
