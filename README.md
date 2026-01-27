@@ -8,11 +8,16 @@ I am Nikkei Sansei, with my maternal grandparents being Japanese. I am a softwar
 
 # My interests 😁
 
-#### Software Development
+#### Engineering
 
 * API development (Monoliths & Microservices)
 * Troubleshooting & observability in distributed systems
 * System Design (Scalability, Reliability, Maintainability)
+
+#### Platform
+
+* CI/CD
+* Infrastructure provisioning
 
 
 ---
