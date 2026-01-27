@@ -56,9 +56,11 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 #### Containerization
 
-- **Primary:** Docker, Kubernetes, Rancher Desktop
+- **Primary:** Docker, Kubernetes
+  - **Utilities** Rancher Desktop
 - **Secondary:** containerd
-- **Dabbled with:** Podman, OrbStack, colima, FreeBSD Jails
+- **Dabbled with:** Podman, FreeBSD Jails
+  - **Utilities** OrbStack, colima
 
 #### Databases
 
