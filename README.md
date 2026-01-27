@@ -54,6 +54,12 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 - **Secondary:** Heroku
 - **Dabbled with:** Cloudflare, Vultr, Azure, GCP, OCI
 
+#### Containerization
+
+- **Primary:** Docker, Kubernetes
+- **Secondary:** containerd
+- **Dabbled with:** Podman
+
 #### Databases
 
 - **Primary:** PostgreSQL
@@ -62,9 +68,9 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 #### Miscellaneous
 
-Docker, Kubernetes, containerd, VirtualBox, Terraform
+VirtualBox, Terraform
 
-Git, POSIX utilities (grep, find, etc.), tmux, Postman
+Git, POSIX utilities (grep, find, etc.), tmux
 
 #### Operating systems
 
