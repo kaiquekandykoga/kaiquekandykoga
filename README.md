@@ -58,7 +58,7 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 - **Primary:** Docker, Kubernetes, Rancher Desktop
 - **Secondary:** containerd
-- **Dabbled with:** Podman, OrbStack, colima
+- **Dabbled with:** Podman, OrbStack, colima, FreeBSD Jails
 
 #### Databases
 
