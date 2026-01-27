@@ -83,14 +83,15 @@ Git, POSIX utilities (grep, find, etc.), tmux, Postman
 
 #### Text editors
 
-- **Primary:** Vim, Zed
-- **Secondary:** VS Code, Emacs, Qt Creator
-- **Dabbled with:** Cursor
+- **Primary:** Vim, VS Code
+- **Secondary:** Zed
+- **Dabbled with:** Cursor, Qt Creator, Emacs
 
 #### Web browsers
 
 - **Primary:** Firefox
 - **Secondary:** Chrome
+- **Dabbled with:** Safari
 
 ---
 
