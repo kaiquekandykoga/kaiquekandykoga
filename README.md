@@ -70,7 +70,7 @@ I enjoy supporting others' ideas when they ask for my help. It's a good way to e
 
 #### Miscellaneous
 
-VirtualBox, Terraform
+VirtualBox, Terraform, qemu, Postman, Insomnia
 
 #### Operating systems
 
