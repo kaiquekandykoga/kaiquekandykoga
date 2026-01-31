@@ -78,12 +78,12 @@ VirtualBox, Terraform, qemu, Postman, Insomnia
 - **Secondary:** Linux (Alpine), FreeBSD
 - **Dabbled with:** Linux (RHEL, Qubes OS, NixOS, Debian, Ubuntu), OpenBSD, NetBSD
 
-#### Programming languages
+#### Programming languages / Shell Scripting
 
 - **Primary:**
   - **Backend** Ruby, SQL
   - **Frontend** HTML, CSS (Sass), JavaScript, TypeScript
-- **Secondary:** C#
+- **Secondary:** C#, zsh
 - **Dabbled with:** sh (Bourne Shell), Bash (Bourne Again Shell), Java, C, C++ (Qt), Python, Go, Rust, Haskell, COBOL, PowerShell
 
 #### Terminals
