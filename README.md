@@ -34,7 +34,7 @@ The public repositories include a mix of utilities and experimental projects for
 
 #### GitLab
 
-* [ci_basic_gitlab_ruby](https://gitlab.com/public-kandy/ci_basic_gitlab_ruby)
+* [ci_basic_gitlab_ruby](https://gitlab.com/public-kandy/ci_basic_gitlab_ruby) → This is a personal repository for learning and practising GitLab CI/CD pipelines
 
 ---
 
