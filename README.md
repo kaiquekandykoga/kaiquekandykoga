@@ -26,7 +26,7 @@ The public repositories include a mix of utilities and experimental projects for
 
 #### GitHub
 
-* [for_nerdctl](https://github.com/kaiquekandykoga/for_nerdctl)
+* [for_nerdctl](https://github.com/kaiquekandykoga/for_nerdctl) → Example Dockerfiles for running containers using nerdctl
 * [lang_go](https://github.com/kaiquekandykoga/lang_go) → This is a personal repository for learning and practising Go
 * [lang_ruby](https://github.com/kaiquekandykoga/lang_ruby) → This is a personal repository for learning and practising Ruby
 * [lang_rust](https://github.com/kaiquekandykoga/lang_rust) → This is a personal repository for learning and practising Rust
