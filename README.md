@@ -6,6 +6,8 @@ I am a software engineer primarily focused on Ruby. While Ruby is a high-level l
 ## My interests 😁
 
 ```ruby
+#!/usr/bin/env ruby
+
 SOFTWARE_ENGINEERING = [
   "API development (Monoliths & Microservices)",
   "Troubleshooting & observability in distributed systems",
