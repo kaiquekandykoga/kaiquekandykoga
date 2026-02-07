@@ -26,7 +26,6 @@ The public repositories include a mix of utilities and experimental projects for
 
 GitHub
 
-* [data_test](https://github.com/kaiquekandykoga/data_test)
 * [for_nerdctl](https://github.com/kaiquekandykoga/for_nerdctl)
 * [lang_go](https://github.com/kaiquekandykoga/lang_go)
 * [lang_ruby](https://github.com/kaiquekandykoga/lang_ruby)
