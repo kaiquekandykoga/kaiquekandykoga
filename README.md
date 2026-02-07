@@ -32,7 +32,6 @@ GitHub
 * [data_test](https://github.com/kaiquekandykoga/data_test)
 * [for_nerdctl](https://github.com/kaiquekandykoga/for_nerdctl)
 * [lang_go](https://github.com/kaiquekandykoga/lang_go)
-* [postgres_test](https://github.com/kaiquekandykoga/postgres_test)
 
 GitLab
 
