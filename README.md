@@ -20,6 +20,24 @@ PLATFORM_ENGINEERING = [
 ]
 ```
 
+# Public repositories
+
+The public repositories include a mix of utilities and experimental projects for personal use
+
+GitHub
+
+* [ci_basic_github_ruby](https://github.com/kaiquekandykoga/ci_basic_github_ruby)
+* [ci_basic_github_rust](https://github.com/kaiquekandykoga/ci_basic_github_rust)
+* [ci_basic_github_typescript](https://github.com/kaiquekandykoga/ci_basic_github_typescript)
+* [data_test](https://github.com/kaiquekandykoga/data_test)
+* [postgres_test](https://github.com/kaiquekandykoga/postgres_test)
+* [for_nerdctl](https://github.com/kaiquekandykoga/for_nerdctl)
+* [lang_go](https://github.com/kaiquekandykoga/lang_go)
+
+GitLab
+
+* [ci_basic_gitlab_ruby](https://gitlab.com/public-kandy/ci_basic_gitlab_ruby)
+
 ---
 
 
