@@ -24,7 +24,7 @@ PLATFORM_ENGINEERING = [
 
 The public repositories include a mix of utilities and experimental projects for personal use
 
-GitHub
+#### GitHub
 
 * [for_nerdctl](https://github.com/kaiquekandykoga/for_nerdctl)
 * [lang_go](https://github.com/kaiquekandykoga/lang_go)
@@ -32,7 +32,7 @@ GitHub
 * [lang_rust](https://github.com/kaiquekandykoga/lang_rust)
 * [lang_typescript](https://github.com/kaiquekandykoga/lang_typescript)
 
-GitLab
+#### GitLab
 
 * [ci_basic_gitlab_ruby](https://gitlab.com/public-kandy/ci_basic_gitlab_ruby)
 
