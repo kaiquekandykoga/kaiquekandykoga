@@ -32,6 +32,8 @@ The public repositories include a mix of utilities and experimental projects for
 * [lang_rust](https://github.com/kaiquekandykoga/lang_rust) → This is a personal repository for learning and practising Rust
 * [lang_typescript](https://github.com/kaiquekandykoga/lang_typescript) → This is a personal repository for learning and practising TypeScript
 
+---
+
 * [ci_basic_gitlab_ruby](https://github.com/kaiquekandykoga/ci_basic_gitlab_ruby) → [mirror] This is a personal repository for learning and practising GitLab CI/CD 
 
 #### GitLab
