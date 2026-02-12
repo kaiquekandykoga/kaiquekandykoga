@@ -26,7 +26,6 @@ The public repositories include a mix of utilities and experimental projects for
 * [ci_basic_buildkite_ruby](https://github.com/kaiquekandykoga/ci_basic_buildkite_ruby) → This is a personal repository for learning and practising Buildkite pipelines
 * [data_s](https://github.com/kaiquekandykoga/data_s) → Manage multiple ways to spin up databases efficiently
 * [github_practices](https://github.com/kaiquekandykoga/github_practices) → A collection of GitHub best practices
-* [kaiquekandykoga](https://github.com/kaiquekandykoga/kaiquekandykoga) → Personal page
 * [lang_go](https://github.com/kaiquekandykoga/lang_go) → This is a personal repository for learning and practising Go
 * [lang_ruby](https://github.com/kaiquekandykoga/lang_ruby) → This is a personal repository for learning and practising Ruby
 * [lang_rust](https://github.com/kaiquekandykoga/lang_rust) → This is a personal repository for learning and practising Rust
