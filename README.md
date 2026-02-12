@@ -30,6 +30,7 @@ The public repositories include a mix of utilities and experimental projects for
 * [lang_ruby](https://github.com/kaiquekandykoga/lang_ruby) → This is a personal repository for learning and practising Ruby
 * [lang_rust](https://github.com/kaiquekandykoga/lang_rust) → This is a personal repository for learning and practising Rust
 * [lang_typescript](https://github.com/kaiquekandykoga/lang_typescript) → This is a personal repository for learning and practising TypeScript
+* [rfc_jwt](https://github.com/kaiquekandykoga/rfc_jwt) → RFC Research Related to JSON Web Tokens (JWT)
 
 #### GitLab
 
