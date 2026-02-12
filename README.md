@@ -9,14 +9,11 @@ I am a software engineer primarily focused on Ruby. While Ruby is a high-level l
 #!/usr/bin/env ruby
 
 SOFTWARE_ENGINEERING = [
+  "System Design (Scalability, Reliability, Maintainability)",
   "API development (Monoliths & Microservices)",
-  "Troubleshooting & observability in distributed systems",
-  "System Design (Scalability, Reliability, Maintainability)"
-]
-
-PLATFORM_ENGINEERING = [
-  "CI/CD",
-  "Infrastructure provisioning"
+  "Infrastructure as Code",
+  "CI/CD pipelines",
+  "Troubleshooting & observability in distributed systems"
 ]
 ```
 
