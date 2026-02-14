@@ -19,7 +19,7 @@ SOFTWARE_ENGINEERING = [
 
 # Public repositories
 
-The public repositories include a mix of utilities and experimental projects for personal use
+The public repositories include a mix of utilities, research and experimental apps for personal use
 
 #### GitHub
 
