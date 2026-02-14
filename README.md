@@ -32,10 +32,6 @@ The public repositories include a mix of utilities and experimental projects for
 * [lang_typescript](https://github.com/kaiquekandykoga/lang_typescript) → This is a personal repository for learning and practising TypeScript
 * [rfc_jwt](https://github.com/kaiquekandykoga/rfc_jwt) → RFC Research Related to JSON Web Tokens (JWT)
 
-Labs: Lightweight applications for experimenting with new ideas
-
-* [labs_rails_jwt_ui](https://github.com/kaiquekandykoga/labs_rails_jwt_ui)
-
 #### GitLab
 
 * [ci_basic_gitlab_ruby](https://gitlab.com/public-kandy/ci_basic_gitlab_ruby) → This is a personal repository for learning and practising GitLab CI/CD pipelines
