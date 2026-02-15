@@ -3,7 +3,7 @@
 
 I am a software engineer primarily focused on Ruby. While Ruby is a high-level language, I make a conscious effort to deepen my understanding of what happens closer to the operating system
 
-<img src="ruby.jpg" alt="Ruby logo" width="30" hight="30"> <img src="postgresql.png" alt="PostgreSQL logo" width="30" hight="30">
+<a href="https://www.ruby-lang.org" target="_blank"><img src="ruby.jpg" alt="Ruby logo" width="30" hight="30"></a> <img src="postgresql.png" alt="PostgreSQL logo" width="30" hight="30">
 
 ## My interests 😁
 
