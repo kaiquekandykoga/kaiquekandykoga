@@ -3,7 +3,7 @@
 
 I am a software engineer primarily focused on Ruby. While Ruby is a high-level language, I make a conscious effort to deepen my understanding of what happens closer to the operating system
 
-<a href="https://github.com/kaiquekandykoga" alt="Ruby"><img src="ruby.jpg" alt="Ruby logo" width="30" height="30"></a>
+<a href="https://github.com/kaiquekandykoga"><img src="ruby.jpg" alt="Ruby logo" width="30" height="30"></a>
 <a href="https://github.com/kaiquekandykoga"><img src="postgresql.png" alt="PostgreSQL logo" width="30" height="30"></a>
 
 ## My interests 😁
