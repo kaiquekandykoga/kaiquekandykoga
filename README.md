@@ -7,7 +7,7 @@ I am a software engineer primarily focused on Ruby. While Ruby is a high-level l
 <a href="https://github.com/kaiquekandykoga"><img src="assets/postgresql.png" alt="PostgreSQL logo" width="30" height="30"></a>
 <a href="https://github.com/kaiquekandykoga"><img src="assets/git.png" alt="Git logo" width="30" height="30"></a>
 <a href="https://github.com/kaiquekandykoga"><img src="assets/freebsd.png" alt="FreeBSD logo" width="30" height="30"></a>
-
+ 
 ## My interests 😁
 
 ```ruby
