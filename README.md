@@ -1,7 +1,9 @@
 
-# About me ⚡<img src="ruby.jpg" alt="Ruby logo" width="36" hight="36">
+# About me ⚡
 
 I am a software engineer primarily focused on Ruby. While Ruby is a high-level language, I make a conscious effort to deepen my understanding of what happens closer to the operating system
+
+<img src="ruby.jpg" alt="Ruby logo" width="30" hight="30">
 
 ## My interests 😁
 
