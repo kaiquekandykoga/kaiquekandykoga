@@ -1,9 +1,9 @@
 
-# About me ⚡
+# About me
 
 I am a software engineer primarily focused on Ruby. While Ruby is a high-level language, I make a conscious effort to deepen my understanding of what happens closer to the operating system
 
-## My interests 😁
+## My interests
 
 ```ruby
 #!/usr/bin/env ruby
