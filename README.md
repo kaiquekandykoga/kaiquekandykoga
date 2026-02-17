@@ -3,13 +3,6 @@
 
 I am a software engineer primarily focused on Ruby. While Ruby is a high-level language, I make a conscious effort to deepen my understanding of what happens closer to the operating system
 
-<a href="https://github.com/kaiquekandykoga"><img src="assets/ruby.jpg" alt="Ruby logo" width="30" height="30"></a>
-<a href="https://github.com/kaiquekandykoga"><img src="assets/postgresql.png" alt="PostgreSQL logo" width="30" height="30"></a>
-<a href="https://github.com/kaiquekandykoga"><img src="assets/git.png" alt="Git logo" width="30" height="30"></a>
-<a href="https://github.com/kaiquekandykoga"><img src="assets/bestie.png" alt="FreeBSD logo" width="30" height="30"></a>
-
-_<sup><sub>Images sourced from the official websites of Ruby ([https://www.ruby-lang.org/en/about/logo](https://www.ruby-lang.org/en/about/logo)), PostgreSQL ([https://wiki.postgresql.org/wiki/Logo](https://wiki.postgresql.org/wiki/Logo)), Git ([https://git-scm.com/community/logos](https://git-scm.com/community/logos)), and FreeBSD ([https://www.freebsd.org/art](https://www.freebsd.org/art))</sub></sup>_
-
 ## My interests 😁
 
 ```ruby
