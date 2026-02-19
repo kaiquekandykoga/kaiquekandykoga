@@ -1,7 +1,7 @@
 
 # About me
 
-I am a software engineer primarily focused on Ruby. While Ruby is a high-level language, I make a conscious effort to deepen my understanding of what happens closer to the operating system
+I am a software engineer with a primary focus on distributed systems, and I am currently expanding my skill set in AI engineering
 
 ## My interests
 
