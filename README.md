@@ -29,6 +29,7 @@ The public repositories include a mix of utilities, research and experimental ap
 * [kandy_algorithms](https://github.com/kaiquekandykoga/kandy_algorithms) → Algorithms
 * [kandy_labs](https://github.com/kaiquekandykoga/kandy_labs) → This repository is used to keep track of experimental apps starting with the name labs_
 * [lang_csharp](https://github.com/kaiquekandykoga/lang_csharp) → This is a personal repository for learning and practising C#
+* [lang_cpp](https://github.com/kaiquekandykoga/lang_cpp) → This is a personal repository for learning and practising C++
 * [lang_go](https://github.com/kaiquekandykoga/lang_go) → This is a personal repository for learning and practising Go
 * [lang_ruby](https://github.com/kaiquekandykoga/lang_ruby) → This is a personal repository for learning and practising Ruby
 * [lang_rust](https://github.com/kaiquekandykoga/lang_rust) → This is a personal repository for learning and practising Rust
