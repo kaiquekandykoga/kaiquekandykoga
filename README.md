@@ -3,24 +3,6 @@
 
 I am a software engineer with a primary focus on distributed systems, and I am currently expanding my skill set in AI engineering
 
-## My interests
-
-```ruby
-#!/usr/bin/env ruby
-
-SOFTWARE_ENGINEERING = [
-  "System Design",
-  "API development",
-  "Infrastructure as Code",
-  "CI/CD pipelines",
-  "Troubleshooting & observability"
-]
-```
-
-# Public repositories
-
-The public repositories include a mix of utilities, research and experimental apps for personal use
-
 #### GitHub
 
 * [ci_basic_buildkite_ruby](https://github.com/kaiquekandykoga/ci_basic_buildkite_ruby) → This is a personal repository for learning and practising Buildkite pipelines
