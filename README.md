@@ -1,6 +1,3 @@
-
-# About me
-
 I am a software engineer with a primary focus on distributed systems, and I am currently expanding my skill set in AI engineering
 
 #### GitHub
