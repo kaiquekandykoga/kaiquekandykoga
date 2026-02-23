@@ -21,5 +21,3 @@ I am a software engineer with a primary focus on distributed systems, and I am c
 * [ci_basic_bitbucket_ruby](https://bitbucket.org/kaiquekandykoga/ci_basic_bitbucket_ruby) → This is a personal repository for learning and practising Bitbucket pipelines
 
 ---
-
-
