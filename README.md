@@ -16,6 +16,7 @@ I am a software engineer with a primary focus on distributed systems, and I am c
 
 #### CI/CD pipelines
 
+* [ci_pipelines](https://github.com/kaiquekandykoga/ci_pipelines) → CI pipelines
 * [ci_basic_buildkite_ruby](https://github.com/kaiquekandykoga/ci_basic_buildkite_ruby) → This is a personal repository for learning and practising Buildkite pipelines
 * [ci_basic_gitlab_ruby](https://gitlab.com/public-kandy/ci_basic_gitlab_ruby) → This is a personal repository for learning and practising GitLab CI/CD pipelines
 * [ci_basic_bitbucket_ruby](https://bitbucket.org/kaiquekandykoga/ci_basic_bitbucket_ruby) → This is a personal repository for learning and practising Bitbucket pipelines
