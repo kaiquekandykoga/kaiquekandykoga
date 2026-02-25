@@ -1,5 +1,6 @@
 I am a software engineer with a primary focus on distributed systems, and I am currently expanding my skill set in AI engineering
 
+* [ci_pipelines](https://github.com/kaiquekandykoga/ci_pipelines) → CI pipelines
 * [data_s](https://github.com/kaiquekandykoga/data_s) → Manage multiple ways to spin up databases efficiently
 * [github_practices](https://github.com/kaiquekandykoga/github_practices) → A collection of GitHub best practices
 * [kandy_algorithms](https://github.com/kaiquekandykoga/kandy_algorithms) → Algorithms
@@ -11,6 +12,5 @@ I am a software engineer with a primary focus on distributed systems, and I am c
 * [lang_rust](https://github.com/kaiquekandykoga/lang_rust) → This is a personal repository for learning and practising Rust
 * [lang_typescript](https://github.com/kaiquekandykoga/lang_typescript) → This is a personal repository for learning and practising TypeScript
 * [rfc_jwt](https://github.com/kaiquekandykoga/rfc_jwt) → RFC Research Related to JSON Web Tokens (JWT)
-* [ci_pipelines](https://github.com/kaiquekandykoga/ci_pipelines) → CI pipelines
 
 ---
