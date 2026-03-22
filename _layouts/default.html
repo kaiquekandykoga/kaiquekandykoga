@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <div class="header-content">
+          <h1 class="site-title">
+            <a class="site-title-link" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+          </h1>
+          <p class="site-description">{{ site.description | escape }}</p>
+        </div>
+      </header>
+
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-content">
+          <p>&copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
+          <div class="social-links">
+            {% if site.github_username %}
+              <a href="https://github.com/{{ site.github_username }}" class="social-link">GitHub</a>
+            {% endif %}
+            {% if site.twitter_username %}
+              <a href="https://twitter.com/{{ site.twitter_username }}" class="social-link">Twitter</a>
+            {% endif %}
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+</html>

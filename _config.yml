@@ -1,0 +1,26 @@
+# Jekyll configuration for GitHub Pages
+title: Kaique Kandy Koga
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Software engineer with a primary focus on distributed systems, 
+  currently expanding skill set in AI engineering
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kaiquekandykoga.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: kaiquekandykoga
+github_username:  kaiquekandykoga
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+  - Makefile
+  - main.c
