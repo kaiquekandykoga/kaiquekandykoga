@@ -1,0 +1,17 @@
+# Jekyll configuration for GitHub Pages
+title: My GitHub Pages Site
+description: A simple Hello World site
+theme: minima
+
+# GitHub Pages specific settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
