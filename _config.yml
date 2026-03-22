@@ -1,6 +1,7 @@
 # Jekyll configuration for GitHub Pages
 title: Kaique Kandy Koga
 email: your-email@example.com
+destination: _site
 description: >- # this means to ignore newlines until "baseurl:"
   Software engineer with a primary focus on distributed systems, 
   currently expanding skill set in AI engineering
