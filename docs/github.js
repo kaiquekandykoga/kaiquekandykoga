@@ -59,18 +59,90 @@ function displayRepositories(repos) {
         const lastUpdated = repo.pushed_at ? new Date(repo.pushed_at) : null;
         const formattedDate = lastUpdated ? formatDate(lastUpdated) : 'Unknown';
         
-        // Create the repository item HTML
+        // Create detailed description for expandable content
+        const repoDetails = [];
+        if (repo.language) {
+            repoDetails.push(`Language: ${repo.language}`);
+        }
+        if (repo.stargazers_count > 0) {
+            repoDetails.push(`Stars: ${repo.stargazers_count}`);
+        }
+        if (repo.forks_count > 0) {
+            repoDetails.push(`Forks: ${repo.forks_count}`);
+        }
+        if (repo.license) {
+            repoDetails.push(`License: ${repo.license.name}`);
+        }
+        
+        const detailsText = repoDetails.length > 0 ? repoDetails.join(' • ') : 'No additional details available';
+        
+        // Create the repository item HTML with expandable content
         listItem.innerHTML = `
-            <a href="${repo.html_url}" class="repo-link" target="_blank" rel="noopener noreferrer">
+            <a href="#" class="repo-link expandable-link" data-url="${repo.html_url}" data-description="${repo.description || 'No description available'}">
                 ${repo.name}
             </a>
             <span class="repo-description">
                 → ${repo.description || 'No description available'} • Updated ${formattedDate}
             </span>
+            <div class="expandable-content" style="display: none;">
+                <p><strong>Repository Details:</strong></p>
+                <p>${repo.description || 'No description available'}</p>
+                <p><strong>Additional Info:</strong> ${detailsText}</p>
+                <a href="${repo.html_url}" class="open-link" target="_blank" rel="noopener noreferrer">Open Repository in new tab →</a>
+            </div>
         `;
         
         repoList.appendChild(listItem);
     });
+    
+    // Add event listeners for the new expandable links
+    addExpandableListeners();
+}
+
+function addExpandableListeners() {
+    const expandableLinks = document.querySelectorAll('#github .expandable-link');
+    
+    expandableLinks.forEach(link => {
+        // Remove existing listeners to avoid duplicates
+        link.removeEventListener('click', handleExpandableClick);
+        link.addEventListener('click', handleExpandableClick);
+    });
+}
+
+function handleExpandableClick(e) {
+    e.preventDefault();
+    
+    // Find the expandable content within the same list item
+    const listItem = this.closest('li');
+    const content = listItem.querySelector('.expandable-content');
+    
+    // Toggle the visibility with animation
+    if (content.classList.contains('collapsing') || content.style.display === 'none' || !content.style.display) {
+        // Opening animation
+        content.style.display = 'block';
+        content.classList.remove('collapsing');
+        content.style.maxHeight = '200px';
+        content.style.opacity = '1';
+        
+        // Update the open link href to match the data-url
+        const openLink = content.querySelector('.open-link');
+        if (openLink && this.dataset.url) {
+            openLink.href = this.dataset.url;
+        }
+    } else {
+        // Closing animation
+        content.classList.add('collapsing');
+        content.style.opacity = '0';
+        content.style.maxHeight = '0';
+        
+        // Hide content after animation completes
+        setTimeout(() => {
+            if (content.classList.contains('collapsing')) {
+                content.style.display = 'none';
+                content.classList.remove('collapsing');
+            }
+        }, 300); // Match the animation duration
+    }
 }
 
 function displayError() {
