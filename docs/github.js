@@ -1,6 +1,6 @@
 // GitHub API integration for fetching public repositories
 document.addEventListener('DOMContentLoaded', function() {
-    const projectsTab = document.getElementById('projects');
+    const projectsTab = document.getElementById('github');
     const repoList = projectsTab ? projectsTab.querySelector('.repo-list') : null;
     
     if (repoList) {
@@ -39,7 +39,7 @@ async function fetchRepositories() {
 }
 
 function displayRepositories(repos) {
-    const repoList = document.querySelector('#projects .repo-list');
+    const repoList = document.querySelector('#github .repo-list');
     
     // Clear loading indicator
     repoList.innerHTML = '';
@@ -74,7 +74,7 @@ function displayRepositories(repos) {
 }
 
 function displayError() {
-    const repoList = document.querySelector('#projects .repo-list');
+    const repoList = document.querySelector('#github .repo-list');
     repoList.innerHTML = '';
     
     const errorItem = document.createElement('li');
