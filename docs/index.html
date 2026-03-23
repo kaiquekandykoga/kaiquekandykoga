@@ -167,6 +167,16 @@
             text-decoration: none;
         }
 
+        .repo-list li {
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .repo-list li:hover {
+            transform: translateX(4px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
         @keyframes slideDown {
             from {
                 opacity: 0;
@@ -424,17 +434,19 @@
             clickedButton.classList.add('active');
         }
 
-        // Add event listeners for expandable links
+        // Add event listeners for expandable list items
         document.addEventListener('DOMContentLoaded', function() {
-            const expandableLinks = document.querySelectorAll('.expandable-link');
+            const listItems = document.querySelectorAll('.repo-list li');
             
-            expandableLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
+            listItems.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    // Only trigger expansion/collapse if the click is not on the open-link button
+                    if (e.target.classList.contains('open-link')) {
+                        return; // Let the link work normally
+                    }
                     
                     // Find the expandable content within the same list item
-                    const listItem = this.closest('li');
-                    const content = listItem.querySelector('.expandable-content');
+                    const content = this.querySelector('.expandable-content');
                     
                     // Toggle the visibility with animation
                     if (content.classList.contains('collapsing') || content.style.display === 'none' || !content.style.display) {
@@ -443,12 +455,6 @@
                         content.classList.remove('collapsing');
                         content.style.maxHeight = '200px';
                         content.style.opacity = '1';
-                        
-                        // Update the open link href to match the data-url
-                        const openLink = content.querySelector('.open-link');
-                        if (openLink && this.dataset.url) {
-                            openLink.href = this.dataset.url;
-                        }
                     } else {
                         // Closing animation
                         content.classList.add('collapsing');
