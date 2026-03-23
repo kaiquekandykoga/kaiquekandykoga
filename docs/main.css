@@ -327,14 +327,6 @@ h1 {
     margin: 0 auto;
 }
 
-.about-content h2 {
-    color: var(--primary-color);
-    font-size: 2rem;
-    margin-bottom: 25px;
-    border-bottom: 2px solid var(--border-color);
-    padding-bottom: 10px;
-}
-
 .personal-info {
     margin-bottom: 30px;
     padding: 20px;
@@ -356,7 +348,7 @@ h1 {
 
 .personal-info .name {
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .personal-info .interests {

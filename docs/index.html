@@ -25,12 +25,17 @@
             </p>
 
             <div class="tabs">
-                <button class="tab-btn active" onclick="showTab('external-links')">External Links (<span id="external-links-count">0</span>)</button>
-                <button class="tab-btn" onclick="showTab('about')">About</button>
+                <button class="tab-btn active" onclick="showTab('about')">About</button>
+                <button class="tab-btn" onclick="showTab('external-links')">External Links (<span id="external-links-count">0</span>)</button>
                 <button class="tab-btn" onclick="showTab('open-source')">Open Source</button>
             </div>
 
-            <div id="external-links" class="tab-content active">
+            <div id="about" class="tab-content active">
+                <div class="about-content">
+                </div>
+            </div>
+
+            <div id="external-links" class="tab-content">
                 <ul class="repo-list">
                     <li>
                         <a href="#" class="repo-link expandable-link" data-url="https://www.linkedin.com/in/kandy-koga" data-description="Professional networking platform where you can connect with industry professionals, showcase your skills, and explore career opportunities.">
@@ -123,29 +128,6 @@
                         </div>
                     </li>
                 </ul>
-            </div>
-
-            <div id="about" class="tab-content">
-                <div class="about-content">
-                    <h2>About Me</h2>
-                    <div class="personal-info">
-                        <p class="name"><strong>Name:</strong> Kaíque Kandy Koga</p>
-                        <p class="interests"><strong>Interests:</strong> Distributed Systems and AI engineering</p>
-                    </div>
-                    <div class="bio-section">
-                        <h3>Professional Summary</h3>
-                        <p class="bio-text">I am a software engineer with a primary focus on distributed systems, and I am currently expanding my skill set in AI engineering.</p>
-                    </div>
-                    <div class="skills-section">
-                        <h3>Areas of Expertise</h3>
-                        <ul class="skills-list">
-                            <li>Distributed Systems</li>
-                            <li>AI Engineering</li>
-                            <li>Software Architecture</li>
-                            <li>Cloud Technologies</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
 
             <div id="open-source" class="tab-content">

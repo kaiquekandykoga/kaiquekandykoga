@@ -38,11 +38,6 @@ function displayAboutData(data) {
     const aboutContent = document.createElement('div');
     aboutContent.className = 'about-content';
     
-    // Add title
-    const title = document.createElement('h2');
-    title.textContent = 'About Me';
-    aboutContent.appendChild(title);
-    
     // Add personal info section
     const personalInfo = document.createElement('div');
     personalInfo.className = 'personal-info';
@@ -93,7 +88,7 @@ function displayAboutData(data) {
     const skillsList = document.createElement('ul');
     skillsList.className = 'skills-list';
     
-    const skills = ['Distributed Systems', 'AI Engineering', 'Software Architecture', 'Cloud Technologies'];
+    const skills = ['Distributed Systems', 'Observability and Application Monitoring', 'System Design', 'Full-Stack Development'];
     skills.forEach(skill => {
         const skillItem = document.createElement('li');
         skillItem.textContent = skill;
