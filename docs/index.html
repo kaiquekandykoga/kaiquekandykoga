@@ -15,6 +15,15 @@
             --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
 
+        [data-theme="dark"] {
+            --primary-color: #f472b6;
+            --text-color: #f3f4f6;
+            --muted-color: #9ca3af;
+            --bg-color: #111827;
+            --card-bg: #1f2937;
+            --border-color: #374151;
+        }
+
         * {
             box-sizing: border-box;
             margin: 0;
@@ -39,6 +48,42 @@
         header {
             margin-bottom: 40px;
             text-align: center;
+            position: relative;
+        }
+
+        .theme-toggle {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: none;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .theme-toggle:hover {
+            background-color: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .theme-toggle svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+            transition: transform 0.3s ease;
+        }
+
+        .theme-toggle.dark svg {
+            transform: rotate(180deg);
         }
 
         h1 {
@@ -279,6 +324,12 @@
 <body>
     <div class="container">
         <header>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 3a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V4a1 1 0 0 1 1-1zm7.07 3.243a1 1 0 0 1 0 1.414l-.707.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0zm-14.14 0a1 1 0 0 1 1.414 0l.707.707A1 1 0 1 1 5.64 6.057L4.934 5.35a1 1 0 0 1 1.414-1.414zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm-4 5a4 4 0 1 1 8 0 4 4 0 0 1-8 0zM4.93 18.646a1 1 0 0 1 1.414 0l.707.707a1 1 0 0 1-1.414 1.414l-.707-.707a1 1 0 0 1 0-1.414zM17.657 17.93a1 1 0 0 1 1.414 0 1 1 0 0 1 0 1.414l-.707.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 0 0zm-9.754-3.536a1 1 0 0 1 0 1.414l-.707.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0z"/>
+                </svg>
+                <span id="theme-text">Light Mode</span>
+            </button>
             <h1>KOGA, Kandy</h1>
             <p class="subtitle">Software Engineer</p>
         </header>
@@ -402,8 +453,50 @@
             if (yearElement) {
                 yearElement.textContent = currentYear;
             }
+
+            // Initialize theme from localStorage or default to light
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                setTheme('dark');
+            } else {
+                setTheme('light');
+            }
+
+            // Add event listener to theme toggle button
+            const themeToggle = document.getElementById('theme-toggle');
+            if (themeToggle) {
+                themeToggle.addEventListener('click', toggleTheme);
+            }
         });
 
+        function setTheme(theme) {
+            const body = document.body;
+            const themeToggle = document.getElementById('theme-toggle');
+            const themeText = document.getElementById('theme-text');
+
+            if (theme === 'dark') {
+                body.setAttribute('data-theme', 'dark');
+                themeToggle.classList.add('dark');
+                themeText.textContent = 'Dark Mode';
+                localStorage.setItem('theme', 'dark');
+            } else {
+                body.removeAttribute('data-theme');
+                themeToggle.classList.remove('dark');
+                themeText.textContent = 'Light Mode';
+                localStorage.setItem('theme', 'light');
+            }
+        }
+
+        function toggleTheme() {
+            const body = document.body;
+            const currentTheme = body.getAttribute('data-theme');
+            
+            if (currentTheme === 'dark') {
+                setTheme('light');
+            } else {
+                setTheme('dark');
+            }
+        }
 
         function showTab(tabName) {
             // Hide all tab contents
