@@ -1,6 +1,217 @@
-<html>
-  <head></head>
-  <body>
-    KOGA, Kandy
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kandy Koga - Software Engineer</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --muted-color: #6b7280;
+            --bg-color: #ffffff;
+            --card-bg: #f8fafc;
+            --border-color: #e5e7eb;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-family);
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+            letter-spacing: -0.025em;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--muted-color);
+            margin-bottom: 30px;
+        }
+
+        .divider {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--border-color), transparent);
+            margin: 40px 0;
+            opacity: 0.5;
+        }
+
+        .content-section {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        .bio {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: var(--text-color);
+        }
+
+        .repo-list {
+            list-style: none;
+        }
+
+        .repo-list li {
+            margin-bottom: 16px;
+            padding: 12px;
+            background: white;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .repo-list li:hover {
+            transform: translateX(4px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .repo-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.2s ease;
+        }
+
+        .repo-link:hover {
+            color: #1d4ed8;
+            text-decoration: underline;
+        }
+
+        .repo-description {
+            color: var(--muted-color);
+            font-size: 0.95rem;
+            margin-left: 8px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: var(--muted-color);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .content-section {
+                padding: 20px;
+            }
+            
+            .repo-list li {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>KOGA, Kandy</h1>
+            <p class="subtitle">Software Engineer</p>
+        </header>
+
+        <div class="content-section">
+            <p class="bio">
+                I am a software engineer with a primary focus on distributed systems, and I am currently expanding my skill set in AI engineering
+            </p>
+
+            <div class="divider"></div>
+
+            <ul class="repo-list">
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/ci_pipelines" class="repo-link">ci_pipelines</a>
+                    <span class="repo-description">→ CI pipelines</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/cline_practices" class="repo-link">cline_practices</a>
+                    <span class="repo-description">→ A collection of Cline best practices</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/data_s" class="repo-link">data_s</a>
+                    <span class="repo-description">→ Manage multiple ways to spin up databases efficiently</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/github_practices" class="repo-link">github_practices</a>
+                    <span class="repo-description">→ A collection of GitHub best practices</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/kandy_algorithms" class="repo-link">kandy_algorithms</a>
+                    <span class="repo-description">→ Algorithms</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/kandy_labs" class="repo-link">kandy_labs</a>
+                    <span class="repo-description">→ This repository is used to keep track of experimental apps starting with the name labs_</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/lang_cpp" class="repo-link">lang_cpp</a>
+                    <span class="repo-description">→ This is a personal repository for learning and practising C++</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/lang_csharp" class="repo-link">lang_csharp</a>
+                    <span class="repo-description">→ This is a personal repository for learning and practising C#</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/lang_go" class="repo-link">lang_go</a>
+                    <span class="repo-description">→ This is a personal repository for learning and practising Go</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/lang_ruby" class="repo-link">lang_ruby</a>
+                    <span class="repo-description">→ This is a personal repository for learning and practising Ruby</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/lang_rust" class="repo-link">lang_rust</a>
+                    <span class="repo-description">→ This is a personal repository for learning and practising Rust</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/lang_typescript" class="repo-link">lang_typescript</a>
+                    <span class="repo-description">→ This is a personal repository for learning and practising TypeScript</span>
+                </li>
+                <li>
+                    <a href="https://github.com/kaiquekandykoga/rfc_jwt" class="repo-link">rfc_jwt</a>
+                    <span class="repo-description">→ RFC Research Related to JSON Web Tokens (JWT)</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Kandy Koga. Built with HTML & CSS.
+        </div>
+    </div>
+</body>
 </html>
