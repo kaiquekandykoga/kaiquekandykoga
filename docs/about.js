@@ -90,7 +90,7 @@ function displayAboutData(data) {
     
     const bioText = document.createElement('p');
     bioText.className = 'bio-text';
-    bioText.textContent = 'I am a software engineer with a primary focus on distributed systems, and I am currently expanding my skill set in AI engineering.';
+    bioText.textContent = 'Software engineer focused on distributed systems, expanding into AI engineering.';
     bioSection.appendChild(bioText);
     
     aboutContent.appendChild(bioSection);

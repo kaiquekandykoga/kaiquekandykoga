@@ -328,60 +328,61 @@ h1 {
 }
 
 .personal-info {
-    margin-bottom: 30px;
+    margin-bottom: 15px; /* Reduced from 30px */
 }
 
 .personal-info h3 {
     color: var(--primary-color);
-    font-size: 1.3rem;
-    margin-bottom: 15px;
+    font-size: 1.2rem; /* Reduced from 1.3rem */
+    margin-bottom: 8px; /* Reduced from 15px */
 }
 
 .personal-info-text {
-    font-size: 1.1rem;
-    line-height: 1.7;
+    font-size: 1rem; /* Reduced from 1.1rem */
+    line-height: 1.4; /* Reduced from 1.7 */
     color: var(--text-color);
 }
 
 .bio-section {
-    margin-bottom: 30px;
+    margin-bottom: 20px; /* Reduced from 30px */
 }
 
 .bio-section h3 {
     color: var(--primary-color);
-    font-size: 1.3rem;
-    margin-bottom: 15px;
+    font-size: 1.2rem; /* Reduced from 1.3rem */
+    margin-bottom: 8px; /* Reduced from 15px */
 }
 
 .bio-text {
-    font-size: 1.1rem;
-    line-height: 1.7;
+    font-size: 1rem; /* Reduced from 1.1rem */
+    line-height: 1.4; /* Reduced from 1.7 */
     color: var(--text-color);
 }
 
 .skills-section {
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Reduced from 20px */
 }
 
 .skills-section h3 {
     color: var(--primary-color);
-    font-size: 1.3rem;
-    margin-bottom: 15px;
+    font-size: 1.2rem; /* Reduced from 1.3rem */
+    margin-bottom: 8px; /* Reduced from 15px */
 }
 
 .skills-list {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Reduced minmax from 200px */
+    gap: 8px; /* Reduced from 10px */
 }
 
 .skills-list li {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
-    padding: 12px 16px;
-    border-radius: 8px;
+    padding: 8px 12px; /* Reduced padding */
+    border-radius: 6px; /* Reduced from 8px */
     font-weight: 600;
+    font-size: 0.95rem; /* Reduced font size */
     color: var(--text-color);
     transition: all 0.3s ease;
 }
@@ -389,8 +390,8 @@ h1 {
 .skills-list li:hover {
     background-color: var(--primary-color);
     color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px); /* Reduced from -2px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow */
 }
 
 .footer {
