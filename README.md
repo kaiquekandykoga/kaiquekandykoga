@@ -5,6 +5,8 @@
 
 Welcome to my GitHub profile! 🌟
 
+<!-- Test comment added to verify Cline CLI git workflow automation -->
+
 ## 🌐 Live Site
 
 Visit the live version: [https://kaiquekandykoga.github.io/kaiquekandykoga/](https://kaiquekandykoga.github.io/kaiquekandykoga/)

@@ -40,6 +40,8 @@ git push
 These commands must appear in the final terminal command sequence **every time file changes occur**.  
 The agent must not consider a task complete until the Git Workflow has been executed.
 
+**Note**: This git workflow is the single source of truth for all git operations. Do not create conflicting git skills in the `.cline/skills/` directory.
+
 ---
 
 ## Rules for File Editing
