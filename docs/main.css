@@ -163,6 +163,20 @@ h1 {
     transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
+.expandable-content.collapsed {
+    display: none;
+}
+
+.inline-flex-center {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.vertical-align-middle {
+    vertical-align: middle;
+}
+
 .expandable-content.collapsing {
     animation: slideUp 0.3s ease-in-out;
     max-height: 0;
