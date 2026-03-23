@@ -38,29 +38,47 @@ function displayAboutData(data) {
     const aboutContent = document.createElement('div');
     aboutContent.className = 'about-content';
     
-    // Add personal info section
-    const personalInfo = document.createElement('div');
-    personalInfo.className = 'personal-info';
+    // Add name section
+    const nameSection = document.createElement('div');
+    nameSection.className = 'personal-info';
     
-    // Find name from data
+    const nameTitle = document.createElement('h3');
+    nameTitle.textContent = 'Name';
+    nameSection.appendChild(nameTitle);
+    
+    const nameText = document.createElement('p');
+    nameText.className = 'personal-info-text';
+    
     const nameEntry = data.find(item => item.name);
     if (nameEntry) {
-        const name = document.createElement('p');
-        name.className = 'name';
-        name.innerHTML = `<strong>Name:</strong> ${nameEntry.name}`;
-        personalInfo.appendChild(name);
+        nameText.textContent = nameEntry.name;
+    } else {
+        nameText.textContent = 'Name not available';
     }
     
-    // Find interests from data
+    nameSection.appendChild(nameText);
+    aboutContent.appendChild(nameSection);
+    
+    // Add interests section
+    const interestsSection = document.createElement('div');
+    interestsSection.className = 'personal-info';
+    
+    const interestsTitle = document.createElement('h3');
+    interestsTitle.textContent = 'Interests';
+    interestsSection.appendChild(interestsTitle);
+    
+    const interestsText = document.createElement('p');
+    interestsText.className = 'personal-info-text';
+    
     const interestsEntry = data.find(item => item.interests);
     if (interestsEntry) {
-        const interests = document.createElement('p');
-        interests.className = 'interests';
-        interests.innerHTML = `<strong>Interests:</strong> ${interestsEntry.interests}`;
-        personalInfo.appendChild(interests);
+        interestsText.textContent = interestsEntry.interests;
+    } else {
+        interestsText.textContent = 'Interests not available';
     }
     
-    aboutContent.appendChild(personalInfo);
+    interestsSection.appendChild(interestsText);
+    aboutContent.appendChild(interestsSection);
     
     // Add bio section
     const bioSection = document.createElement('div');

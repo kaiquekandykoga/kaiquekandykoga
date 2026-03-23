@@ -329,31 +329,18 @@ h1 {
 
 .personal-info {
     margin-bottom: 30px;
-    padding: 20px;
-    background-color: rgba(236, 72, 153, 0.05);
-    border: 1px solid rgba(236, 72, 153, 0.2);
-    border-radius: 12px;
 }
 
-[data-theme="dark"] .personal-info {
-    background-color: rgba(31, 41, 55, 0.8);
-    border-color: rgba(244, 114, 182, 0.5);
-}
-
-.personal-info p {
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-    color: var(--text-color);
-}
-
-.personal-info .name {
+.personal-info h3 {
+    color: var(--primary-color);
     font-size: 1.3rem;
-    font-weight: 400;
+    margin-bottom: 15px;
 }
 
-.personal-info .interests {
+.personal-info-text {
     font-size: 1.1rem;
-    color: var(--muted-color);
+    line-height: 1.7;
+    color: var(--text-color);
 }
 
 .bio-section {
