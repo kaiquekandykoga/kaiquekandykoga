@@ -120,6 +120,15 @@
             border: 1px solid rgba(236, 72, 153, 0.2);
             border-radius: 8px;
             animation: slideDown 0.3s ease-in-out;
+            overflow: hidden;
+            max-height: 200px;
+            transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        }
+
+        .expandable-content.collapsing {
+            animation: slideUp 0.3s ease-in-out;
+            max-height: 0;
+            opacity: 0;
         }
 
         .expandable-content p {
@@ -168,6 +177,19 @@
                 opacity: 1;
                 transform: translateY(0);
                 max-height: 200px;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 1;
+                transform: translateY(0);
+                max-height: 200px;
+            }
+            to {
+                opacity: 0;
+                transform: translateY(-10px);
+                max-height: 0;
             }
         }
 
@@ -468,16 +490,32 @@
                     const listItem = this.closest('li');
                     const content = listItem.querySelector('.expandable-content');
                     
-                    // Toggle the visibility
-                    if (content.style.display === 'none' || !content.style.display) {
+                    // Toggle the visibility with animation
+                    if (content.classList.contains('collapsing') || content.style.display === 'none' || !content.style.display) {
+                        // Opening animation
                         content.style.display = 'block';
+                        content.classList.remove('collapsing');
+                        content.style.maxHeight = '200px';
+                        content.style.opacity = '1';
+                        
                         // Update the open link href to match the data-url
                         const openLink = content.querySelector('.open-link');
                         if (openLink && this.dataset.url) {
                             openLink.href = this.dataset.url;
                         }
                     } else {
-                        content.style.display = 'none';
+                        // Closing animation
+                        content.classList.add('collapsing');
+                        content.style.opacity = '0';
+                        content.style.maxHeight = '0';
+                        
+                        // Hide content after animation completes
+                        setTimeout(() => {
+                            if (content.classList.contains('collapsing')) {
+                                content.style.display = 'none';
+                                content.classList.remove('collapsing');
+                            }
+                        }, 300); // Match the animation duration
                     }
                 });
             });
