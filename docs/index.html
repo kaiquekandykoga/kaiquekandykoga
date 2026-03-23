@@ -135,6 +135,52 @@
             margin-left: 6px;
         }
 
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        .tab-btn {
+            background: none;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--muted-color);
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .tab-btn:hover {
+            background-color: rgba(236, 72, 153, 0.1);
+            color: var(--primary-color);
+        }
+
+        .tab-btn.active {
+            background-color: var(--primary-color);
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
         .footer {
             margin-top: 40px;
             text-align: center;
@@ -175,96 +221,127 @@
                 I am a software engineer with a primary focus on distributed systems, and I am currently expanding my skill set in AI engineering
             </p>
 
-            <h2 style="color: var(--primary-color); margin-bottom: 20px; font-size: 1.8rem;">External Links</h2>
-            <ul class="repo-list">
-                <li>
-                    <a href="https://www.linkedin.com/in/kandy-koga" class="repo-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    <span class="repo-description">→ Professional networking</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga" class="repo-link" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    <span class="repo-description">→ Software development</span>
-                </li>
-                <li>
-                    <a href="https://gitlab.com/kaiquekandykoga" class="repo-link" target="_blank" rel="noopener noreferrer">GitLab</a>
-                    <span class="repo-description">→ DevOps platform</span>
-                </li>
-                <li>
-                    <a href="https://codeberg.org/kaiquekandykoga" class="repo-link" target="_blank" rel="noopener noreferrer">Codeberg</a>
-                    <span class="repo-description">→ Free software development platform</span>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/kaiquekandykoga" class="repo-link" target="_blank" rel="noopener noreferrer">Instagram</a>
-                    <span class="repo-description">→ Social media</span>
-                </li>
-                <li>
-                    <a href="https://huggingface.co/kaiquekandykoga" class="repo-link" target="_blank" rel="noopener noreferrer">Hugging Face</a>
-                    <span class="repo-description">→ AI and machine learning</span>
-                </li>
-            </ul>
+            <div class="tabs">
+                <button class="tab-btn active" onclick="showTab('external-links')">External Links</button>
+                <button class="tab-btn" onclick="showTab('projects')">Projects</button>
+            </div>
 
-            <div class="divider"></div>
+            <div id="external-links" class="tab-content active">
+                <ul class="repo-list">
+                    <li>
+                        <a href="https://www.linkedin.com/in/kandy-koga" class="repo-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <span class="repo-description">→ Professional networking</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga" class="repo-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <span class="repo-description">→ Software development</span>
+                    </li>
+                    <li>
+                        <a href="https://gitlab.com/kaiquekandykoga" class="repo-link" target="_blank" rel="noopener noreferrer">GitLab</a>
+                        <span class="repo-description">→ DevOps platform</span>
+                    </li>
+                    <li>
+                        <a href="https://codeberg.org/kaiquekandykoga" class="repo-link" target="_blank" rel="noopener noreferrer">Codeberg</a>
+                        <span class="repo-description">→ Free software development platform</span>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/kaiquekandykoga" class="repo-link" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <span class="repo-description">→ Social media</span>
+                    </li>
+                    <li>
+                        <a href="https://huggingface.co/kaiquekandykoga" class="repo-link" target="_blank" rel="noopener noreferrer">Hugging Face</a>
+                        <span class="repo-description">→ AI and machine learning</span>
+                    </li>
+                </ul>
+            </div>
 
-            <h2 style="color: var(--primary-color); margin-bottom: 20px; font-size: 1.8rem;">Projects</h2>
-            <ul class="repo-list">
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/ci_pipelines" class="repo-link" target="_blank" rel="noopener noreferrer">ci_pipelines</a>
-                    <span class="repo-description">→ CI pipelines</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/cline_practices" class="repo-link" target="_blank" rel="noopener noreferrer">cline_practices</a>
-                    <span class="repo-description">→ A collection of Cline best practices</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/data_s" class="repo-link" target="_blank" rel="noopener noreferrer">data_s</a>
-                    <span class="repo-description">→ Manage multiple ways to spin up databases efficiently</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/github_practices" class="repo-link" target="_blank" rel="noopener noreferrer">github_practices</a>
-                    <span class="repo-description">→ A collection of GitHub best practices</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/kandy_algorithms" class="repo-link" target="_blank" rel="noopener noreferrer">kandy_algorithms</a>
-                    <span class="repo-description">→ Algorithms</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/kandy_labs" class="repo-link" target="_blank" rel="noopener noreferrer">kandy_labs</a>
-                    <span class="repo-description">→ This repository is used to keep track of experimental apps starting with the name labs_</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/lang_cpp" class="repo-link" target="_blank" rel="noopener noreferrer">lang_cpp</a>
-                    <span class="repo-description">→ This is a personal repository for learning and practising C++</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/lang_csharp" class="repo-link" target="_blank" rel="noopener noreferrer">lang_csharp</a>
-                    <span class="repo-description">→ This is a personal repository for learning and practising C#</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/lang_go" class="repo-link" target="_blank" rel="noopener noreferrer">lang_go</a>
-                    <span class="repo-description">→ This is a personal repository for learning and practising Go</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/lang_ruby" class="repo-link" target="_blank" rel="noopener noreferrer">lang_ruby</a>
-                    <span class="repo-description">→ This is a personal repository for learning and practising Ruby</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/lang_rust" class="repo-link" target="_blank" rel="noopener noreferrer">lang_rust</a>
-                    <span class="repo-description">→ This is a personal repository for learning and practising Rust</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/lang_typescript" class="repo-link" target="_blank" rel="noopener noreferrer">lang_typescript</a>
-                    <span class="repo-description">→ This is a personal repository for learning and practising TypeScript</span>
-                </li>
-                <li>
-                    <a href="https://github.com/kaiquekandykoga/rfc_jwt" class="repo-link" target="_blank" rel="noopener noreferrer">rfc_jwt</a>
-                    <span class="repo-description">→ RFC Research Related to JSON Web Tokens (JWT)</span>
-                </li>
-            </ul>
+            <div id="projects" class="tab-content">
+                <ul class="repo-list">
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/ci_pipelines" class="repo-link" target="_blank" rel="noopener noreferrer">ci_pipelines</a>
+                        <span class="repo-description">→ CI pipelines</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/cline_practices" class="repo-link" target="_blank" rel="noopener noreferrer">cline_practices</a>
+                        <span class="repo-description">→ A collection of Cline best practices</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/data_s" class="repo-link" target="_blank" rel="noopener noreferrer">data_s</a>
+                        <span class="repo-description">→ Manage multiple ways to spin up databases efficiently</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/github_practices" class="repo-link" target="_blank" rel="noopener noreferrer">github_practices</a>
+                        <span class="repo-description">→ A collection of GitHub best practices</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/kandy_algorithms" class="repo-link" target="_blank" rel="noopener noreferrer">kandy_algorithms</a>
+                        <span class="repo-description">→ Algorithms</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/kandy_labs" class="repo-link" target="_blank" rel="noopener noreferrer">kandy_labs</a>
+                        <span class="repo-description">→ This repository is used to keep track of experimental apps starting with the name labs_</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/lang_cpp" class="repo-link" target="_blank" rel="noopener noreferrer">lang_cpp</a>
+                        <span class="repo-description">→ This is a personal repository for learning and practising C++</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/lang_csharp" class="repo-link" target="_blank" rel="noopener noreferrer">lang_csharp</a>
+                        <span class="repo-description">→ This is a personal repository for learning and practising C#</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/lang_go" class="repo-link" target="_blank" rel="noopener noreferrer">lang_go</a>
+                        <span class="repo-description">→ This is a personal repository for learning and practising Go</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/lang_ruby" class="repo-link" target="_blank" rel="noopener noreferrer">lang_ruby</a>
+                        <span class="repo-description">→ This is a personal repository for learning and practising Ruby</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/lang_rust" class="repo-link" target="_blank" rel="noopener noreferrer">lang_rust</a>
+                        <span class="repo-description">→ This is a personal repository for learning and practising Rust</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/lang_typescript" class="repo-link" target="_blank" rel="noopener noreferrer">lang_typescript</a>
+                        <span class="repo-description">→ This is a personal repository for learning and practising TypeScript</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kaiquekandykoga/rfc_jwt" class="repo-link" target="_blank" rel="noopener noreferrer">rfc_jwt</a>
+                        <span class="repo-description">→ RFC Research Related to JSON Web Tokens (JWT)</span>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div class="footer">
             &copy; 2026 Kandy Koga. Built with HTML & CSS.
         </div>
     </div>
+
+    <script>
+        function showTab(tabName) {
+            // Hide all tab contents
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Remove active class from all buttons
+            const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(button => {
+                button.classList.remove('active');
+            });
+
+            // Show selected tab content
+            const selectedContent = document.getElementById(tabName);
+            if (selectedContent) {
+                selectedContent.classList.add('active');
+            }
+
+            // Add active class to clicked button
+            const clickedButton = event.target;
+            clickedButton.classList.add('active');
+        }
+    </script>
 </body>
 </html>
