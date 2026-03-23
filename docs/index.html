@@ -294,11 +294,20 @@
         </div>
 
         <div class="footer">
-            &copy; 2026 Kandy Koga. Built with AI assistance.
+            &copy; <span id="current-year"></span> Kandy Koga. Built with AI assistance.
         </div>
     </div>
 
     <script>
+        // Set current year dynamically
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentYear = new Date().getFullYear();
+            const yearElement = document.getElementById('current-year');
+            if (yearElement) {
+                yearElement.textContent = currentYear;
+            }
+        });
+
         function showTab(tabName) {
             // Hide all tab contents
             const contents = document.querySelectorAll('.tab-content');
