@@ -17,6 +17,7 @@ function loadExternalLinks() {
         {
             name: 'LinkedIn',
             url: 'https://www.linkedin.com/in/kandy-koga',
+            summary: '',
             description: 'Professional networking platform where you can connect with industry professionals, showcase your skills, and explore career opportunities.',
             icon: 'linkedin',
             category: 'Professional networking'
@@ -24,6 +25,7 @@ function loadExternalLinks() {
         {
             name: 'GitHub',
             url: 'https://github.com/kaiquekandykoga',
+            summary: '',
             description: 'Leading software development platform hosting millions of repositories, offering version control, collaboration tools, and project management features for developers worldwide.',
             icon: 'github',
             category: 'Software development'
@@ -31,6 +33,7 @@ function loadExternalLinks() {
         {
             name: 'GitLab',
             url: 'https://gitlab.com/kaiquekandykoga',
+            summary: '',
             description: 'Complete DevOps platform providing source code management, CI/CD pipelines, and project management tools to streamline software development and deployment processes.',
             icon: 'gitlab',
             category: 'DevOps platform'
@@ -38,6 +41,7 @@ function loadExternalLinks() {
         {
             name: 'Codeberg',
             url: 'https://codeberg.org/kaiquekandykoga',
+            summary: '',
             description: 'Free and open-source software development platform promoting freedom, privacy, and community-driven development without corporate influence or tracking.',
             icon: 'codeberg',
             category: 'Free software development platform'
@@ -45,6 +49,7 @@ function loadExternalLinks() {
         {
             name: 'Instagram',
             url: 'https://www.instagram.com/kaiquekandykoga',
+            summary: '',
             description: 'Popular social media platform for sharing photos and videos, connecting with friends, and discovering visual content from around the world.',
             icon: 'instagram',
             category: 'Social media'
@@ -52,6 +57,7 @@ function loadExternalLinks() {
         {
             name: 'Hugging Face',
             url: 'https://huggingface.co/kaiquekandykoga',
+            summary: '',
             description: 'Leading platform for machine learning and artificial intelligence, hosting models, datasets, and providing tools for the AI community to collaborate and share resources.',
             icon: 'huggingface',
             category: 'AI and machine learning'
@@ -93,7 +99,7 @@ function displayExternalLinks(links) {
                 </span>
             </a>
             <span class="repo-description">
-                → ${link.description} • ${link.category}
+                → ${link.summary}
             </span>
             <div class="expandable-content" style="display: none;">
                 <p><strong>Link Details:</strong></p>
