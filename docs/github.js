@@ -117,6 +117,7 @@ function addExpandableListeners() {
 
 function handleExpandableClick(e) {
     e.preventDefault();
+    e.stopPropagation(); // Prevent event from bubbling to parent list item
     
     // Find the expandable content within the same list item
     const listItem = this.closest('li');
