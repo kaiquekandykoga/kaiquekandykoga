@@ -20,7 +20,7 @@ function loadAboutData() {
             // Fallback to hardcoded data if YAML loading fails
             const fallbackData = [
                 { name: 'Kaíque Kandy Koga' },
-                { interests: 'Distributed Systems and AI engineering' }
+                { interests: 'Distributed Systems, AI Engineering, BSD Systems, and Programming Languages' }
             ];
             displayAboutData(fallbackData);
         });
