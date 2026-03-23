@@ -1,7 +1,6 @@
 # AGENTS.md
-This file describes data to be used by AI agents when working on this app, following the agents.md specification.
 
----
+This file describes data to be used by AI agents when working on this app, following the agents.md specification.
 
 ## App Structure
 
@@ -18,8 +17,6 @@ The site has three main sections:
 2. **External Links** - Professional platform links loaded from external_links.yaml
 3. **Open Source** - Static "Under Construction" section
 
----
-
 ## Agent Capabilities
 
 The agent is designed to:
@@ -31,8 +28,6 @@ The agent is designed to:
 5. Handle **client-side rendering** with JavaScript and YAML data loading.
 6. Support **theme switching** (light/dark mode) functionality.
 7. After modifying any files, the agent must **always commit and push the changes** using the Git Workflow defined below.
-
----
 
 ## Technology Stack
 
@@ -64,15 +59,11 @@ start docs/index.html  # Windows
 
 **Note for AI Agents:** When working with this codebase, remember that all files are static and can be opened directly in a browser without any server setup or build process.
 
----
-
 ## Dependencies
 
 - **jsyaml** - JavaScript library for parsing YAML files (loaded via CDN in HTML)
 - **GitHub Pages** - Deployment platform (requires main branch for automatic deployment)
 - **No build tools** - Site runs directly in browser without compilation
-
----
 
 ## Data Management
 
@@ -98,8 +89,6 @@ start docs/index.html  # Windows
 - Include fallback content in JavaScript for loading failures
 - Test external links for accessibility and proper formatting
 
----
-
 ## Error Handling
 
 - JavaScript includes fallback data if YAML loading fails
@@ -108,9 +97,9 @@ start docs/index.html  # Windows
 - Check for JavaScript console errors
 - Ensure theme switching works correctly
 
----
-
 ## Git Workflow (Mandatory)
+
+**IMPORTANT: AI agents MUST automatically commit and push changes after every file modification.**
 
 Whenever the agent modifies, creates, or deletes files, it **must** include the following commands in the final terminal step:
 
@@ -135,64 +124,7 @@ The agent must not consider a task complete until the Git Workflow has been exec
 - Use descriptive commit messages that explain the purpose of changes
 - This git workflow is the single source of truth for all git operations
 - Do not create conflicting git skills in the `.cline/skills/` directory
-
-## Automatic Deployment Configuration
-
-To ensure the Cline CLI always makes automatic deployments after changing files, the following configuration is required:
-
-### 1. Git Hooks Setup
-Create a post-commit hook that automatically pushes to the remote repository:
-
-```bash
-# Create the hooks directory if it doesn't exist
-mkdir -p .git/hooks
-
-# Create the post-commit hook
-cat > .git/hooks/post-commit << 'EOF'
-#!/bin/sh
-# Auto-deploy after commit
-git push origin master
-EOF
-
-# Make the hook executable
-chmod +x .git/hooks/post-commit
-```
-
-### 2. Cline CLI Configuration
-Ensure the Cline CLI is configured to always execute git operations after file modifications by adding the following to your workflow:
-
-```yaml
-# In .cline/config.yml or equivalent configuration
-git_workflow:
-  auto_commit: true
-  auto_push: true
-  branch: master
-  commit_message_template: "Auto-commit: %s"
-```
-
-### 3. Environment Variables
-Set up environment variables for seamless authentication:
-
-```bash
-# For GitHub
-export GITHUB_TOKEN=<your_github_token>
-
-# For Git operations
-export GIT_AUTO_PUSH=true
-export GIT_DEFAULT_BRANCH=master
-```
-
-### 4. Verification Steps
-After any file modification, the system should automatically:
-1. Detect untracked changes
-2. Stage all changes with `git add .`
-3. Create a commit with an appropriate message
-4. Push to the master branch with `git push origin master`
-5. Verify the push was successful
-
-This ensures that all changes are immediately deployed to GitHub Pages without manual intervention.
-
----
+- **AI agents must automatically execute these commands without requiring user intervention**
 
 ## Rules for File Editing
 
@@ -226,16 +158,12 @@ This ensures that all changes are immediately deployed to GitHub Pages without m
 - Include proper quoting for strings with special characters
 - Validate syntax before committing
 
----
-
 ## Deployment
 
 - **GitHub Pages** automatically deploys from the main branch
 - Site URL: https://kaiquekandykoga.github.io/kaiquekandykoga/
 - No additional deployment steps required beyond git push
 - Changes are live within minutes of pushing to main branch
-
----
 
 ## Metadata
 
