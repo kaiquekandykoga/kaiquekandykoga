@@ -104,6 +104,62 @@ The agent must not consider a task complete until the Git Workflow has been exec
 - This git workflow is the single source of truth for all git operations
 - Do not create conflicting git skills in the `.cline/skills/` directory
 
+## Automatic Deployment Configuration
+
+To ensure the Cline CLI always makes automatic deployments after changing files, the following configuration is required:
+
+### 1. Git Hooks Setup
+Create a post-commit hook that automatically pushes to the remote repository:
+
+```bash
+# Create the hooks directory if it doesn't exist
+mkdir -p .git/hooks
+
+# Create the post-commit hook
+cat > .git/hooks/post-commit << 'EOF'
+#!/bin/sh
+# Auto-deploy after commit
+git push origin master
+EOF
+
+# Make the hook executable
+chmod +x .git/hooks/post-commit
+```
+
+### 2. Cline CLI Configuration
+Ensure the Cline CLI is configured to always execute git operations after file modifications by adding the following to your workflow:
+
+```yaml
+# In .cline/config.yml or equivalent configuration
+git_workflow:
+  auto_commit: true
+  auto_push: true
+  branch: master
+  commit_message_template: "Auto-commit: %s"
+```
+
+### 3. Environment Variables
+Set up environment variables for seamless authentication:
+
+```bash
+# For GitHub
+export GITHUB_TOKEN=<your_github_token>
+
+# For Git operations
+export GIT_AUTO_PUSH=true
+export GIT_DEFAULT_BRANCH=master
+```
+
+### 4. Verification Steps
+After any file modification, the system should automatically:
+1. Detect untracked changes
+2. Stage all changes with `git add .`
+3. Create a commit with an appropriate message
+4. Push to the master branch with `git push origin master`
+5. Verify the push was successful
+
+This ensures that all changes are immediately deployed to GitHub Pages without manual intervention.
+
 ---
 
 ## Rules for File Editing
