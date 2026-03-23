@@ -36,7 +36,7 @@ function loadExternalLinks() {
             summary: '',
             description: 'Complete DevOps platform providing source code management, CI/CD pipelines, and project management tools to streamline software development and deployment processes.',
             icon: 'gitlab',
-            category: 'DevOps platform'
+            category: 'Software development'
         },
         {
             name: 'Codeberg',
@@ -44,7 +44,7 @@ function loadExternalLinks() {
             summary: '',
             description: 'Free and open-source software development platform promoting freedom, privacy, and community-driven development without corporate influence or tracking.',
             icon: 'codeberg',
-            category: 'Free software development platform'
+            category: 'Software development'
         },
         {
             name: 'Instagram',
@@ -60,7 +60,7 @@ function loadExternalLinks() {
             summary: '',
             description: 'Leading platform for machine learning and artificial intelligence, hosting models, datasets, and providing tools for the AI community to collaborate and share resources.',
             icon: 'huggingface',
-            category: 'AI and machine learning'
+            category: 'Artificial intelligence'
         }
     ];
     
@@ -99,7 +99,7 @@ function displayExternalLinks(links) {
                 </span>
             </a>
             <span class="repo-description">
-                → ${link.summary}
+                → ${link.category}
             </span>
             <div class="expandable-content" style="display: none;">
                 <p><strong>Link Details:</strong></p>

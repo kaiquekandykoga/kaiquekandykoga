@@ -290,7 +290,6 @@
 
             <div class="tabs">
                 <button class="tab-btn active" onclick="showTab('external-links')">External Links (<span id="external-links-count">0</span>)</button>
-                <button class="tab-btn" onclick="showTab('github')">GitHub (<span id="github-count">0</span>)</button>
             </div>
 
             <div id="external-links" class="tab-content active">
@@ -388,11 +387,6 @@
                 </ul>
             </div>
 
-            <div id="github" class="tab-content">
-                <ul class="repo-list">
-                    <!-- Dynamic content will be loaded here by github.js -->
-                </ul>
-            </div>
         </div>
 
         <div class="footer">
@@ -400,7 +394,6 @@
         </div>
     </div>
 
-    <script src="external_links.js"></script>
     <script>
         // Set current year dynamically
         document.addEventListener('DOMContentLoaded', function() {
@@ -459,7 +452,6 @@
             setupExpandableListeners();
         });
 
-        // Also set up listeners when GitHub tab is shown (for dynamically loaded content)
         function showTab(tabName) {
             // Hide all tab contents
             const contents = document.querySelectorAll('.tab-content');
@@ -477,12 +469,6 @@
             const selectedContent = document.getElementById(tabName);
             if (selectedContent) {
                 selectedContent.classList.add('active');
-                
-                // If GitHub tab is shown, set up listeners for any dynamically loaded content
-                if (tabName === 'github') {
-                    // Small delay to ensure content is loaded
-                    setTimeout(setupExpandableListeners, 100);
-                }
             }
 
             // Add active class to clicked button
@@ -490,6 +476,6 @@
             clickedButton.classList.add('active');
         }
     </script>
-    <script src="github.js"></script>
+    <script src="external_links.js"></script>
 </body>
 </html>
