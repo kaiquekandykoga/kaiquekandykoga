@@ -90,16 +90,16 @@ git add .
 ```
 git commit -m "Update: <summary of changes>"
 ```
-3. Push to the main branch (required for GitHub Pages):
+3. Push to the master branch (required for GitHub Pages):
 ```
-git push origin main
+git push origin master
 ```
 
 These commands must appear in the final terminal command sequence **every time file changes occur**.  
 The agent must not consider a task complete until the Git Workflow has been executed.
 
 **Important Notes:**
-- Changes must be pushed to the **main branch** for GitHub Pages to deploy
+- Changes must be pushed to the **master branch** for GitHub Pages to deploy
 - Use descriptive commit messages that explain the purpose of changes
 - This git workflow is the single source of truth for all git operations
 - Do not create conflicting git skills in the `.cline/skills/` directory
