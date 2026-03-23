@@ -13,67 +13,115 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function loadExternalLinks() {
+    // Try to load YAML via fetch first (works on web servers)
     fetch('external_links.yaml')
-        .then(response => response.text())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.text();
+        })
         .then(yamlText => {
-            const data = jsyaml.load(yamlText);
-            displayExternalLinks(data.external_links);
+            try {
+                // Check if jsyaml is available
+                if (typeof jsyaml === 'undefined') {
+                    throw new Error('jsyaml library not loaded');
+                }
+                
+                const data = jsyaml.load(yamlText);
+                if (!data || !data.external_links) {
+                    throw new Error('Invalid YAML data structure');
+                }
+                displayExternalLinks(data.external_links);
+            } catch (yamlError) {
+                console.error('Error parsing YAML:', yamlError);
+                displayFallbackData();
+            }
         })
         .catch(error => {
             console.error('Error loading external links:', error);
-            // Fallback to hardcoded data if YAML loading fails
-            const fallbackData = [
-                {
-                    name: 'LinkedIn',
-                    url: 'https://www.linkedin.com/in/kandy-koga',
-                    summary: '',
-                    description: 'Professional networking platform where you can connect with industry professionals, showcase your skills, and explore career opportunities.',
-                    icon: 'linkedin',
-                    category: 'Professional networking'
-                },
-                {
-                    name: 'GitHub',
-                    url: 'https://github.com/kaiquekandykoga',
-                    summary: '',
-                    description: 'Leading software development platform hosting millions of repositories, offering version control, collaboration tools, and project management features for developers worldwide.',
-                    icon: 'github',
-                    category: 'Software development'
-                },
-                {
-                    name: 'GitLab',
-                    url: 'https://gitlab.com/kaiquekandykoga',
-                    summary: '',
-                    description: 'Complete DevOps platform providing source code management, CI/CD pipelines, and project management tools to streamline software development and deployment processes.',
-                    icon: 'gitlab',
-                    category: 'Software development'
-                },
-                {
-                    name: 'Codeberg',
-                    url: 'https://codeberg.org/kaiquekandykoga',
-                    summary: '',
-                    description: 'Free and open-source software development platform promoting freedom, privacy, and community-driven development without corporate influence or tracking.',
-                    icon: 'codeberg',
-                    category: 'Software development'
-                },
-                {
-                    name: 'Instagram',
-                    url: 'https://www.instagram.com/kaiquekandykoga',
-                    summary: '',
-                    description: 'Popular social media platform for sharing photos and videos, connecting with friends, and discovering visual content from around the world.',
-                    icon: 'instagram',
-                    category: 'Social media'
-                },
-                {
-                    name: 'Hugging Face',
-                    url: 'https://huggingface.co/kaiquekandykoga',
-                    summary: '',
-                    description: 'Leading platform for machine learning and artificial intelligence, hosting models, datasets, and providing tools for the AI community to collaborate and share resources.',
-                    icon: 'huggingface',
-                    category: 'Artificial intelligence'
-                }
-            ];
-            displayExternalLinks(fallbackData);
+            // If fetch fails (likely due to CORS when opening file directly),
+            // try to load the YAML data embedded in the page
+            tryLoadEmbeddedYaml();
         });
+}
+
+function tryLoadEmbeddedYaml() {
+    // Check if we have embedded YAML data in a script tag
+    const yamlScript = document.getElementById('external-links-yaml');
+    if (yamlScript && yamlScript.textContent) {
+        try {
+            if (typeof jsyaml === 'undefined') {
+                throw new Error('jsyaml library not loaded');
+            }
+            
+            const data = jsyaml.load(yamlScript.textContent);
+            if (!data || !data.external_links) {
+                throw new Error('Invalid YAML data structure');
+            }
+            displayExternalLinks(data.external_links);
+        } catch (yamlError) {
+            console.error('Error parsing embedded YAML:', yamlError);
+            displayFallbackData();
+        }
+    } else {
+        // No embedded data available, use fallback
+        displayFallbackData();
+    }
+}
+
+function displayFallbackData() {
+    const fallbackData = [
+        {
+            name: 'LinkedIn',
+            url: 'https://www.linkedin.com/in/kandy-koga',
+            summary: '',
+            description: 'Professional networking platform where you can connect with industry professionals, showcase your skills, and explore career opportunities.',
+            icon: 'linkedin',
+            category: 'Professional networking'
+        },
+        {
+            name: 'GitHub',
+            url: 'https://github.com/kaiquekandykoga',
+            summary: '',
+            description: 'Leading software development platform hosting millions of repositories, offering version control, collaboration tools, and project management features for developers worldwide.',
+            icon: 'github',
+            category: 'Software development'
+        },
+        {
+            name: 'GitLab',
+            url: 'https://gitlab.com/kaiquekandykoga',
+            summary: '',
+            description: 'Complete DevOps platform providing source code management, CI/CD pipelines, and project management tools to streamline software development and deployment processes.',
+            icon: 'gitlab',
+            category: 'Software development'
+        },
+        {
+            name: 'Codeberg',
+            url: 'https://codeberg.org/kaiquekandykoga',
+            summary: '',
+            description: 'Free and open-source software development platform promoting freedom, privacy, and community-driven development without corporate influence or tracking.',
+            icon: 'codeberg',
+            category: 'Software development'
+        },
+        {
+            name: 'Instagram',
+            url: 'https://www.instagram.com/kaiquekandykoga',
+            summary: '',
+            description: 'Popular social media platform for sharing photos and videos, connecting with friends, and discovering visual content from around the world.',
+            icon: 'instagram',
+            category: 'Social media'
+        },
+        {
+            name: 'Hugging Face',
+            url: 'https://huggingface.co/kaiquekandykoga',
+            summary: '',
+            description: 'Leading platform for machine learning and artificial intelligence, hosting models, datasets, and providing tools for the AI community to collaborate and share resources.',
+            icon: 'huggingface',
+            category: 'Artificial intelligence'
+        }
+    ];
+    displayExternalLinks(fallbackData);
 }
 
 function displayExternalLinks(links) {
