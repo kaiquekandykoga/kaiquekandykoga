@@ -156,22 +156,23 @@ function getIconSvg(iconType) {
 }
 
 function addExpandableListeners() {
-    const expandableLinks = document.querySelectorAll('#external-links .expandable-link');
+    const listItems = document.querySelectorAll('#external-links .repo-list li');
     
-    expandableLinks.forEach(link => {
+    listItems.forEach(item => {
         // Remove existing listeners to avoid duplicates
-        link.removeEventListener('click', handleExpandableClick);
-        link.addEventListener('click', handleExpandableClick);
+        item.removeEventListener('click', handleListItemClick);
+        item.addEventListener('click', handleListItemClick);
     });
 }
 
-function handleExpandableClick(e) {
-    e.preventDefault();
-    e.stopPropagation(); // Prevent event from bubbling to parent list item
-    
+function handleListItemClick(e) {
     // Find the expandable content within the same list item
-    const listItem = this.closest('li');
-    const content = listItem.querySelector('.expandable-content');
+    const content = this.querySelector('.expandable-content');
+    
+    // If clicking on the open-link button, let it work normally
+    if (e.target.classList.contains('open-link')) {
+        return;
+    }
     
     // Toggle the visibility with animation
     if (content.classList.contains('collapsing') || content.style.display === 'none' || !content.style.display) {
@@ -181,10 +182,11 @@ function handleExpandableClick(e) {
         content.style.maxHeight = '200px';
         content.style.opacity = '1';
         
-        // Update the open link href to match the data-url
+        // Update the open link href to match the data-url from the expandable link
+        const expandableLink = this.querySelector('.expandable-link');
         const openLink = content.querySelector('.open-link');
-        if (openLink && this.dataset.url) {
-            openLink.href = this.dataset.url;
+        if (openLink && expandableLink && expandableLink.dataset.url) {
+            openLink.href = expandableLink.dataset.url;
         }
     } else {
         // Closing animation

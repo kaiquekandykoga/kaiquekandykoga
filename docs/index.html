@@ -404,53 +404,6 @@
             }
         });
 
-        // Add event listeners for expandable list items
-        function setupExpandableListeners() {
-            const listItems = document.querySelectorAll('.repo-list li');
-            
-            listItems.forEach(item => {
-                // Only add listener if it doesn't already have one (to prevent duplicates)
-                if (!item.dataset.listenerAttached) {
-                    item.addEventListener('click', function(e) {
-                        // Only trigger expansion/collapse if the click is not on the open-link button
-                        if (e.target.classList.contains('open-link')) {
-                            return; // Let the link work normally
-                        }
-                        
-                        // Find the expandable content within the same list item
-                        const content = this.querySelector('.expandable-content');
-                        
-                        // Toggle the visibility with animation
-                        if (content.classList.contains('collapsing') || content.style.display === 'none' || !content.style.display) {
-                            // Opening animation
-                            content.style.display = 'block';
-                            content.classList.remove('collapsing');
-                            content.style.maxHeight = '200px';
-                            content.style.opacity = '1';
-                        } else {
-                            // Closing animation
-                            content.classList.add('collapsing');
-                            content.style.opacity = '0';
-                            content.style.maxHeight = '0';
-                            
-                            // Hide content after animation completes
-                            setTimeout(() => {
-                                if (content.classList.contains('collapsing')) {
-                                    content.style.display = 'none';
-                                    content.classList.remove('collapsing');
-                                }
-                            }, 300); // Match the animation duration
-                        }
-                    });
-                    item.dataset.listenerAttached = 'true';
-                }
-            });
-        }
-
-        // Set up listeners when DOM is loaded
-        document.addEventListener('DOMContentLoaded', function() {
-            setupExpandableListeners();
-        });
 
         function showTab(tabName) {
             // Hide all tab contents
