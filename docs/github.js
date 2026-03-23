@@ -23,19 +23,44 @@ async function fetchRepositories() {
     const apiUrl = `https://api.github.com/users/${username}/repos?sort=pushed&direction=desc&per_page=100`;
     
     try {
-        const response = await fetch(apiUrl);
-        
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        
-        const repos = await response.json();
-        displayRepositories(repos);
+        // Fetch all pages of repositories
+        const allRepos = await fetchAllRepositories(apiUrl);
+        displayRepositories(allRepos);
         
     } catch (error) {
         console.error('Error fetching repositories:', error);
         displayError();
     }
+}
+
+async function fetchAllRepositories(apiUrl) {
+    const allRepos = [];
+    let page = 1;
+    let hasMorePages = true;
+    
+    while (hasMorePages) {
+        try {
+            const response = await fetch(`${apiUrl}&page=${page}`);
+            
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const repos = await response.json();
+            
+            if (repos.length === 0) {
+                hasMorePages = false;
+            } else {
+                allRepos.push(...repos);
+                page++;
+            }
+        } catch (error) {
+            console.error(`Error fetching page ${page}:`, error);
+            hasMorePages = false;
+        }
+    }
+    
+    return allRepos;
 }
 
 function displayRepositories(repos) {
