@@ -178,6 +178,11 @@ h1 {
     transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
+[data-theme="dark"] .expandable-content {
+    background-color: rgba(31, 41, 55, 0.8);
+    border-color: rgba(244, 114, 182, 0.5);
+}
+
 .expandable-content.collapsed {
     display: none;
 }
