@@ -9,8 +9,6 @@ Welcome to my GitHub profile! 🌟
 
 This repository is built using AI-generated continuous deployment. I use an innovative approach where AI makes changes directly to production, creating a seamless development workflow. For a deeper understanding of how this works, check out the source code: [https://github.com/kaiquekandykoga/kaiquekandykoga](https://github.com/kaiquekandykoga/kaiquekandykoga)
 
-<!-- Test comment added to verify Cline CLI git workflow automation -->
-
 ## 🌐 Live Site
 
 Visit the live version: [https://kaiquekandykoga.github.io/kaiquekandykoga/](https://kaiquekandykoga.github.io/kaiquekandykoga/)
