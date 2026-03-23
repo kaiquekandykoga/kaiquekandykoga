@@ -34,6 +34,38 @@ The agent is designed to:
 
 ---
 
+## Technology Stack
+
+This project is built using **plain HTML, CSS, and JavaScript** - no frameworks, no build tools, no servers required!
+
+### For Developers & AI Agents
+
+**Important:** This is a static website that runs directly in the browser. To test or view this application:
+
+1. **No server setup needed** - Just open any `.html` file directly in your browser
+2. **No Python, Node.js, or other servers required**
+3. **No build process** - The files are ready to use as-is
+4. **Cross-platform compatibility** - Works in any modern browser
+
+### Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/kaiquekandykoga/kaiquekandykoga.git
+
+# Navigate to the project
+cd kaiquekandykoga
+
+# Open in browser (no server needed!)
+open docs/index.html
+# or
+start docs/index.html  # Windows
+```
+
+**Note for AI Agents:** When working with this codebase, remember that all files are static and can be opened directly in a browser without any server setup or build process.
+
+---
+
 ## Dependencies
 
 - **jsyaml** - JavaScript library for parsing YAML files (loaded via CDN in HTML)
