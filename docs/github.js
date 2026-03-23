@@ -44,6 +44,12 @@ function displayRepositories(repos) {
     // Clear loading indicator
     repoList.innerHTML = '';
     
+    // Update the GitHub tab count
+    const githubCountElement = document.getElementById('github-count');
+    if (githubCountElement) {
+        githubCountElement.textContent = repos.length;
+    }
+    
     if (repos.length === 0) {
         const emptyItem = document.createElement('li');
         emptyItem.className = 'repo-list-item';
