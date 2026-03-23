@@ -62,7 +62,7 @@ start docs/index.html  # Windows
 ## Dependencies
 
 - **jsyaml** - JavaScript library for parsing YAML files (loaded via CDN in HTML)
-- **GitHub Pages** - Deployment platform (requires main branch for automatic deployment)
+- **GitHub Pages** - Deployment platform (requires master branch for automatic deployment)
 - **No build tools** - Site runs directly in browser without compilation
 
 ## Data Management
@@ -160,16 +160,16 @@ The agent must not consider a task complete until the Git Workflow has been exec
 
 ## Deployment
 
-- **GitHub Pages** automatically deploys from the main branch
+- **GitHub Pages** automatically deploys from the master branch
 - Site URL: https://kaiquekandykoga.github.io/kaiquekandykoga/
 - No additional deployment steps required beyond git push
-- Changes are live within minutes of pushing to main branch
+- Changes are live within minutes of pushing to master branch
 
 ## Metadata
 
 - **Repository:** https://github.com/kaiquekandykoga/kaiquekandykoga
 - **GitHub Pages:** https://kaiquekandykoga.github.io/kaiquekandykoga/
-- **Primary Branch:** main (required for GitHub Pages)
+- **Primary Branch:** master (required for GitHub Pages)
 - **Technology Stack:** HTML, CSS, JavaScript, YAML
 - **Deployment:** GitHub Pages (automatic from main branch)
 
