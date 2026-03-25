@@ -114,7 +114,8 @@ After **every** file modification, agents must commit and push:
 
 ```bash
 git add .
-git commit -m "AI-Assisted Update: <summary of changes> - Model: <model-name>
+git commit -m "AI-Assisted Update: <summary of changes>
+Model: <model-name>
 Files: <list of changed files>"
 git push origin master
 ```
