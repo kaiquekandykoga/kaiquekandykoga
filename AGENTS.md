@@ -114,14 +114,16 @@ After **every** file modification, agents must commit and push:
 
 ```bash
 git add .
-git commit -m "AI-Assisted Update: <summary of changes> - Files: <list of changed files>"
+git commit -m "AI-Assisted Update: <summary of changes> - Model: <model-name>
+Files: <list of changed files>"
 git push origin master
 ```
 
 - Changes must push to **master** branch (required for GitHub Pages)
 - Use descriptive commit messages explaining the purpose
 - Include "AI-Assisted" prefix in commit messages to indicate AI assistance
-- Include a summary of files that were changed/created/deleted in the commit message
+- Include the model being used when feasible
+- Include a summary of files that were changed/created/deleted in the commit message (on a separate line)
 - Never skip this workflow - it's the single source of truth
 
 ---
