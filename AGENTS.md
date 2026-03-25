@@ -2,174 +2,139 @@
 
 This file describes data to be used by AI agents when working on this app, following the agents.md specification.
 
-## App Structure
+## Project Overview
 
-- **docs/** contains the HTML, CSS, and JavaScript files used to build the GitHub Pages site.
-- **docs/index.html** - Main HTML file with theme switching and tab navigation
-- **docs/main.css** - Stylesheet with light/dark theme support
-- **docs/about.js** - JavaScript for loading and displaying about data from YAML
-- **docs/external_links.js** - JavaScript for loading and displaying external links from YAML
-- **docs/about.yaml** - YAML data file containing personal information and interests
-- **docs/external_links.yaml** - YAML data file containing external link configurations
+This is a **static website** for a personal portfolio built with plain HTML, CSS, and JavaScript - no frameworks, no build tools, no servers required. The site is deployed via GitHub Pages.
 
-The site has three main sections:
-1. **About** - Personal information loaded from about.yaml
-2. **External Links** - Professional platform links loaded from external_links.yaml
+### Directory Structure
+
+- **docs/** - All source files for the GitHub Pages site
+  - `index.html` - Main HTML file with theme switching and tab navigation
+  - `main.css` - Stylesheet with light/dark theme support
+  - `main.js` - Theme management and tab functionality
+  - `about.js` - About page data loading from YAML
+  - `external_links.js` - External links loading from YAML
+  - `about.yaml` - Personal information data
+  - `external_links.yaml` - External link configurations
+  - `js-yaml.min.js` - YAML parsing library (CDN fallback)
+
+### Site Sections
+
+1. **About** - Personal info loaded from about.yaml
+2. **External Links** - Professional platform links from external_links.yaml
 3. **Open Source** - Static "Under Construction" section
 
-## Agent Capabilities
+---
 
-The agent is designed to:
+## Commands
 
-1. Build and update the static HTML site inside **docs/** for GitHub Pages.
-2. Use only **HTML, CSS, and JavaScript** inside the docs/ directory.
-3. Modify **YAML data files** (about.yaml, external_links.yaml) to update content.
-4. Operate through the **cline CLI**.
-5. Handle **client-side rendering** with JavaScript and YAML data loading.
-6. Support **theme switching** (light/dark mode) functionality.
-7. After modifying any files, the agent must **always commit and push the changes** using the Git Workflow defined below.
+Since this is a static website with no build process:
 
-## Technology Stack
+- **Test/View**: Open `docs/index.html` directly in any browser (no server needed)
+- **Validate**: Check HTML structure, CSS validity, and YAML syntax
+- **No build/lint/test commands** - This project uses plain HTML/CSS/JS with no dependencies to test
 
-This project is built using **plain HTML, CSS, and JavaScript** - no frameworks, no build tools, no servers required!
+---
 
-### For Developers & AI Agents
+## Code Style Guidelines
 
-**Important:** This is a static website that runs directly in the browser. To test or view this application:
+### General Principles
 
-1. **No server setup needed** - Just open any `.html` file directly in your browser
-2. **No Python, Node.js, or other servers required**
-3. **No build process** - The files are ready to use as-is
-4. **Cross-platform compatibility** - Works in any modern browser
+- Keep files simple and self-contained
+- Use semantic HTML, CSS, and vanilla JavaScript only
+- No frameworks, bundlers, or preprocessors
+- Maintain cross-browser compatibility
+- Ensure accessibility (ARIA labels, proper contrast)
 
-### Quick Start
+### HTML Guidelines
 
-```bash
-# Clone the repository
-git clone https://github.com/kaiquekandykoga/kaiquekandykoga.git
+- Use semantic elements (`<header>`, `<main>`, `<section>`, `<nav>`)
+- Include proper meta tags for responsive design
+- Maintain theme toggle button structure
+- Preserve tab navigation functionality with proper ARIA attributes
 
-# Navigate to the project
-cd kaiquekandykoga
+### CSS Guidelines
 
-# Open in browser (no server needed!)
-open docs/index.html
-# or
-start docs/index.html  # Windows
-```
+- Use CSS custom properties (`--variable-name`) for theme colors
+- Support both light and dark themes via `data-theme` attribute
+- Maintain responsive design (mobile-first approach)
+- Use classes for styling, avoid inline styles
+- 2-space indentation
 
-**Note for AI Agents:** When working with this codebase, remember that all files are static and can be opened directly in a browser without any server setup or build process.
+### JavaScript Guidelines
 
-## Dependencies
+- Use `const` and `let` - never `var`
+- Use 4-space indentation
+- Use camelCase for function and variable names
+- Include error handling for all async operations (fetch, YAML loading)
+- Always provide fallback data when loading external files
+- Use `DOMContentLoaded` for initialization
+- Keep functions focused and small
 
-- **jsyaml** - JavaScript library for parsing YAML files (loaded via CDN in HTML)
-- **GitHub Pages** - Deployment platform (requires master branch for automatic deployment)
-- **No build tools** - Site runs directly in browser without compilation
+### YAML Guidelines
+
+- Use 2-space indentation (no tabs)
+- Quote strings with special characters
+- Use consistent key naming (lowercase with underscores)
+- Validate syntax before committing
+
+---
 
 ## Data Management
 
-### YAML Files Structure
-
-**about.yaml** format:
+### about.yaml Format
 ```yaml
 - name: "Full Name"
 - interests: "Comma-separated list of interests"
 ```
 
-**external_links.yaml** format:
+### external_links.yaml Format
 ```yaml
 - name: "Platform Name"
   url: "https://example.com"
-  description: "Brief description of the platform"
+  description: "Brief description"
   icon: "svg-icon-markup"
 ```
 
-### Guidelines
-- Always validate YAML syntax after modifications
-- Maintain consistent indentation (2 spaces)
-- Include fallback content in JavaScript for loading failures
-- Test external links for accessibility and proper formatting
+---
 
 ## Error Handling
 
-- JavaScript includes fallback data if YAML loading fails
-- Always test site functionality after making changes
-- Validate HTML structure and CSS styling
-- Check for JavaScript console errors
-- Ensure theme switching works correctly
+- JavaScript must include fallback data if YAML loading fails
+- Test site functionality after any changes
+- Check browser console for errors
+- Validate theme switching works correctly
+- Ensure all external links are accessible
+
+---
 
 ## Git Workflow (Mandatory)
 
-**IMPORTANT: AI agents MUST automatically commit and push changes after every file modification.**
+After **every** file modification, agents must commit and push:
 
-Whenever the agent modifies, creates, or deletes files, it **must** include the following commands in the final terminal step:
-
-1. Stage all changes:
-```
+```bash
 git add .
-```
-2. Commit with a descriptive message summarizing the changes:
-```
 git commit -m "Update: <summary of changes>"
-```
-3. Push to the master branch (required for GitHub Pages):
-```
 git push origin master
 ```
 
-These commands must appear in the final terminal command sequence **every time file changes occur**.  
-The agent must not consider a task complete until the Git Workflow has been executed.
+- Changes must push to **master** branch (required for GitHub Pages)
+- Use descriptive commit messages explaining the purpose
+- Never skip this workflow - it's the single source of truth
 
-**Important Notes:**
-- Changes must be pushed to the **master branch** for GitHub Pages to deploy
-- Use descriptive commit messages that explain the purpose of changes
-- This git workflow is the single source of truth for all git operations
-- Do not create conflicting git skills in the `.cline/skills/` directory
-- **AI agents must automatically execute these commands without requiring user intervention**
-
-## Rules for File Editing
-
-### General Rules
-- The agent must ensure all edits inside **docs/** remain valid HTML, CSS, or JavaScript
-- The agent must avoid introducing build steps or frameworks (no bundlers, no preprocessors)
-- The agent must preserve existing structure unless explicitly instructed to refactor
-- Always maintain accessibility standards (semantic HTML, proper ARIA labels)
-
-### HTML Guidelines
-- Use semantic HTML elements
-- Include proper meta tags for responsive design
-- Maintain theme toggle button structure
-- Preserve tab navigation functionality
-
-### CSS Guidelines
-- Support both light and dark themes
-- Use CSS custom properties for theme colors
-- Maintain responsive design for mobile devices
-- Follow existing naming conventions
-
-### JavaScript Guidelines
-- Include error handling for YAML loading failures
-- Maintain existing event listeners and functionality
-- Use vanilla JavaScript (no frameworks)
-- Follow existing code structure and patterns
-
-### YAML Guidelines
-- Use 2-space indentation
-- Maintain consistent key naming
-- Include proper quoting for strings with special characters
-- Validate syntax before committing
+---
 
 ## Deployment
 
-- **GitHub Pages** automatically deploys from the master branch
-- Site URL: https://kaiquekandykoga.github.io/kaiquekandykoga/
-- No additional deployment steps required beyond git push
-- Changes are live within minutes of pushing to master branch
+- **Platform**: GitHub Pages (automatic from master branch)
+- **URL**: https://kaiquekandykoga.github.io/kaiquekandykoga/
+- **Process**: Push to master triggers deployment (live within minutes)
+
+---
 
 ## Metadata
 
-- **Repository:** https://github.com/kaiquekandykoga/kaiquekandykoga
-- **GitHub Pages:** https://kaiquekandykoga.github.io/kaiquekandykoga/
-- **Primary Branch:** master (required for GitHub Pages)
-- **Technology Stack:** HTML, CSS, JavaScript, YAML
-- **Deployment:** GitHub Pages (automatic from main branch)
+- **Repository**: https://github.com/kaiquekandykoga/kaiquekandykoga
+- **Primary Branch**: master
+- **Technology Stack**: HTML, CSS, JavaScript, YAML
 
