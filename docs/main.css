@@ -121,15 +121,97 @@ h1 {
 
 .repo-list {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .repo-list li {
-    margin-bottom: 8px;
-    padding: 8px;
-    background: white;
-    border-radius: 8px;
-    border-left: 4px solid var(--primary-color);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 16px;
+    transition: all 0.2s ease;
+}
+
+.repo-list li:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.repo-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.repo-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+.repo-link:hover {
+    color: var(--primary-color);
+}
+
+.repo-link svg {
+    flex-shrink: 0;
+}
+
+.repo-description {
+    color: var(--muted-color);
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.expandable-content {
+    display: none;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-color);
+}
+
+.expandable-content.open {
+    display: block;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.expandable-content p {
+    margin: 0 0 8px 0;
+    color: var(--text-color);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.expandable-content p strong {
+    color: var(--primary-color);
+}
+
+.open-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.open-link:hover {
+    background-color: #be123c;
+    transform: translateY(-1px);
 }
 
 .star-icon {
@@ -154,10 +236,6 @@ h1 {
     font-weight: 600;
     font-size: 1rem;
     transition: color 0.2s ease;
-}
-
-.repo-link:hover {
-    color: var(--primary-color);
 }
 
 .tabs {

@@ -149,20 +149,16 @@ function displayExternalLinks(links) {
         
         // Create the external link item HTML with expandable content
         listItem.innerHTML = `
-            <a href="#" class="repo-link expandable-link" data-url="${link.url}" data-description="${link.description}">
-                <span style="display: inline-flex; align-items: center; gap: 8px;">
+            <div class="repo-header">
+                <a href="#" class="repo-link" data-url="${link.url}" data-description="${link.description}">
                     ${iconSvg}
                     ${link.name}
-                </span>
-            </a>
-            <span class="repo-description">
-                → ${link.category}
-            </span>
-            <div class="expandable-content" style="display: none;">
-                <p><strong>Link Details:</strong></p>
+                </a>
+                <span class="repo-description">→ ${link.category}</span>
+            </div>
+            <div class="expandable-content">
                 <p>${link.description}</p>
-                <p><strong>Category:</strong> ${link.category}</p>
-                <a href="${link.url}" class="open-link" target="_blank" rel="noopener noreferrer">Open ${link.name} in new tab →</a>
+                <a href="${link.url}" class="open-link" target="_blank" rel="noopener noreferrer">Open →</a>
             </div>
         `;
         
@@ -223,40 +219,17 @@ function addExpandableListeners() {
 }
 
 function handleListItemClick(e) {
-    // Find the expandable content within the same list item
     const content = this.querySelector('.expandable-content');
     
-    // If clicking on the open-link button, let it work normally
     if (e.target.classList.contains('open-link')) {
         return;
     }
     
-    // Toggle the visibility with animation
-    if (content.classList.contains('collapsing') || content.style.display === 'none' || !content.style.display) {
-        // Opening animation
-        content.style.display = 'block';
-        content.classList.remove('collapsing');
-        content.style.maxHeight = '200px';
-        content.style.opacity = '1';
-        
-        // Update the open link href to match the data-url from the expandable link
-        const expandableLink = this.querySelector('.expandable-link');
-        const openLink = content.querySelector('.open-link');
-        if (openLink && expandableLink && expandableLink.dataset.url) {
-            openLink.href = expandableLink.dataset.url;
-        }
-    } else {
-        // Closing animation
-        content.classList.add('collapsing');
-        content.style.opacity = '0';
-        content.style.maxHeight = '0';
-        
-        // Hide content after animation completes
-        setTimeout(() => {
-            if (content.classList.contains('collapsing')) {
-                content.style.display = 'none';
-                content.classList.remove('collapsing');
-            }
-        }, 300); // Match the animation duration
+    content.classList.toggle('open');
+    
+    const expandableLink = this.querySelector('.repo-link');
+    const openLink = content.querySelector('.open-link');
+    if (openLink && expandableLink && expandableLink.dataset.url) {
+        openLink.href = expandableLink.dataset.url;
     }
 }
