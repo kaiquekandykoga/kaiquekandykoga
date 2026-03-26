@@ -20,9 +20,4 @@ Software engineer focused on distributed systems and AI engineering.
 
 Visit the live version: [https://kaiquekandykoga.github.io/kaiquekandykoga/](https://kaiquekandykoga.github.io/kaiquekandykoga/)
 
-## Connect
-
-- GitHub: [https://github.com/kaiquekandykoga](https://github.com/kaiquekandykoga)
-- Personal Site: [https://kaiquekandykoga.github.io/kaiquekandykoga/](https://kaiquekandykoga.github.io/kaiquekandykoga/)
-
 ---
