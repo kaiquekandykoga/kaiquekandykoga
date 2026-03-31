@@ -22,6 +22,6 @@ Visit the live version: [https://kaiquekandykoga.github.io/kaiquekandykoga/](htt
 
 ## Open Source
 
-- [BSD Awesome](https://github.com/kaiquekandykoga/bsd_awesome): A curated, Awesome-style repository of BSD resources, featuring a personal collection of relevant and practical links for BSD systems
+- [BSD Way](https://github.com/kaiquekandykoga/bsd_way): A repository of BSD resources, roadmaps, and other relevant materials, curated based on personal research and preferences
 
 ---
