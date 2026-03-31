@@ -20,4 +20,8 @@ Software engineer focused on distributed systems and AI engineering.
 
 Visit the live version: [https://kaiquekandykoga.github.io/kaiquekandykoga/](https://kaiquekandykoga.github.io/kaiquekandykoga/)
 
+## Open Source
+
+- [BSD Awesome](https://github.com/kaiquekandykoga/bsd_awesome): A curated, Awesome-style repository of BSD resources, featuring a personal collection of relevant and practical links for BSD systems
+
 ---
