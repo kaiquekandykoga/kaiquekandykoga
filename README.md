@@ -9,7 +9,7 @@ Welcome to my GitHub profile! 🌟
 
 Software engineer focused on distributed systems and AI engineering.
 
-## Interests
+## Intrigued by
 
 - Distributed Systems
 - AI Engineering
@@ -20,7 +20,7 @@ Software engineer focused on distributed systems and AI engineering.
 
 Visit the live version: [https://kaiquekandykoga.github.io/kaiquekandykoga/](https://kaiquekandykoga.github.io/kaiquekandykoga/)
 
-## Open Source
+## Research links
 
 - [BSD Way](https://github.com/kaiquekandykoga/bsd_way): A repository of BSD resources, roadmaps, and other relevant materials, curated based on personal research and preferences
 
