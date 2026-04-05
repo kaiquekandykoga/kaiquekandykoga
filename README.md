@@ -7,9 +7,9 @@ Welcome to my GitHub profile! 🌟
 
 ## About Me
 
-Software engineer intrigued by Distributed Systems, AI Engineering, BSD Systems, and Programming Languages
+Software engineer intrigued by distributed systems, AI engineering, BSD systems, and programming languages
 
-## 🌐 Live Site
+#### 🌐 Live Site
 
 Visit the live version: [https://kaiquekandykoga.github.io/kaiquekandykoga/](https://kaiquekandykoga.github.io/kaiquekandykoga/)
 
