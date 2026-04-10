@@ -16,5 +16,6 @@ Visit the live version: [https://kaiquekandykoga.github.io/kaiquekandykoga/](htt
 ## Research links
 
 - [BSD Way](https://github.com/kaiquekandykoga/bsd_way): A repository of BSD resources, roadmaps, and other relevant materials, curated based on personal research and preferences
+- [AI Spider](https://github.com/kaiquekandykoga/ai_spider): This is an experimental app that uses Python and an LLM to discover resources on the web. Right now, the focus is on finding available job listings across selected websites
 
 ---
