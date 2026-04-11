@@ -9,10 +9,6 @@ Welcome to my GitHub profile! 🌟
 
 Software engineer intrigued by distributed systems, AI engineering, BSD systems, and programming languages
 
-#### 🌐 Live Site
-
-Visit the live version: [https://kaiquekandykoga.github.io/kaiquekandykoga/](https://kaiquekandykoga.github.io/kaiquekandykoga/)
-
 ## Research links
 
 - [BSD Way](https://github.com/kaiquekandykoga/bsd_way): A repository of BSD resources, roadmaps, and other relevant materials, curated based on personal research and preferences
