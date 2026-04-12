@@ -1,6 +1,7 @@
 # Kaíque Kandy Koga
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/kaiquekandykoga)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/kandy-koga)
 
 Welcome to my GitHub profile! 🌟
 
