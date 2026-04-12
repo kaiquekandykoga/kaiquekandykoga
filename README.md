@@ -16,7 +16,7 @@ Software engineer intrigued by distributed systems, AI engineering, BSD systems,
   [![GitHub](https://img.shields.io/badge/GitHub-OpenCode-pink?logo=github)](https://opencode.ai)
 
 - [AI Spider](https://github.com/kaiquekandykoga/ai_spider): Discover and summarize job listings from across the web using AI  
-  [![Python](https://img.shields.io/badge/Python-blue?logo=python)](https://github.com/kaiquekandykoga)
+  [![Python](https://img.shields.io/badge/Python-blue?logo=python)](https://www.python.org)
   [![LangChain](https://img.shields.io/badge/LangChain-black)](https://www.langchain.com)
   [![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-green)](https://ollama.com)
   [![GitHub](https://img.shields.io/badge/GitHub-OpenCode-pink?logo=github)](https://opencode.ai)
