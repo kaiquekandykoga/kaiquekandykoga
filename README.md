@@ -7,7 +7,7 @@ Welcome to my GitHub profile! 🌟
 
 ## About Me
 
-Software engineer intrigued by distributed systems, AI engineering, BSD systems, and programming languages
+Software engineer intrigued by distributed systems, AI engineering 🤖 , BSD systems, and programming languages
 
 ## Research links
 
