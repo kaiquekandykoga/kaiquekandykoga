@@ -23,4 +23,8 @@ Software engineer intrigued by distributed systems, AI engineering 🤖 , BSD sy
   [![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-green)](https://ollama.com)
   [![GitHub](https://img.shields.io/badge/GitHub-OpenCode-pink?logo=github)](https://opencode.ai)
 
+- [AI Git](https://github.com/kaiquekandykoga/ai_git): AI-powered git commit and push tool using Ollama  
+  [![Ruby](https://img.shields.io/badge/Ruby-Scripts-red?logo=ruby)](https://www.ruby-lang.org)
+  [![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-green)](https://ollama.com)
+
 ---
