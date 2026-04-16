@@ -3,7 +3,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/kaiquekandykoga)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/kandy-koga)
 [![dev.to](https://img.shields.io/badge/dev.to-kaiquekandykoga-white?logo=dev.to&logoColor=white&labelColor=orange)](https://dev.to/kaiquekandykoga)
-[![X](https://img.shields.io/badge/X-kaiquekandykoga-white?logo=x&logoColor=white&labelColor=red)](https://x.com/kaiquekandykoga)
+[![X](https://img.shields.io/badge/kaiquekandykoga-white?logo=x&logoColor=white&labelColor=red)](https://x.com/kaiquekandykoga)
 
 
 Welcome to my GitHub profile! 🌟
