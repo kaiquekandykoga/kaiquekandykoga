@@ -2,6 +2,8 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/kaiquekandykoga)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/kandy-koga)
+[![dev.to](https://img.shields.io/badge/dev.to-kaiquekandykoga-white?logo=dev.to&logoColor=white&labelColor=orange)](https://dev.to/kaiquekandykoga)
+
 
 Welcome to my GitHub profile! 🌟
 
