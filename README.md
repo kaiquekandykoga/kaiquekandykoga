@@ -15,11 +15,9 @@ Software engineer intrigued by distributed systems, AI engineering 🤖 , BSD sy
 
 ## Research links
 
-- [BSD Way](https://github.com/kaiquekandykoga/bsd_way): AI‑generated README.md containing BSD‑related data curated according to my personal preferences  
+- [AI Git](https://github.com/kaiquekandykoga/ai_git): AI‑powered Git commit + push tool using SLMs  
   [![Ruby](https://img.shields.io/badge/Ruby-Scripts-red?logo=ruby)](https://www.ruby-lang.org)
   [![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-white?logo=ollama&logoColor=white&labelColor=green)](https://ollama.com)
-  [![Markdown](https://img.shields.io/badge/Markdown-Documentation-white?logo=markdown&logoColor=white&labelColor=blue)](https://github.com/kaiquekandykoga)
-  [![GitHub](https://img.shields.io/badge/GitHub-OpenCode-pink?logo=github)](https://opencode.ai)
 
 - [AI Spider](https://github.com/kaiquekandykoga/ai_spider): [Experimental] Discover and summarize job listings from across the web using AI  
   ![PySide6](https://img.shields.io/badge/PySide6-Python-white?logo=qt&logoColor=white&labelColor=41CD52)
@@ -27,8 +25,11 @@ Software engineer intrigued by distributed systems, AI engineering 🤖 , BSD sy
   [![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-white?logo=ollama&logoColor=white&labelColor=green)](https://ollama.com)
   [![GitHub](https://img.shields.io/badge/GitHub-OpenCode-pink?logo=github)](https://opencode.ai)
 
-- [AI Git](https://github.com/kaiquekandykoga/ai_git): AI‑powered Git commit + push tool using SLMs  
+- [BSD Way](https://github.com/kaiquekandykoga/bsd_way): AI‑generated README.md containing BSD‑related data curated according to my personal preferences  
   [![Ruby](https://img.shields.io/badge/Ruby-Scripts-red?logo=ruby)](https://www.ruby-lang.org)
   [![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-white?logo=ollama&logoColor=white&labelColor=green)](https://ollama.com)
+  [![Markdown](https://img.shields.io/badge/Markdown-Documentation-white?logo=markdown&logoColor=white&labelColor=blue)](https://github.com/kaiquekandykoga)
+  [![GitHub](https://img.shields.io/badge/GitHub-OpenCode-pink?logo=github)](https://opencode.ai)
+
 
 ---
