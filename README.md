@@ -15,7 +15,7 @@ Software engineer intrigued by distributed systems, AI engineering 🤖 , BSD sy
 
 ## Research links
 
-- [AI Git](https://github.com/kaiquekandykoga/ai_git): AI‑powered Git commit + push tool using SLMs  
+- [AI Git](https://github.com/kaiquekandykoga/ai_git): AI‑powered Git using SLMs  
   [![Ruby](https://img.shields.io/badge/Ruby-red?logo=ruby)](https://www.ruby-lang.org)
   [![Ollama](https://img.shields.io/badge/Ollama-green?logo=ollama&logoColor=white&labelColor=green)](https://ollama.com)
 
