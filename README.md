@@ -15,7 +15,7 @@ Software engineer intrigued by distributed systems, AI engineering 🤖 , BSD sy
 
 ## Research links
 
-- [BSD Way](https://github.com/kaiquekandykoga/bsd_way): [Experimental] AI‑generated README.md containing BSD‑related data curated according to my personal preferences  
+- [BSD Way](https://github.com/kaiquekandykoga/bsd_way): AI‑generated README.md containing BSD‑related data curated according to my personal preferences  
   [![Ruby](https://img.shields.io/badge/Ruby-Scripts-red?logo=ruby)](https://www.ruby-lang.org)
   [![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-white?logo=ollama&logoColor=white&labelColor=green)](https://ollama.com)
   [![Markdown](https://img.shields.io/badge/Markdown-Documentation-white?logo=markdown&logoColor=white&labelColor=blue)](https://github.com/kaiquekandykoga)
