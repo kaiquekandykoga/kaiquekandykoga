@@ -17,6 +17,10 @@ Software engineer intrigued by distributed systems, AI engineering 🤖 , BSD sy
 
 On 18 April 2026, I decided to pause all my active research projects and shift my focus to something I believe will bring far more value. Starting 19 April 2026, I am building a new group of agents from scratch to automate my workflow. For now, all agentic repositories remain closed source, but over time I plan to share more about the project
 
+## Research Active
+
+- Army Of Personal Agents: Closed Source
+
 ## Research Paused
 
 - [AI Git](https://github.com/kaiquekandykoga/ai_git): AI‑powered Git using SLMs  
