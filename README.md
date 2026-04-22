@@ -23,7 +23,7 @@ On 18 April 2026, I decided to pause all my active research projects and shift m
 
 - [AI Git](https://github.com/kaiquekandykoga/ai_git): AI‑powered Git using Open Models  
   [![Ruby](https://img.shields.io/badge/Ruby-red?logo=ruby)](https://www.ruby-lang.org)
-  ![Jan AI](https://img.shields.io/badge/Jan%20AI-%F0%9F%91%8B-yellow)
+  [![Jan AI](https://img.shields.io/badge/%F0%9F%91%8B-Jan%20AI-yellow?labelColor=yellow)](https://www.jan.ai)
   [![Ollama](https://img.shields.io/badge/Ollama-green?logo=ollama&logoColor=white&labelColor=green)](https://ollama.com)
 
 ## Research Paused
