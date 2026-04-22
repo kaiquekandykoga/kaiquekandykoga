@@ -23,7 +23,7 @@ On 18 April 2026, I decided to pause all my active research projects and shift m
 
 ## Research Paused
 
-- [AI Git](https://github.com/kaiquekandykoga/ai_git): AI‑powered Git using SLMs  
+- [AI Git](https://github.com/kaiquekandykoga/ai_git): AI‑powered Git using Open Models  
   [![Ruby](https://img.shields.io/badge/Ruby-red?logo=ruby)](https://www.ruby-lang.org)
   [![Ollama](https://img.shields.io/badge/Ollama-green?logo=ollama&logoColor=white&labelColor=green)](https://ollama.com)
 
