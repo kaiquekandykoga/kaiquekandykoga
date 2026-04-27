@@ -9,7 +9,7 @@ Overwrite the entire content of README.md with text that includes:
 
     A statement that the README.md was auto‑generated using Manus Connector from Meta (Manus 1.6 Lite)
 
-    A statement that I am using Hermes Agent for automation
+    A statement that I am using Hermes Agent for automation. Claude, Codex, and OpenCode for coding. Gemini and Perplexity for researching. Jan AI, Ollama, LM Studio, and oMLX for local models. Copilot for text refinement
 
     A note indicating that the prompt used to generate the README.md can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
