@@ -1,5 +1,6 @@
 Perform the following actions in the repository:
 https://github.com/kaiquekandykoga/kaiquekandykoga
+
 1. Replace README.md
 
 Overwrite the entire content of README.md with text that includes:
@@ -11,6 +12,7 @@ Overwrite the entire content of README.md with text that includes:
     A statement that I am using Hermes Agent for automation
 
 Only modify README.md. Do not change any other files except those listed in this prompt.
+
 2. Create PROMPT.md
 
 Create a new file named PROMPT.md in the root of the repository.
