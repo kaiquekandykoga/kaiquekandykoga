@@ -1,5 +1,15 @@
 # Kaíque Kandy Koga
 
+This README.md was auto-generated using Manus Connector from Meta.
+
+> Update README.md from https://github.com/kaiquekandykoga/kaiquekandykoga to contain exactly the following details:
+> * Include my full name Kaíque Kandy Koga at the beginning of the README.md
+> * State that the README.md was auto‑generated using Manus Connector from Meta
+> * Add a quote containing the full prompt I am typing here
+> * Mention that I am using Hermes Agent for automation
+
+I am using Hermes Agent for automation.
+
 [![GitHub](https://img.shields.io/badge/kaiquekandykoga-white?logo=github&logoColor=white&labelColor=green)](https://github.com/kaiquekandykoga)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kandykoga-white?logo=linkedin&logoColor=white&labelColor=blue)](https://www.linkedin.com/in/kandy-koga)
 [![dev.to](https://img.shields.io/badge/kaiquekandykoga-white?logo=dev.to&logoColor=white&labelColor=orange)](https://dev.to/kaiquekandykoga)
