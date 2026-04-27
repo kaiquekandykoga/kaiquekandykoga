@@ -14,3 +14,8 @@ Overwrite the entire content of README.md with text that includes:
     A note indicating that the prompt used to generate the README.md can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
 Only modify README.md. Do not change any other files except those listed in this prompt.
+
+2. Create PROMPT.md
+
+Create a new file named PROMPT.md in the root of the repository.
+Insert the full text of the prompt I am typing (the complete instructions I am giving right now).
