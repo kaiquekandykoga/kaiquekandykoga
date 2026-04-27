@@ -5,13 +5,11 @@
 [![dev.to](https://img.shields.io/badge/kaiquekandykoga-white?logo=dev.to&logoColor=white&labelColor=orange)](https://dev.to/kaiquekandykoga)
 [![X](https://img.shields.io/badge/kaiquekandykoga-white?logo=x&logoColor=white&labelColor=red)](https://x.com/kaiquekandykoga)
 
-
-
 Welcome to my GitHub profile! 🌟
 
 ## About Me
 
-Software engineer intrigued by distributed systems, AI engineering 🤖 , BSD systems, and programming languages
+I have autonomous agents running on my laptop 24/7 🤖
 
 ## Current Project
 
@@ -19,7 +17,7 @@ On 18 April 2026, I decided to pause all my active research projects and shift m
 
 ## Research Active
 
-- Army Of Personal Agents: Closed Source
+- Designing autonomous agent systems: Closed Source
 
 - [AI Git](https://github.com/kaiquekandykoga/ai_git): AI‑powered Git using Open Models  
   [![Ruby](https://img.shields.io/badge/Ruby-red?logo=ruby)](https://www.ruby-lang.org)
