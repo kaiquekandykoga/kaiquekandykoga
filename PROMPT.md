@@ -11,6 +11,8 @@ Overwrite the entire content of README.md with text that includes:
 
     A statement that I am using Hermes Agent for automation
 
+    A note indicating that the prompt used to generate the README.md can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
+
 Only modify README.md. Do not change any other files except those listed in this prompt.
 
 2. Create PROMPT.md
