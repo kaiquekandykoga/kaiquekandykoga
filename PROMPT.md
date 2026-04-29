@@ -11,6 +11,8 @@ Overwrite the entire content of README.md with text that includes:
 
     A statement that I am using Hermes Agent and Manus AI for task automation. Codex, Claude, and OpenCode for coding. Google Gemini and Perplexity for researching. llama.cpp and Jan AI for inference servers. Microsoft Copilot for text refinement
 
+    A statement that I am building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories
+
     A note indicating that the prompt used to generate the README.md can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
 Only modify README.md. Do not change any other files except those listed in this prompt
