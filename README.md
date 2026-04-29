@@ -1,7 +1,9 @@
-Kaíque Kandy Koga
+# Kaíque Kandy Koga
 
-This `README.md` file was auto-generated using Manus Connector from Meta (Manus 1.6 Lite) as part of a scheduled task. Last updated on Wed Apr 29 13:31:29 NZST 2026.
+This README.md was auto-generated using Manus Connector from Meta (Manus 1.6 Lite) as part of a scheduled task. This file was last updated on 2026-04-29 22:05:48 UTC.
 
-I am using Hermes Agent and Manus for automation. Codex, Claude, OpenCode, and Cursor for coding. Gemini and Perplexity for researching. Jan AI, Ollama, LM Studio, and oMLX for local models. Copilot for text refinement.
+I am using Hermes Agent and Manus AI for task automation. Codex and OpenCode for coding. Google Gemini for researching. llama.cpp and Jan AI for inference servers. Microsoft Copilot for simple tasks.
 
-The prompt used to generate this `README.md` can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
+I am building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories.
+
+The prompt used to generate this README.md can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
