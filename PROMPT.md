@@ -7,7 +7,7 @@ Overwrite the entire content of README.md with text that includes:
 
     My full name Kaíque Kandy Koga at the top
 
-    A statement for the README.md indicating that the file was auto‑generated using Manus Connector from Meta (Manus 1.6 Lite) as part of a scheduled task. The statement must include the current UTC date to show when the README.md was last updated
+    A statement for the README.md indicating that the file was auto‑generated using Manus Connector from Meta (Manus 1.6 Lite) as part of a scheduled task. It must also clarify that all content was originally written by me, but rephrased by AI during the README creation process. The statement must include the current UTC date to show when the README.md was last updated
 
     A statement that I am using Hermes Agent and Manus AI for task automation. Codex and OpenCode for coding. Google Gemini for researching. llama.cpp and Jan AI for inference servers. Microsoft Copilot for simple tasks
 
