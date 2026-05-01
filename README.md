@@ -1,23 +1,9 @@
-# Kaíque Kandy Koga
+Kaíque Kandy Koga
 
-## Auto-Generated README
+This README.md file was auto-generated using Manus Connector from Meta (Manus 1.6 Lite) as part of a scheduled task. All content was originally written by me, Kaíque Kandy Koga, but rephrased by AI during the README creation process. This README.md was last updated on May 01, 2026 UTC.
 
-This README.md was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task. This file was last updated on **April 30, 2026 UTC**. All content was originally written by me, but rephrased by AI during the README creation process.
+I am currently leveraging Hermes Agent and Manus AI for task automation. For coding, I utilize Codex and OpenCode. Google Gemini assists me with researching, while llama.cpp and Jan AI are employed for inference servers. Microsoft Copilot is used for simpler tasks.
 
-## Tools & Technologies
+I am actively developing [AI Git](https://github.kaiquekandykoga/ai_git), a project designed to harness the power of artificial intelligence for managing Git repositories.
 
-I leverage a comprehensive suite of AI and development tools to optimize my workflow:
-
-- **Hermes Agent** and **Manus AI** for task automation
-- **Codex** and **OpenCode** for coding assistance
-- **Google Gemini** for research and information gathering
-- **llama.cpp** and **Jan AI** for inference servers
-- **Microsoft Copilot** for handling simple tasks
-
-## Current Project
-
-I am actively building **[AI Git](https://github.com/kaiquekandykoga/ai_git)**, an innovative project that leverages artificial intelligence to intelligently manage Git repositories. This project aims to streamline version control workflows through AI-powered automation and insights.
-
-## About This README
-
-The prompt used to generate this README.md can be found at: [PROMPT.md](https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md)
+The prompt used to generate this README.md can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
