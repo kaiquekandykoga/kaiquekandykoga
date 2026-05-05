@@ -1,9 +1,20 @@
-Kaíque Kandy Koga
+# Kaíque Kandy Koga
 
-This `README.md` file was auto-generated using Manus Connector from Meta (Manus 1.6 Lite) as part of a scheduled task. All content was originally written by me, but rephrased by AI during the README creation process. This file was last updated on May 04, 2026 UTC.
+This `README.md` file was auto‑generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task on **May 05, 2026 UTC**. While the content was originally authored by me, it has been rephrased and structured by AI during the generation process.
 
-I am currently using Hermes Agent and Manus AI for task automation. For coding, I utilize Codex and OpenCode. Google Gemini assists me with researching, while llama.cpp and Jan AI are employed for inference servers. Microsoft Copilot is used for simpler tasks.
+### Task Automation & Tools
+I leverage a diverse suite of AI tools to streamline my workflow and enhance productivity:
+- **Task Automation:** Hermes Agent and Manus AI
+- **Coding:** Codex and OpenCode
+- **Research:** Google Gemini
+- **Inference Servers:** llama.cpp and Jan AI
+- **General Tasks:** Microsoft Copilot
 
-I am actively developing [AI Git](https://github.kaiquekandykoga/ai_git), a project designed to leverage artificial intelligence for efficient Git repository management.
+### Current Project
+I am currently developing [AI Git](https://github.com/kaiquekandykoga/ai_git), an innovative project designed to leverage artificial intelligence for the efficient management of Git repositories.
 
-The prompt used to generate this `README.md` can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
+### Transparency
+The specific prompt and instructions used to generate this `README.md` can be reviewed at the following location: [PROMPT.md](https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md)
+
+---
+*Last updated: May 05, 2026 UTC*
