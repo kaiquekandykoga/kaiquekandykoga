@@ -13,6 +13,9 @@ Overwrite the entire content of README.md with text that includes:
 
     A statement that I am building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories
 
+    A statement explaining my Hermes Agent use cases:
+        backup of Hermes Agent itself, keeping only the newest snapshots to save space in cloud storage
+
     A note indicating that the prompt used to generate the README.md can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
 Only modify README.md. Do not change any other files except those listed in this prompt
