@@ -1,23 +1,11 @@
-# Kaíque Kandy Koga
+Kaíque Kandy Koga
 
-This README.md was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task. Please note that while all content was originally written by me, it has been rephrased by AI during the creation process.
-**Last updated:** May 12, 2026 UTC
+This README.md file was auto-generated using Manus Connector from Meta (Manus 1.6 Lite) as part of a scheduled task. All content was originally written by me, but rephrased by AI during the README creation process. This file was last updated on May 13, 2026 UTC.
 
-## Tech Stack & Automation
-I utilize a variety of AI tools and agents for my workflows:
-*   **Task Automation:** Hermes Agent and Manus AI
-*   **Coding:** Codex and OpenCode
-*   **Research:** Google Gemini
-*   **Inference Servers:** llama.cpp and Jan AI
-*   **Simple Tasks:** Microsoft Copilot
+I leverage Hermes Agent and Manus AI for task automation. For coding, I utilize Claude Code, Codex, and OpenCode. Google Gemini assists me with researching, while llama.cpp and Jan AI serve as my inference servers. For simpler tasks, I rely on Microsoft Copilot.
 
-## Projects
-I am currently building **[AI Git](https://github.com/kaiquekandykoga/ai_git)**, a project that leverages AI to manage Git repositories efficiently.
+I am currently building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories.
 
-## Hermes Agent Use Cases
-I use Hermes Agent for several automation tasks, including:
-*   **Self-Backup:** Automating the backup of Hermes Agent itself, ensuring only the newest snapshots are kept to optimize cloud storage usage.
+My Hermes Agent use cases include backing up Hermes Agent itself, retaining only the newest snapshots to optimize cloud storage space.
 
----
-> [!NOTE]
-> The prompt used to generate this README.md can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
+The prompt used to generate this README.md can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
