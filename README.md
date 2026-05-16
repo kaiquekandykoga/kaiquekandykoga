@@ -1,11 +1,20 @@
 # Kaíque Kandy Koga
 
-This `README.md` file was auto-generated using Manus Connector from Meta (Manus 1.6 Lite) as part of a scheduled task. All content was originally written by me, but rephrased by AI during the README creation process. Last updated: 2026-05-15 00:00:00 UTC
+This file was auto‑generated using Manus Connector from Meta (Manus 1.6 Lite) as part of a scheduled task. All content was originally written by me, but rephrased by AI during the README creation process.
 
-I am currently using Hermes Agent and Manus AI for task automation. For coding, I leverage Claude Code, Codex, and OpenCode. Google Gemini assists with researching, while llama.cpp is utilized for inference server. Microsoft Copilot is employed for simpler tasks.
+**Last Updated:** May 16, 2026 (UTC)
 
-I am actively building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories.
+---
 
-My Hermes Agent use cases include: backing up Hermes Agent itself, retaining only the newest snapshots to optimize cloud storage space.
+I am using **Hermes Agent** and **Manus AI** for task automation. For coding, I rely on **Claude Code**, **Codex**, and **OpenCode**. I use **Google Gemini** for researching, **llama.cpp** for my inference server, and **Microsoft Copilot** for simple tasks.
 
-The prompt used to generate this `README.md` can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
+I am currently building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories.
+
+### Hermes Agent Use Cases
+My use cases for Hermes Agent include:
+*   **Self-Backup:** Automating the backup of Hermes Agent itself, ensuring only the newest snapshots are kept to optimize cloud storage space.
+
+---
+
+> [!NOTE]
+> The prompt used to generate this README.md can be found at: [https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md](https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md)
