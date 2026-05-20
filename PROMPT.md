@@ -1,21 +1,40 @@
-Perform the following actions in the repository:
+# README Generation Prompt
+
+## Target Repository
 https://github.com/kaiquekandykoga/kaiquekandykoga
 
-1. Replace README.md
+## Task
+Overwrite `README.md` with newly generated content. Do not modify any other file.
 
-Overwrite the entire content of README.md with text that includes:
+## Required Content (in order)
 
-    My full name Kaíque Kandy Koga at the top
+### 1. Name
+Start with the full name: **Kaíque Kandy Koga**
 
-    A statement for the README.md indicating that the file was auto‑generated using Manus Connector from Meta (Manus 1.6 Lite) as part of a scheduled task. It must also clarify that all content was originally written by me, but rephrased by AI during the README creation process. The statement must include the current UTC date to show when the README.md was last updated
+### 2. Auto-generation Notice
+State that `README.md` was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task. Clarify that:
+- All content was originally written by the author
+- It was rephrased by AI during the README creation process
+- Include the current UTC date to indicate when the file was last updated
 
-    A statement that I am using Hermes Agent and Manus AI for task automation. Claude Code, Codex and OpenCode for coding. Google Gemini for researching. llama.cpp for inference server. Microsoft Copilot for simple tasks
+### 3. Tooling Stack
+State that the author uses the following tools:
+- **Task automation**: Hermes Agent, Manus AI
+- **Coding**: Claude Code, Codex, OpenCode
+- **Research**: Google Gemini
+- **Inference server**: llama.cpp
+- **Simple tasks**: Microsoft Copilot
 
-    A statement that I am building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories
+### 4. Current Project
+State that the author is building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories.
 
-    A statement explaining my Hermes Agent use cases:
-        backup of Hermes Agent itself, keeping only the newest snapshots to save space in cloud storage
+### 5. Hermes Agent Use Cases
+Explain that the author uses Hermes Agent to back up itself, keeping only the newest snapshots to save space in cloud storage.
 
-    A note indicating that the prompt used to generate the README.md can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
+### 6. Footer Note
+Add a note that the prompt used to generate this README can be found at:
+https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
-Only modify README.md. Do not change any other files except those listed in this prompt
+## Constraints
+- Only modify `README.md`
+- Do not change `PROMPT.md`, `AGENTS.md`, `opencode.json`, or any workflow files
