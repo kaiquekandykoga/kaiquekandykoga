@@ -1,18 +1,28 @@
 # Kaíque Kandy Koga
 
-This README.md file was auto-generated using Manus Connector from Meta (Manus 1.6 Lite) as part of a scheduled task on May 20, 2026 (UTC). Please note that while all content was originally authored by me, it has been rephrased by AI during the creation process of this document.
+This `README.md` was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task. All content included here was originally written by the author and subsequently rephrased by AI during the README creation process.
 
-I utilize a variety of advanced tools for my workflows:
-- **Task Automation**: Hermes Agent and Manus AI.
-- **Coding**: Claude Code, Codex, and OpenCode.
-- **Research**: Google Gemini.
-- **Inference**: llama.cpp (inference server).
-- **Simple Tasks**: Microsoft Copilot.
+**Last Updated:** May 20, 2026 (UTC)
 
-I am currently developing [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages artificial intelligence to manage Git repositories efficiently.
+## Tooling Stack
 
-### Hermes Agent Use Cases
-- **Self-Backup**: I use Hermes Agent to manage its own backups, keeping only the newest snapshots to save space in cloud storage.
+The following tools are central to my workflow:
+
+- **Task automation**: Hermes Agent, Manus AI
+- **Coding**: Claude Code, Codex, OpenCode
+- **Research**: Google Gemini
+- **Inference server**: llama.cpp
+- **Simple tasks**: Microsoft Copilot
+
+## Current Project
+
+I am currently developing [AI Git](https://github.com/kaiquekandykoga/ai_git), a project designed to leverage artificial intelligence for more efficient Git repository management.
+
+## Hermes Agent Use Cases
+
+I utilize Hermes Agent to perform self-backups, strategically retaining only the most recent snapshots to optimize cloud storage consumption.
 
 ---
-*The prompt used to generate this README.md can be found at: [PROMPT.md](https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md)*
+
+> [!NOTE]
+> The prompt used to generate this README can be found at: [https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md](https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md)
