@@ -22,7 +22,7 @@ State that the author uses the following tools:
 - **Task automation**: Hermes Agent, Manus AI
 - **Coding**: Claude Code, Codex, OpenCode
 - **Research**: Google Gemini
-- **Inference server**: llama.cpp
+- **Inference server**: NVIDIA NIM, llama.cpp
 - **Simple tasks**: Microsoft Copilot
 
 ### 4. Current Project
