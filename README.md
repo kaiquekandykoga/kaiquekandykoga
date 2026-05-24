@@ -1,25 +1,35 @@
-Kaíque Kandy Koga
+# Kaíque Kandy Koga
 
-This `README.md` was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task. All content was originally written by the author and rephrased by AI during the README creation process. Last updated: May 23, 2026 UTC.
+This `README.md` was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task. All content presented here was originally written by the author and subsequently rephrased by AI during the README creation process.
 
-## Tooling Stack
+**Last Updated:** May 24, 2026 (UTC)
 
-Kaíque Kandy Koga utilizes the following tools in his work:
+---
 
-- **Task automation**: Hermes Agent, Manus AI
-- **Coding**: Claude Code, Codex, OpenCode
-- **Research**: Google Gemini
-- **Inference server**: NVIDIA NIM, llama.cpp
-- **Simple tasks**: Microsoft Copilot
+### Tooling Stack
 
-## Current Project
+The author leverages a specialized set of tools for various workflows:
 
-Currently, Kaíque Kandy Koga is building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories.
+*   **Task Automation:** Hermes Agent, Manus AI
+*   **Coding:** Claude Code, Codex, OpenCode
+*   **Research:** Google Gemini
+*   **Inference Server:** NVIDIA NIM, llama.cpp
+*   **Simple Tasks:** Microsoft Copilot
 
-## Hermes Agent Use Cases
+---
 
-The Hermes Agent is used to back up itself, retaining only the newest snapshots to optimize cloud storage space.
+### Current Projects
 
-## Footer Note
+*   **[AI Git](https://github.com/kaiquekandykoga/ai_git):** A project focused on leveraging artificial intelligence to manage and optimize Git repositories.
+*   **Claude Code Skill:** I am currently developing a skill for Claude Code that interprets requirements directly from video recordings using `ffmpeg`. This tool automates the building, testing, and fixing of Playwright E2E tests in TypeScript, iterating until all tests pass successfully.
 
-The prompt used to generate this README can be found at: https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
+---
+
+### Hermes Agent Use Cases
+
+I utilize the **Hermes Agent** to manage its own backups. The agent is configured to maintain only the most recent snapshots, ensuring efficient use of space in cloud storage while maintaining a reliable recovery path.
+
+---
+
+> [!NOTE]
+> The prompt used to generate this README can be found at: [PROMPT.md](https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md)
