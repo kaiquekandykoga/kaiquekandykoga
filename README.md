@@ -1,35 +1,30 @@
 # Kaíque Kandy Koga
 
-This `README.md` was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task. All content presented here was originally written by the author and subsequently rephrased by AI during the README creation process.
+## Auto-Generation Notice
 
-**Last Updated:** May 24, 2026 (UTC)
+This `README.md` was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task on **May 25, 2026 UTC**. All content was originally written by the author and was rephrased by AI during the README creation process.
 
----
+## Tooling Stack
 
-### Tooling Stack
+I leverage a comprehensive set of tools to enhance productivity and capabilities across different domains:
 
-The author leverages a specialized set of tools for various workflows:
+- **Task automation**: Hermes Agent, Manus AI
+- **Coding**: Claude Code, Codex, OpenCode
+- **Research**: Google Gemini
+- **Inference server**: NVIDIA NIM, llama.cpp
+- **Simple tasks**: Microsoft Copilot
 
-*   **Task Automation:** Hermes Agent, Manus AI
-*   **Coding:** Claude Code, Codex, OpenCode
-*   **Research:** Google Gemini
-*   **Inference Server:** NVIDIA NIM, llama.cpp
-*   **Simple Tasks:** Microsoft Copilot
+## Current Projects
 
----
+I am actively building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories, enabling more intelligent and automated version control workflows.
 
-### Current Projects
+At work, I'm developing a Claude Code skill that can interpret requirements directly from video recordings using ffmpeg. This skill builds, tests, and fixes Playwright E2E tests in TypeScript, iterating until all tests pass—automating the entire quality assurance workflow.
 
-*   **[AI Git](https://github.com/kaiquekandykoga/ai_git):** A project focused on leveraging artificial intelligence to manage and optimize Git repositories.
-*   **Claude Code Skill:** I am currently developing a skill for Claude Code that interprets requirements directly from video recordings using `ffmpeg`. This tool automates the building, testing, and fixing of Playwright E2E tests in TypeScript, iterating until all tests pass successfully.
+## Hermes Agent Use Cases
 
----
-
-### Hermes Agent Use Cases
-
-I utilize the **Hermes Agent** to manage its own backups. The agent is configured to maintain only the most recent snapshots, ensuring efficient use of space in cloud storage while maintaining a reliable recovery path.
+I use Hermes Agent to maintain automated backups of my systems, keeping only the newest snapshots to optimize storage space in cloud infrastructure while ensuring data redundancy and recovery capabilities.
 
 ---
 
-> [!NOTE]
-> The prompt used to generate this README can be found at: [PROMPT.md](https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md)
+**Note**: The prompt used to generate this README can be found at:
+https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
