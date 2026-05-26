@@ -2,11 +2,11 @@
 
 ## Auto-Generation Notice
 
-This `README.md` was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task on **May 25, 2026 UTC**. All content was originally written by the author and was rephrased by AI during the README creation process.
+This `README.md` was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task on **May 26, 2026 UTC**. All content was originally written by the author and rephrased by AI during the README creation process.
 
 ## Tooling Stack
 
-I leverage a comprehensive set of tools to enhance productivity and capabilities across different domains:
+I leverage a comprehensive set of tools to enhance my productivity and capabilities:
 
 - **Task automation**: Hermes Agent, Manus AI
 - **Coding**: Claude Code, Codex, OpenCode
@@ -16,13 +16,15 @@ I leverage a comprehensive set of tools to enhance productivity and capabilities
 
 ## Current Projects
 
-I am actively building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories, enabling more intelligent and automated version control workflows.
+I'm currently working on several exciting initiatives:
 
-At work, I'm developing a Claude Code skill that can interpret requirements directly from video recordings using ffmpeg. This skill builds, tests, and fixes Playwright E2E tests in TypeScript, iterating until all tests pass—automating the entire quality assurance workflow.
+- **AI Git**: Building a project that leverages AI to manage Git repositories. This tool aims to streamline version control workflows by integrating artificial intelligence into repository management. You can explore the project at [AI Git](https://github.com/kaiquekandykoga/ai_git).
+
+- **Claude Code Skill for Video-Based Requirements**: At work, I'm developing a Claude Code skill that can interpret requirements directly from video recordings using ffmpeg. This skill builds, tests, and fixes Playwright E2E tests in TypeScript, iterating until all tests pass. This approach combines video analysis with automated test generation and refinement.
 
 ## Hermes Agent Use Cases
 
-I use Hermes Agent to maintain automated backups of my systems, keeping only the newest snapshots to optimize storage space in cloud infrastructure while ensuring data redundancy and recovery capabilities.
+I utilize Hermes Agent for automated backup management, keeping only the newest snapshots to optimize cloud storage usage. This ensures efficient backup maintenance while preserving critical system states.
 
 ---
 
