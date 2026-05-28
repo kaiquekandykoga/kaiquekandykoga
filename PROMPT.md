@@ -14,11 +14,11 @@ Start with the full name: **Kaíque Kandy Koga**
 ### 2. Auto-generation Notice
 State that `README.md` was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task. Clarify that:
 - All content was originally written by the author
-- It was rephrased by AI during the README creation process
+- It was rephrased by AI during the README generation process
 - Include the current UTC date to indicate when the file was last updated
 
 ### 3. Tooling Stack
-State that the author uses the following tools:
+State that the author uses the following tools, grouped by purpose:
 - **Task automation**: Hermes Agent, Manus AI
 - **Coding**: Claude Code, Codex, OpenCode
 - **Research**: Google Gemini
@@ -26,12 +26,12 @@ State that the author uses the following tools:
 - **Simple tasks**: Microsoft Copilot
 
 ### 4. Current Projects
-- State that the author is building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories.
-- State that the author is building [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp).
-- At work, I’m building a Claude Code skill that can interpret requirements directly from a video recording using ffmpeg and whisper. From there, it builds, tests, and fixes Playwright E2E tests in TypeScript, iterating until everything passes
+- The author is building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories.
+- The author is building [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp), an MCP server for Bitbucket.
+- At work, the author is building a Claude Code skill that interprets requirements directly from a video recording using ffmpeg and whisper. It then builds, tests, and fixes Playwright E2E tests in TypeScript, iterating until everything passes.
 
 ### 5. Hermes Agent Use Cases
-Explain that the author uses Hermes Agent to back up itself, keeping only the newest snapshots to save space in cloud storage.
+Explain that the author uses Hermes Agent to back itself up, retaining only the newest snapshots to conserve cloud storage space.
 
 ### 6. Footer Note
 Add a note that the prompt used to generate this README can be found at:
