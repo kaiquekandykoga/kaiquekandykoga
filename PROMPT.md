@@ -27,6 +27,7 @@ State that the author uses the following tools:
 
 ### 4. Current Projects
 - State that the author is building [AI Git](https://github.com/kaiquekandykoga/ai_git), a project that leverages AI to manage Git repositories.
+- State that the author is building [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp).
 - At work, I’m building a Claude Code skill that can interpret requirements directly from a video recording using ffmpeg and whisper. From there, it builds, tests, and fixes Playwright E2E tests in TypeScript, iterating until everything passes
 
 ### 5. Hermes Agent Use Cases
