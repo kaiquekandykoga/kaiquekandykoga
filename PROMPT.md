@@ -30,10 +30,14 @@ State that the author uses the following tools, grouped by purpose:
 - The author is building [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp), an MCP server for Bitbucket.
 - At work, the author is building a Claude Code skill that interprets requirements directly from a video recording using ffmpeg and whisper. It then builds, tests, and fixes Playwright E2E tests in TypeScript, iterating until everything passes.
 
-### 5. Hermes Agent Use Cases
+### 5. Paused Projects
+- The author was building [AI Spider](https://github.com/kaiquekandykoga/ai_spider), an AI-powered web crawler.
+- The author was building [BSD Way](https://github.com/kaiquekandykoga/bsd_way), an AI-Generated resources for BSD systems.
+
+### 6. Hermes Agent Use Cases
 Explain that the author uses Hermes Agent to back itself up, retaining only the newest snapshots to conserve cloud storage space.
 
-### 6. Footer Note
+### 7. Footer Note
 Add a note that the prompt used to generate this README can be found at:
 https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
