@@ -2,7 +2,7 @@
 
 This README.md was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task. All content was originally written by me and only rephrased by AI during the generation process.
 
-**Last Updated:** June 03, 2026 (UTC)
+**Last Updated:** June 04, 2026 (UTC)
 
 ## Tooling Stack
 
@@ -18,7 +18,7 @@ This README.md was auto-generated using **Manus Connector from Meta (Manus 1.6 L
 
 - [AI Git](https://github.com/kaiquekandykoga/ai_git) — a project that leverages AI to manage Git repositories.
 - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — an MCP server for Bitbucket.
-- At work, a Claude Code skill that interprets requirements directly from a video recording using **ffmpeg** and **whisper**. It then builds, tests, and fixes **Playwright E2E tests** in **TypeScript**, iterating until everything passes.
+- At work, I use a Claude Code skill that interprets requirements directly from a video recording using **ffmpeg** and **whisper**. It then builds, tests, and fixes **Playwright E2E tests** in **TypeScript**, iterating until everything passes.
 
 ## Paused Projects
 
