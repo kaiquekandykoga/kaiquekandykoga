@@ -4,7 +4,7 @@
 
 ## English
 
-This README.md was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task. All content was originally written by me and only rephrased by AI during the generation process.
+This README.md was auto-generated as part of a scheduled task. All content was originally written by me and only rephrased by AI during the generation process.
 
 **Last Updated:** June 07, 2026 (UTC)
 
@@ -40,7 +40,7 @@ https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
 ## 日本語
 
-このREADME.mdは、スケジュールされたタスクの一環として **Manus Connector from Meta (Manus 1.6 Lite)** を使用して自動生成されました。内容はすべて私自身が執筆したもので、生成の過程でAIによって言い換えられただけです。
+このREADME.mdは、スケジュールされたタスクの一環として自動生成されました。内容はすべて私自身が執筆したもので、生成の過程でAIによって言い換えられただけです。
 
 **最終更新:** 2026年6月7日 (UTC)
 
