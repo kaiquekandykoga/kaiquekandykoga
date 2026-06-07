@@ -11,5 +11,7 @@ GitHub profile repo (kaiquekandykoga/kaiquekandykoga). Static content only — n
 
 ## Files
 
-- `README.md` — auto-generated via Manus Connector; prompt at `PROMPT.md`
-- `PROMPT.md` — generation instructions; do not execute or modify without request
+- `README.md` — auto-generated as part of a scheduled task from `PROMPT.md`. Bilingual: English (New Zealand English) first, then Japanese. Do not edit by hand — regenerate from the prompt.
+- `PROMPT.md` — generation instructions; do not execute or modify without request. The pinned wording carries the NZ-English and Japanese cultural phrasing, so keep it verbatim to stay stable between runs.
+- `AGENTS.md` — agent guidance for this repo (this file).
+- `CLAUDE.md` — symlink to `AGENTS.md`, so Claude Code reads the same guidance.
