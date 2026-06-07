@@ -6,15 +6,18 @@ https://github.com/kaiquekandykoga/kaiquekandykoga
 ## Task
 Overwrite `README.md` with newly generated content based on this prompt. Do not modify any other file.
 
-`README.md` must contain **two versions of the same content** in a single file: **English first, then Japanese**. The Japanese version is a faithful translation of the English version — same sections, same order, same facts.
+`README.md` must contain **two versions of the same content** in a single file: **English first, then Japanese**. The English version is written in **New Zealand (NZ) English**, and the Japanese version is rendered in **natural, culturally appropriate Japanese** — same sections, same order, same facts in both, but each expressed the way a reader of that language would naturally put it, rather than a word-for-word translation.
 
 This runs as a scheduled task, so the output must be **stable**: regenerating without any change to this prompt should alter only the "Last Updated" date. Keep section order, headings, wording, translations, and formatting identical between runs. Use the exact text pinned below for both languages verbatim — do not re-translate or rephrase freely, as that would make the file drift between runs.
 
 ## Voice & Style
 - Write in the **first person** ("I", present tense) — the README speaks as the author. The Japanese version keeps the same first-person voice.
+- **English — New Zealand English.** Use NZ/Commonwealth spelling and vocabulary (e.g. `-ise`, `-our`, and `-re` endings such as `organise`, `colour`, `centre`) and the NZ day-month date format (`7 June 2026`). Express ideas the Kiwi way — understated, modest, and plain-spoken, with the occasional friendly turn of phrase ("a wee project", "keep at it", "save on") — and steer clear of hype or self-promotion, in keeping with the local tall-poppy modesty.
+- **Japanese — natural, culturally attuned Japanese.** Write idiomatic Japanese rather than a literal translation. Keep the polite です/ます register, favour humble, modest phrasing (謙遜 — e.g. 「〜にすぎません」, 「ささやかな」, 「地道に」), and address the reader courteously (e.g. 「ご確認いただけます」).
 - Keep the tone concise, professional, and factual. Prefer plain statements over marketing language.
 - Use GitHub-flavored Markdown: a table for the tooling stack, bullet lists for projects.
 - Do **not** add badges, shields, images, emojis, banners, or any sections beyond those specified below.
+- The NZ-English and Japanese cultural flavour is already baked into the pinned wording below — reproduce it **verbatim** so the file changes only the date between runs.
 
 ## Output Layout
 Structure the file exactly like this:
@@ -31,7 +34,7 @@ Within **each** version, in this order:
 - that version's footer note (section 7).
 
 ## Required Content (in order)
-Each item gives the **English** and **Japanese** text to use verbatim. Keep all project names, URLs, and tool names identical (untranslated) in both versions; translate prose only.
+Each item gives the **English** and **Japanese** text to use verbatim. Keep all project names, URLs, and tool names identical (untranslated) in both versions; adapt the prose only, exactly as pinned.
 
 ### 1. Name
 Single top-level heading (`#`) with the full name: **Kaíque Kandy Koga**. Same in both versions; appears once as the page title.
@@ -39,15 +42,15 @@ Single top-level heading (`#`) with the full name: **Kaíque Kandy Koga**. Same 
 ### 2. Auto-generation Notice
 State that `README.md` was auto-generated as part of a scheduled task, that all content was originally written by me and only rephrased by AI during the generation process, and show when the file was last updated on its own line.
 
-- **English** — label **Last Updated:**, current UTC date in the format `Month DD, YYYY (UTC)` (e.g., `May 30, 2026 (UTC)`):
+- **English** — label **Last Updated:**, current UTC date in the NZ day-month format `D Month YYYY (UTC)` (e.g., `30 May 2026 (UTC)`):
 
-  This README.md was auto-generated as part of a scheduled task. All content was originally written by me and only rephrased by AI during the generation process.
+  This README.md was auto-generated as part of a scheduled task. All the content was originally written by me — AI just tidied up the wording during generation.
 
-  **Last Updated:** Month DD, YYYY (UTC)
+  **Last Updated:** D Month YYYY (UTC)
 
 - **Japanese** — label **最終更新:**, the same date in the format `YYYY年M月D日 (UTC)` (e.g., `2026年5月30日 (UTC)`):
 
-  このREADME.mdは、スケジュールされたタスクの一環として自動生成されました。内容はすべて私自身が執筆したもので、生成の過程でAIによって言い換えられただけです。
+  このREADME.mdは、スケジュールされたタスクの一環として自動生成されたものです。内容はすべて私自身が執筆しており、生成の過程でAIが表現を整えただけにすぎません。
 
   **最終更新:** YYYY年M月D日 (UTC)
 
@@ -78,13 +81,13 @@ A two-column Markdown table, in this order.
 A bullet list.
 
 - **English** — heading `Current Projects`:
-  - [AI Git](https://github.com/kaiquekandykoga/ai_git) — a project that leverages AI to manage Git repositories.
+  - [AI Git](https://github.com/kaiquekandykoga/ai_git) — a wee project that uses AI to help manage Git repositories.
   - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — an MCP server for Bitbucket.
-  - At work, I use a Claude Code skill that interprets requirements directly from a video recording using **ffmpeg** and **whisper**. It then builds, tests, and fixes **Playwright E2E tests** in **TypeScript**, iterating until everything passes.
+  - At work, I use a Claude Code skill that interprets requirements straight from a video recording using **ffmpeg** and **whisper**. It then builds, tests, and fixes **Playwright E2E tests** in **TypeScript**, keeping at it until everything passes.
 - **Japanese** — heading `進行中のプロジェクト`:
-  - [AI Git](https://github.com/kaiquekandykoga/ai_git) — AIを活用してGitリポジトリを管理するプロジェクト。
+  - [AI Git](https://github.com/kaiquekandykoga/ai_git) — AIを活用してGitリポジトリを管理する、ささやかなプロジェクト。
   - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — Bitbucket用のMCPサーバー。
-  - 仕事では、**ffmpeg** と **whisper** を使って動画の録画から直接要件を解釈する Claude Code スキルを使用しています。その後、**TypeScript** で **Playwright E2Eテスト** を構築・テスト・修正し、すべて通過するまで繰り返します。
+  - 仕事では、**ffmpeg** と **whisper** を使って動画の録画から直接要件を読み取る Claude Code スキルを使用しています。その後、**TypeScript** で **Playwright E2Eテスト** を構築・テスト・修正し、すべて通るまで地道に繰り返しています。
 
 ### 5. Paused Projects
 A bullet list (these are on hold).
@@ -101,29 +104,29 @@ Explain that I use Hermes Agent to back itself up, retaining only the newest sna
 
 - **English** — heading `Hermes Agent Use Cases`:
 
-  I use Hermes Agent to back itself up, retaining only the newest snapshots to conserve cloud storage space.
+  I use Hermes Agent to back itself up, keeping only the newest snapshots to save on cloud storage.
 
 - **Japanese** — heading `Hermes Agent の用途`:
 
-  私は Hermes Agent を使って Hermes Agent 自体をバックアップしており、クラウドストレージの容量を節約するために最新のスナップショットのみを保持しています。
+  私は Hermes Agent を使って Hermes Agent 自体をバックアップしており、クラウドストレージの容量を節約するために、最新のスナップショットのみを保持するようにしています。
 
 ### 7. Footer Note
 At the end of **each** version, after a horizontal rule (`---`), add a note pointing to the prompt. The URL is identical in both.
 
 - **English:**
 
-  The prompt used to generate this README can be found at:
+  You can find the prompt used to generate this README here:
   https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
 - **Japanese:**
 
-  このREADMEの生成に使用したプロンプトは、次の場所で確認できます:
+  このREADMEの生成に使用したプロンプトは、以下からご確認いただけます:
   https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
 ## Constraints
 - Only modify `README.md`. Do not change `PROMPT.md`, `AGENTS.md`, `opencode.json`, or any workflow files.
 - Use only the facts in this prompt. Do not invent projects, statistics, dates, links, employers, or biographical details, and do not embellish beyond what is stated here.
-- Keep all project names, URLs, and tool names exactly as written above, in both versions — translate prose only.
+- Keep all project names, URLs, and tool names exactly as written above, in both versions — adapt the prose only (English in NZ English, Japanese in natural Japanese), per the pinned wording.
 - Include **both** the English and the Japanese version on every run, English first, each containing every section in the order given; do not add, drop, reorder, or rename sections.
-- Both versions must show the **same** "Last Updated" date: English as `Month DD, YYYY (UTC)`, Japanese as `YYYY年M月D日 (UTC)`.
+- Both versions must show the **same** "Last Updated" date: English in the NZ day-month format `D Month YYYY (UTC)`, Japanese as `YYYY年M月D日 (UTC)`.
 - Use the pinned wording above for both languages verbatim; do not re-translate or rephrase between runs.
