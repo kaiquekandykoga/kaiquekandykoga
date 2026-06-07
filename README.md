@@ -4,9 +4,9 @@
 
 ## English
 
-This README.md was auto-generated as part of a scheduled task. All content was originally written by me and only rephrased by AI during the generation process.
+This README.md was auto-generated as part of a scheduled task. All the content was originally written by me — AI just tidied up the wording during generation.
 
-**Last Updated:** June 07, 2026 (UTC)
+**Last Updated:** 7 June 2026 (UTC)
 
 ### Tooling Stack
 
@@ -20,9 +20,9 @@ This README.md was auto-generated as part of a scheduled task. All content was o
 
 ### Current Projects
 
-- [AI Git](https://github.com/kaiquekandykoga/ai_git) — a project that leverages AI to manage Git repositories.
+- [AI Git](https://github.com/kaiquekandykoga/ai_git) — a wee project that uses AI to help manage Git repositories.
 - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — an MCP server for Bitbucket.
-- At work, I use a Claude Code skill that interprets requirements directly from a video recording using **ffmpeg** and **whisper**. It then builds, tests, and fixes **Playwright E2E tests** in **TypeScript**, iterating until everything passes.
+- At work, I use a Claude Code skill that interprets requirements straight from a video recording using **ffmpeg** and **whisper**. It then builds, tests, and fixes **Playwright E2E tests** in **TypeScript**, keeping at it until everything passes.
 
 ### Paused Projects
 
@@ -31,16 +31,16 @@ This README.md was auto-generated as part of a scheduled task. All content was o
 
 ### Hermes Agent Use Cases
 
-I use Hermes Agent to back itself up, retaining only the newest snapshots to conserve cloud storage space.
+I use Hermes Agent to back itself up, keeping only the newest snapshots to save on cloud storage.
 
 ---
 
-The prompt used to generate this README can be found at:
+You can find the prompt used to generate this README here:
 https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
 ## 日本語
 
-このREADME.mdは、スケジュールされたタスクの一環として自動生成されました。内容はすべて私自身が執筆したもので、生成の過程でAIによって言い換えられただけです。
+このREADME.mdは、スケジュールされたタスクの一環として自動生成されたものです。内容はすべて私自身が執筆しており、生成の過程でAIが表現を整えただけにすぎません。
 
 **最終更新:** 2026年6月7日 (UTC)
 
@@ -56,9 +56,9 @@ https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
 ### 進行中のプロジェクト
 
-- [AI Git](https://github.com/kaiquekandykoga/ai_git) — AIを活用してGitリポジトリを管理するプロジェクト。
+- [AI Git](https://github.com/kaiquekandykoga/ai_git) — AIを活用してGitリポジトリを管理する、ささやかなプロジェクト。
 - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — Bitbucket用のMCPサーバー。
-- 仕事では、**ffmpeg** と **whisper** を使って動画の録画から直接要件を解釈する Claude Code スキルを使用しています。その後、**TypeScript** で **Playwright E2Eテスト** を構築・テスト・修正し、すべて通過するまで繰り返します。
+- 仕事では、**ffmpeg** と **whisper** を使って動画の録画から直接要件を読み取る Claude Code スキルを使用しています。その後、**TypeScript** で **Playwright E2Eテスト** を構築・テスト・修正し、すべて通るまで地道に繰り返しています。
 
 ### 中断中のプロジェクト
 
@@ -67,9 +67,9 @@ https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
 ### Hermes Agent の用途
 
-私は Hermes Agent を使って Hermes Agent 自体をバックアップしており、クラウドストレージの容量を節約するために最新のスナップショットのみを保持しています。
+私は Hermes Agent を使って Hermes Agent 自体をバックアップしており、クラウドストレージの容量を節約するために、最新のスナップショットのみを保持するようにしています。
 
 ---
 
-このREADMEの生成に使用したプロンプトは、次の場所で確認できます:
+このREADMEの生成に使用したプロンプトは、以下からご確認いただけます:
 https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
