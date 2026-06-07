@@ -37,17 +37,17 @@ Each item gives the **English** and **Japanese** text to use verbatim. Keep all 
 Single top-level heading (`#`) with the full name: **Kaíque Kandy Koga**. Same in both versions; appears once as the page title.
 
 ### 2. Auto-generation Notice
-State that `README.md` was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task, that all content was originally written by me and only rephrased by AI during the generation process, and show when the file was last updated on its own line.
+State that `README.md` was auto-generated as part of a scheduled task, that all content was originally written by me and only rephrased by AI during the generation process, and show when the file was last updated on its own line.
 
 - **English** — label **Last Updated:**, current UTC date in the format `Month DD, YYYY (UTC)` (e.g., `May 30, 2026 (UTC)`):
 
-  This README.md was auto-generated using **Manus Connector from Meta (Manus 1.6 Lite)** as part of a scheduled task. All content was originally written by me and only rephrased by AI during the generation process.
+  This README.md was auto-generated as part of a scheduled task. All content was originally written by me and only rephrased by AI during the generation process.
 
   **Last Updated:** Month DD, YYYY (UTC)
 
 - **Japanese** — label **最終更新:**, the same date in the format `YYYY年M月D日 (UTC)` (e.g., `2026年5月30日 (UTC)`):
 
-  このREADME.mdは、スケジュールされたタスクの一環として **Manus Connector from Meta (Manus 1.6 Lite)** を使用して自動生成されました。内容はすべて私自身が執筆したもので、生成の過程でAIによって言い換えられただけです。
+  このREADME.mdは、スケジュールされたタスクの一環として自動生成されました。内容はすべて私自身が執筆したもので、生成の過程でAIによって言い換えられただけです。
 
   **最終更新:** YYYY年M月D日 (UTC)
 
