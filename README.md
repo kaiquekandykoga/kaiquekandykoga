@@ -6,7 +6,7 @@
 
 This README.md was auto-generated as part of a scheduled task. All the content was originally written by me — AI just tidied up the wording during generation.
 
-**Last Updated:** 9 June 2026 (UTC)
+**Last Updated:** 10 June 2026 (UTC)
 
 ### Tooling Stack
 
@@ -21,7 +21,7 @@ This README.md was auto-generated as part of a scheduled task. All the content w
 ### Current Projects
 
 - [AI Git](https://github.com/kaiquekandykoga/ai_git) — a wee project that uses AI to help manage Git repositories.
-- [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — an MCP server for Bitbucket.
+- [Bitbucket MCP](https://github.kaiquekandykoga/bitbucket_mcp) — an MCP server for Bitbucket.
 - At work, I use a Claude Code skill that interprets requirements straight from a video recording using **ffmpeg** and **whisper**. It then builds, tests, and fixes **Playwright E2E tests** in **TypeScript**, keeping at it until everything passes.
 
 ### Paused Projects
@@ -42,7 +42,7 @@ https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
 このREADME.mdは、スケジュールされたタスクの一環として自動生成されたものです。内容はすべて私自身が執筆しており、生成の過程でAIが表現を整えただけにすぎません。
 
-**最終更新:** 2026年6月9日 (UTC)
+**最終更新:** 2026年06月10日 (UTC)
 
 ### ツールスタック
 
