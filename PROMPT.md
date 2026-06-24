@@ -85,13 +85,11 @@ A bullet list.
   - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — an MCP server for Bitbucket.
   - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — an MCP server for Docker.
   - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — an MCP server for Oracle.
-  - At work, I use a Claude Code skill that interprets requirements straight from a video recording using **ffmpeg** and **whisper**. It then builds, tests, and fixes **Playwright E2E tests** in **TypeScript**, keeping at it until everything passes.
 - **Japanese** — heading `進行中のプロジェクト`:
   - [AI Git](https://github.com/kaiquekandykoga/ai_git) — AIを活用してGitリポジトリを管理する、ささやかなプロジェクト。
   - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — Bitbucket用のMCPサーバー。
   - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — Docker用のMCPサーバー。
   - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — Oracle用のMCPサーバー。
-  - 仕事では、**ffmpeg** と **whisper** を使って動画の録画から直接要件を読み取る Claude Code スキルを使用しています。その後、**TypeScript** で **Playwright E2Eテスト** を構築・テスト・修正し、すべて通るまで地道に繰り返しています。
 
 ### 5. Paused Projects
 A bullet list (these are on hold).
