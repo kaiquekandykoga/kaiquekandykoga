@@ -85,11 +85,13 @@ A bullet list.
   - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — an MCP server for Bitbucket.
   - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — an MCP server for Docker.
   - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — an MCP server for Oracle.
+  - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — an MCP server for PostgreSQL.
 - **Japanese** — heading `進行中のプロジェクト`:
   - [AI Git](https://github.com/kaiquekandykoga/ai_git) — AIを活用してGitリポジトリを管理する、ささやかなプロジェクト。
   - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — Bitbucket用のMCPサーバー。
   - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — Docker用のMCPサーバー。
   - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — Oracle用のMCPサーバー。
+  - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — PostgreSQL用のMCPサーバー。
 
 ### 5. Paused Projects
 A bullet list (these are on hold).
