@@ -24,6 +24,7 @@ This README.md was auto-generated as part of a scheduled task. All the content w
 - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — an MCP server for Bitbucket.
 - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — an MCP server for Docker.
 - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — an MCP server for Oracle.
+- [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — an MCP server for PostgreSQL.
 
 ### Paused Projects
 
@@ -61,6 +62,7 @@ https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — Bitbucket用のMCPサーバー。
 - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — Docker用のMCPサーバー。
 - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — Oracle用のMCPサーバー。
+- [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — PostgreSQL用のMCPサーバー。
 
 ### 中断中のプロジェクト
 
