@@ -25,6 +25,7 @@ This README.md was auto-generated as part of a scheduled task. All the content w
 - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — an MCP server for Docker.
 - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — an MCP server for Oracle.
 - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — an MCP server for PostgreSQL.
+- [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude) — a lightweight Ruby SDK for Claude, working through the Claude Code CLI.
 
 ### Paused Projects
 
@@ -63,6 +64,7 @@ https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — Docker用のMCPサーバー。
 - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — Oracle用のMCPサーバー。
 - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — PostgreSQL用のMCPサーバー。
+- [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude) — Claude Code CLI を介して Claude を利用する、軽量な Ruby SDK。
 
 ### 中断中のプロジェクト
 
