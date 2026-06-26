@@ -8,7 +8,7 @@ Overwrite `README.md` with newly generated content based on this prompt. Do not 
 
 `README.md` must contain **two versions of the same content** in a single file: **English first, then Japanese**. The English version is written in **New Zealand (NZ) English**, and the Japanese version is rendered in **natural, culturally appropriate Japanese** — same sections, same order, same facts in both, but each expressed the way a reader of that language would naturally put it, rather than a word-for-word translation.
 
-This runs as a scheduled task, so the output must be **stable**: regenerating without any change to this prompt should alter only the "Last Updated" date. Keep section order, headings, wording, translations, and formatting identical between runs. Use the exact text pinned below for both languages verbatim — do not re-translate or rephrase freely, as that would make the file drift between runs.
+This may be regenerated repeatedly, so the output must be **stable**: regenerating without any change to this prompt should alter only the "Last Updated" date. Keep section order, headings, wording, translations, and formatting identical between runs. Use the exact text pinned below for both languages verbatim — do not re-translate or rephrase freely, as that would make the file drift between runs.
 
 ## Voice & Style
 - Write in the **first person** ("I", present tense) — the README speaks as the author. The Japanese version keeps the same first-person voice.
@@ -40,17 +40,17 @@ Each item gives the **English** and **Japanese** text to use verbatim. Keep all 
 Single top-level heading (`#`) with the full name: **Kaíque Kandy Koga**. Same in both versions; appears once as the page title.
 
 ### 2. Auto-generation Notice
-State that `README.md` was auto-generated as part of a scheduled task, that all content was originally written by me and only rephrased by AI during the generation process, and show when the file was last updated on its own line.
+State that `README.md` was auto-generated, that all content was originally written by me and only rephrased by AI during the generation process, and show when the file was last updated on its own line.
 
 - **English** — label **Last Updated:**, current UTC date in the NZ day-month format `D Month YYYY (UTC)` (e.g., `30 May 2026 (UTC)`):
 
-  This README.md was auto-generated as part of a scheduled task. All the content was originally written by me — AI just tidied up the wording during generation.
+  This README.md was auto-generated. All the content was originally written by me — AI just tidied up the wording during generation.
 
   **Last Updated:** D Month YYYY (UTC)
 
 - **Japanese** — label **最終更新:**, the same date in the format `YYYY年M月D日 (UTC)` (e.g., `2026年5月30日 (UTC)`):
 
-  このREADME.mdは、スケジュールされたタスクの一環として自動生成されたものです。内容はすべて私自身が執筆しており、生成の過程でAIが表現を整えただけにすぎません。
+  このREADME.mdは自動生成されたものです。内容はすべて私自身が執筆しており、生成の過程でAIが表現を整えただけにすぎません。
 
   **最終更新:** YYYY年M月D日 (UTC)
 
