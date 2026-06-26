@@ -4,9 +4,9 @@
 
 ## English
 
-This README.md was auto-generated as part of a scheduled task. All the content was originally written by me — AI just tidied up the wording during generation.
+This README.md was auto-generated. All the content was originally written by me — AI just tidied up the wording during generation.
 
-**Last Updated:** 25 June 2026 (UTC)
+**Last Updated:** 26 June 2026 (UTC)
 
 ### Tooling Stack
 
@@ -43,9 +43,9 @@ https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
 
 ## 日本語
 
-このREADME.mdは、スケジュールされたタスクの一環として自動生成されたものです。内容はすべて私自身が執筆しており、生成の過程でAIが表現を整えただけにすぎません。
+このREADME.mdは自動生成されたものです。内容はすべて私自身が執筆しており、生成の過程でAIが表現を整えただけにすぎません。
 
-**最終更新:** 2026年6月25日 (UTC)
+**最終更新:** 2026年6月26日 (UTC)
 
 ### ツールスタック
 
