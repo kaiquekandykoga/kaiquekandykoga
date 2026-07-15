@@ -61,8 +61,8 @@ A two-column Markdown table, in this order.
 
 | Category | Tools |
 | :--- | :--- |
-| **Task Automation** | Hermes Agent, Manus AI |
-| **Coding** | Claude Code, Codex, OpenCode |
+| **Task Automation** | Hermes Agent |
+| **Coding** | Claude Code |
 | **Research** | Google Gemini |
 | **Inference Server** | NVIDIA NIM, llama.cpp |
 | **Simple Tasks** | Microsoft Copilot |
@@ -71,8 +71,8 @@ A two-column Markdown table, in this order.
 
 | カテゴリ | ツール |
 | :--- | :--- |
-| **タスク自動化** | Hermes Agent, Manus AI |
-| **コーディング** | Claude Code, Codex, OpenCode |
+| **タスク自動化** | Hermes Agent |
+| **コーディング** | Claude Code |
 | **リサーチ** | Google Gemini |
 | **推論サーバー** | NVIDIA NIM, llama.cpp |
 | **簡単なタスク** | Microsoft Copilot |
@@ -82,28 +82,28 @@ A bullet list.
 
 - **English** — heading `Current Projects`:
   - [AI Git](https://github.com/kaiquekandykoga/ai_git) — a wee project that uses AI to help manage Git repositories.
-  - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — an MCP server for Bitbucket.
-  - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — an MCP server for Docker.
-  - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — an MCP server for Oracle.
-  - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — an MCP server for PostgreSQL.
-  - [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude) — a lightweight Ruby SDK for Claude, working through the Claude Code CLI.
 - **Japanese** — heading `進行中のプロジェクト`:
   - [AI Git](https://github.com/kaiquekandykoga/ai_git) — AIを活用してGitリポジトリを管理する、ささやかなプロジェクト。
-  - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — Bitbucket用のMCPサーバー。
-  - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — Docker用のMCPサーバー。
-  - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — Oracle用のMCPサーバー。
-  - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — PostgreSQL用のMCPサーバー。
-  - [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude) — Claude Code CLI を介して Claude を利用する、軽量な Ruby SDK。
 
 ### 5. Paused Projects
 A bullet list (these are on hold).
 
 - **English** — heading `Paused Projects`:
   - [AI Spider](https://github.com/kaiquekandykoga/ai_spider) — an AI-powered web crawler.
+  - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — an MCP server for Bitbucket.
   - [BSD Way](https://github.com/kaiquekandykoga/bsd_way) — AI-generated resources for BSD systems.
+  - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — an MCP server for Docker.
+  - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — an MCP server for Oracle.
+  - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — an MCP server for PostgreSQL.
+  - [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude) — a lightweight Ruby SDK for Claude, working through the Claude Code CLI.
 - **Japanese** — heading `中断中のプロジェクト`:
   - [AI Spider](https://github.com/kaiquekandykoga/ai_spider) — AIを活用したWebクローラー。
+  - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp) — Bitbucket用のMCPサーバー。
   - [BSD Way](https://github.com/kaiquekandykoga/bsd_way) — BSDシステム向けのAI生成リソース。
+  - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp) — Docker用のMCPサーバー。
+  - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — Oracle用のMCPサーバー。
+  - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — PostgreSQL用のMCPサーバー。
+  - [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude) — Claude Code CLI を介して Claude を利用する、軽量な Ruby SDK。
 
 ### 6. Hermes Agent Use Cases
 Explain that I use Hermes Agent to back itself up, retaining only the newest snapshots to conserve cloud storage space.
