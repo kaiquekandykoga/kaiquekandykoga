@@ -49,7 +49,7 @@ A two-column Markdown table, in this order. Heading `Tooling Stack`:
 | Category | Tools |
 | :--- | :--- |
 | **Task Automation** | Hermes Agent |
-| **Coding** | Claude Code |
+| **Coding** | Claude Code, Codex |
 | **Research** | Google Gemini |
 | **Inference Server** | NVIDIA NIM, llama.cpp |
 | **Simple Tasks** | Microsoft Copilot |
