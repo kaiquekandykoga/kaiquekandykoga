@@ -48,15 +48,15 @@ A two-column Markdown table, in this order. Heading `Tooling Stack`:
 
 | Category | Tools |
 | :--- | :--- |
-| **Task Automation** | Hermes Agent |
 | **Coding** | Claude Code |
-| **Research** | Google Gemini |
 | **Inference Server** | NVIDIA NIM, llama.cpp |
-| **Simple Tasks** | Microsoft Copilot |
+| **Research** | Google Gemini |
+| **Task Automation** | Hermes Agent |
 
 ### 4. Current Projects
 A bullet list. Heading `Current Projects`:
   - [AI Git](https://github.com/kaiquekandykoga/ai_git) — a wee project that uses AI to help manage Git repositories.
+  - Multi-Agent System — a multi-agent system for coding-related tasks.
 
 ### 5. Paused Projects
 A bullet list (these are on hold). Heading `Paused Projects`:

@@ -2,21 +2,21 @@
 
 This README.md was auto-generated. All the content was originally written by me — AI just tidied up the wording during generation.
 
-**Last Updated:** 19 July 2026 (UTC)
+**Last Updated:** 20 July 2026 (UTC)
 
 ## Tooling Stack
 
 | Category | Tools |
 | :--- | :--- |
-| **Task Automation** | Hermes Agent |
 | **Coding** | Claude Code |
-| **Research** | Google Gemini |
 | **Inference Server** | NVIDIA NIM, llama.cpp |
-| **Simple Tasks** | Microsoft Copilot |
+| **Research** | Google Gemini |
+| **Task Automation** | Hermes Agent |
 
 ## Current Projects
 
 - [AI Git](https://github.com/kaiquekandykoga/ai_git) — a wee project that uses AI to help manage Git repositories.
+- Multi-Agent System — a multi-agent system for coding-related tasks.
 
 ## Paused Projects
 
