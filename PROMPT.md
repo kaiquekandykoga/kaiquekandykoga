@@ -49,17 +49,16 @@ A two-column Markdown table, in this order. Heading `Tooling Stack`:
 | Category | Tools |
 | :--- | :--- |
 | **Coding** | Claude Code |
-| **Inference Server** | NVIDIA NIM, llama.cpp |
+| **Inference Server** | NVIDIA API, llama.cpp |
 | **Research** | Google Gemini |
-| **Task Automation** | Hermes Agent |
 
 ### 4. Open Source Projects
 A bullet list. Heading `Open Source Projects`:
   - [AI Git](https://github.com/kaiquekandykoga/ai_git) — a wee project that uses AI to help manage Git repositories.
 
 ### 5. Private Research
-A bullet list. Heading `Private Research`:
-  - Multi-Agent System — a multi-agent system for coding-related tasks.
+A bullet list of unpublished work — name only, no link or description. Heading `Private Research`:
+  - Multi-Agent Systems
 
 ### 6. Footer Note
 At the end, after a horizontal rule (`---`), add a note pointing to the prompt.
