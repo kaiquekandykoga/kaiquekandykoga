@@ -9,9 +9,8 @@ This README.md was auto-generated. All the content was originally written by me 
 | Category | Tools |
 | :--- | :--- |
 | **Coding** | Claude Code |
-| **Inference Server** | NVIDIA NIM, llama.cpp |
+| **Inference Server** | NVIDIA API, llama.cpp |
 | **Research** | Google Gemini |
-| **Task Automation** | Hermes Agent |
 
 ## Open Source Projects
 
@@ -19,7 +18,7 @@ This README.md was auto-generated. All the content was originally written by me 
 
 ## Private Research
 
-- Multi-Agent System — a multi-agent system for coding-related tasks.
+- Multi-Agent Systems
 
 ---
 
