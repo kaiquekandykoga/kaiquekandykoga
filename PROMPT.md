@@ -50,7 +50,7 @@ A two-column Markdown table, in this order. Heading `Tooling Stack`:
 | :--- | :--- |
 | **Coding** | Claude Code |
 | **Inference Server** | NVIDIA API, llama.cpp |
-| **Research** | Google Gemini |
+| **Research** | Google Gemini, Grok |
 
 ### 4. Open Source
 A bullet list, ordered alphabetically by project name. Heading `Open Source`:

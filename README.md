@@ -2,7 +2,7 @@
 
 This README.md was auto-generated. All the content was originally written by me — AI just tidied up the wording during generation.
 
-**Last Updated:** 23 July 2026 (UTC)
+**Last Updated:** 24 July 2026 (UTC)
 
 ## Tooling Stack
 
@@ -10,7 +10,7 @@ This README.md was auto-generated. All the content was originally written by me 
 | :--- | :--- |
 | **Coding** | Claude Code |
 | **Inference Server** | NVIDIA API, llama.cpp |
-| **Research** | Google Gemini |
+| **Research** | Google Gemini, Grok |
 
 ## Open Source
 
