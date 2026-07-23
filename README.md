@@ -12,7 +12,7 @@ This README.md was auto-generated. All the content was originally written by me 
 | **Inference Server** | NVIDIA API, llama.cpp |
 | **Research** | Google Gemini |
 
-## Open Source Projects
+## Open Source
 
 - [AI Git](https://github.com/kaiquekandykoga/ai_git) — a wee project that uses AI to help manage Git repositories.
 
