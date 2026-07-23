@@ -24,7 +24,7 @@ Structure the file exactly like this:
 1. A single top-level heading (`#`) with the name — it is the page title, and appears **once** at the very top.
 2. Immediately below it:
 - the auto-generation notice and the **Last Updated** line (section 2),
-- the three content sections (Tooling Stack, Open Source Projects, Private Research) as `##` sub-headings,
+- the three content sections (Tooling Stack, Open Source, Private Research) as `##` sub-headings,
 - a horizontal rule (`---`),
 - the footer note (section 6).
 
@@ -52,8 +52,8 @@ A two-column Markdown table, in this order. Heading `Tooling Stack`:
 | **Inference Server** | NVIDIA API, llama.cpp |
 | **Research** | Google Gemini |
 
-### 4. Open Source Projects
-A bullet list. Heading `Open Source Projects`:
+### 4. Open Source
+A bullet list. Heading `Open Source`:
   - [AI Git](https://github.com/kaiquekandykoga/ai_git) — a wee project that uses AI to help manage Git repositories.
 
 ### 5. Private Research
