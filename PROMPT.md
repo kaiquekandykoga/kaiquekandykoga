@@ -65,7 +65,7 @@ A bullet list, ordered alphabetically by project name. Heading `Open Source`:
 
 ### 5. Private Research
 A bullet list of unpublished work — name only, no link or description. Heading `Private Research`:
-  - Multi-Agent Systems
+  - Multi-Agent System for Coding (inspired by OpenAI Swarm, with custom Eval Harness)
 
 ### 6. Footer Note
 At the end, after a horizontal rule (`---`), add a note pointing to the prompt.

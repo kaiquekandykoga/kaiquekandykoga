@@ -2,7 +2,7 @@
 
 This README.md was auto-generated. All the content was originally written by me — AI just tidied up the wording during generation.
 
-**Last Updated:** 24 July 2026 (UTC)
+**Last Updated:** 2 August 2026 (UTC)
 
 ## Tooling Stack
 
@@ -25,7 +25,7 @@ This README.md was auto-generated. All the content was originally written by me 
 
 ## Private Research
 
-- Multi-Agent Systems
+- Multi-Agent System for Coding (inspired by OpenAI Swarm, with custom Eval Harness)
 
 ---
 
