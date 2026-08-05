@@ -8,9 +8,8 @@ This README.md was auto-generated. All the content was originally written by me 
 
 | Category | Tools |
 | :--- | :--- |
+| **Agent** | Hermes Agent |
 | **Coding** | Claude Code |
-| **Inference Server** | NVIDIA API, llama.cpp |
-| **Research** | Google Gemini, Grok |
 
 ## Open Source
 
