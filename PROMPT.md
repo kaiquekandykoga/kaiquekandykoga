@@ -48,8 +48,8 @@ A two-column Markdown table, in this order. Heading `Tooling Stack`:
 
 | Category | Tools |
 | :--- | :--- |
-| **Agent** | Hermes Agent |
-| **Coding** | Claude Code |
+| **AI** | Hermes Agent, LangGraph, Claude Code |
+| **Language** | Ruby, TypeScript, Python |
 
 ### 4. Open Source
 A bullet list, ordered alphabetically by project name. Heading `Open Source`:
