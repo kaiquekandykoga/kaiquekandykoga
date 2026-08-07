@@ -15,13 +15,13 @@ This README.md was auto-generated. All the content was originally written by me 
 
 ### Kirinn
 
-Command-line assistant for coding work: you start a chat session in your terminal, describe what you need, and it works on your project's files for you. Rather than being one monolithic assistant, it's a small team — a conversational agent that talks to you and specialists it can pass work to, such as reviewing code and fixing what the review turns up. Handed-off work runs on its own in the background, so the chat stays responsive, and everything each agent does is recorded to a log you can read afterward to see what happened. It runs against either a locally hosted model or a hosted one, configured by environment variable, and ships with an evaluation harness for checking that the agents behave as intended. It's an internal, unpublished project.
+Kirinn is a command-line assistant for coding work. You start a chat session in your terminal, describe what you need, and it operates directly on your project's files. Instead of acting as a single assistant, it functions as a small team: a conversational agent that interacts with you and a set of specialists it can hand work to, including reviewing code and addressing issues found during review. Handed-off tasks run independently in the background so the chat remains responsive, and every action taken by each agent is recorded in a log you can review later. Kirinn can run against a locally hosted model or a hosted one configured through an environment variable, and it includes an evaluation harness for verifying agent behaviour. It is an internal, unpublished project.
 
 **Tech Stack:** Ruby
 
 ### Nishikihebi
 
-Code-review assistant for GitHub: you label a pull request or issue with nishikihebi, and it reads the discussion — and, for pull requests, the proposed changes — and posts back a review comment, re-reviewing only when there's something new to look at. It works across whichever repositories you've given it access to, with no list to maintain, and it also offers a simple interactive chat mode from the command line.
+Nishikihebi is a code-review assistant for GitHub. You label a pull request or issue with nishikihebi, and it reads the discussion and, for pull requests, the proposed changes. It then posts a review comment and performs additional reviews only when new information appears. It works across any repositories you have granted access to, with no list to maintain, and it also provides a simple interactive chat mode from the command line.
 
 **Tech Stack:** Python, LangGraph
 
