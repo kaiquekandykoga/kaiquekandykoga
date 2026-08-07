@@ -24,7 +24,7 @@ Structure the file exactly like this:
 1. A single top-level heading (`#`) with the name — it is the page title, and appears **once** at the very top.
 2. Immediately below it:
 - the auto-generation notice and the **Last Updated** line (section 2),
-- the three content sections (Tooling Stack, Open Source, Private Research) as `##` sub-headings,
+- the three content sections (Tooling Stack, AI Automation, Open Source) as `##` sub-headings,
 - a horizontal rule (`---`),
 - the footer note (section 6).
 
@@ -51,7 +51,12 @@ A two-column Markdown table, in this order. Heading `Tooling Stack`:
 | **AI** | Hermes Agent, LangGraph, Claude Code |
 | **Language** | Ruby, TypeScript, Python |
 
-### 4. Open Source
+### 4. AI Automation
+A bullet list of unpublished work, ordered alphabetically by project name — name and a short note, no links. Heading `AI Automation`:
+  - Kirinn — a multi-agent system for coding, inspired by OpenAI Swarm and paired with a custom eval harness.
+  - Nishikihebi — AI pipelines built with LangGraph, wired into GitHub.
+
+### 5. Open Source
 A bullet list, ordered alphabetically by project name. Heading `Open Source`:
   - [AI Git](https://github.com/kaiquekandykoga/ai_git) — a wee project that uses AI to help manage Git repositories.
   - [AI Spider](https://github.com/kaiquekandykoga/ai_spider) — a desktop app, built with PySide6, for spidering and gathering data with AI.
@@ -61,10 +66,6 @@ A bullet list, ordered alphabetically by project name. Heading `Open Source`:
   - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — an MCP server that lets an agent run SQL and inspect schema on an Oracle database.
   - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — an MCP server that lets an agent query and inspect a PostgreSQL database, read-only by default.
   - [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude) — a lightweight Ruby SDK that drives the Claude Code CLI using a Claude Pro/Max subscription rather than an API key.
-
-### 5. Private Research
-A bullet list of unpublished work — name only, no link or description. Heading `Private Research`:
-  - Multi-Agent System for Coding (inspired by OpenAI Swarm, with custom Eval Harness)
 
 ### 6. Footer Note
 At the end, after a horizontal rule (`---`), add a note pointing to the prompt.

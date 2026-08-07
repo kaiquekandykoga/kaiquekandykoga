@@ -2,7 +2,7 @@
 
 This README.md was auto-generated. All the content was originally written by me — AI just tidied up the wording during generation.
 
-**Last Updated:** 6 August 2026 (UTC)
+**Last Updated:** 7 August 2026 (UTC)
 
 ## Tooling Stack
 
@@ -10,6 +10,11 @@ This README.md was auto-generated. All the content was originally written by me 
 | :--- | :--- |
 | **AI** | Hermes Agent, LangGraph, Claude Code |
 | **Language** | Ruby, TypeScript, Python |
+
+## AI Automation
+
+- Kirinn — a multi-agent system for coding, inspired by OpenAI Swarm and paired with a custom eval harness.
+- Nishikihebi — AI pipelines built with LangGraph, wired into GitHub.
 
 ## Open Source
 
@@ -21,10 +26,6 @@ This README.md was auto-generated. All the content was originally written by me 
 - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp) — an MCP server that lets an agent run SQL and inspect schema on an Oracle database.
 - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp) — an MCP server that lets an agent query and inspect a PostgreSQL database, read-only by default.
 - [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude) — a lightweight Ruby SDK that drives the Claude Code CLI using a Claude Pro/Max subscription rather than an API key.
-
-## Private Research
-
-- Multi-Agent System for Coding (inspired by OpenAI Swarm, with custom Eval Harness)
 
 ---
 
