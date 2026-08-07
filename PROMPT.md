@@ -52,17 +52,17 @@ A two-column Markdown table, in this order. Heading `Tooling Stack`:
 | **Language** | Ruby, TypeScript, Python |
 
 ### 4. AI Automation
-Unpublished work, ordered alphabetically by project name. Heading `AI Automation`. Each project gets its own `###` sub-heading with the project name, followed by a short note (no links) and a **Tech Stack** line listing the tools:
+Unpublished work, ordered alphabetically by project name. Heading `AI Automation`. Each project gets its own `###` sub-heading with the project name, followed by a note (no links) and a **Tech Stack** line listing the tools:
 
   ### Kirinn
 
-  A multi-agent system for coding, inspired by OpenAI Swarm and paired with a custom eval harness.
+  Command-line assistant for coding work: you start a chat session in your terminal, describe what you need, and it works on your project's files for you. Rather than being one monolithic assistant, it's a small team — a conversational agent that talks to you and specialists it can pass work to, such as reviewing code and fixing what the review turns up. Handed-off work runs on its own in the background, so the chat stays responsive, and everything each agent does is recorded to a log you can read afterward to see what happened. It runs against either a locally hosted model or a hosted one, configured by environment variable, and ships with an evaluation harness for checking that the agents behave as intended. It's an internal, unpublished project.
 
   **Tech Stack:** Ruby
 
   ### Nishikihebi
 
-  AI pipelines for coding, wired into GitHub.
+  Code-review assistant for GitHub: you label a pull request or issue with nishikihebi, and it reads the discussion — and, for pull requests, the proposed changes — and posts back a review comment, re-reviewing only when there's something new to look at. It works across whichever repositories you've given it access to, with no list to maintain, and it also offers a simple interactive chat mode from the command line.
 
   **Tech Stack:** Python, LangGraph
 
