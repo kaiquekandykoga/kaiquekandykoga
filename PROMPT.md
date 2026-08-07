@@ -24,7 +24,7 @@ Structure the file exactly like this:
 1. A single top-level heading (`#`) with the name — it is the page title, and appears **once** at the very top.
 2. Immediately below it:
 - the auto-generation notice and the **Last Updated** line (section 2),
-- the three content sections (Tooling Stack, AI Automation, Open Source) as `##` sub-headings,
+- the three content sections (Tooling Stack, AI Automation, Open Source) as `##` sub-headings, with each AI Automation project as a `###` sub-heading beneath it,
 - a horizontal rule (`---`),
 - the footer note (section 6).
 
@@ -52,9 +52,19 @@ A two-column Markdown table, in this order. Heading `Tooling Stack`:
 | **Language** | Ruby, TypeScript, Python |
 
 ### 4. AI Automation
-A bullet list of unpublished work, ordered alphabetically by project name — name and a short note, no links. Heading `AI Automation`:
-  - Kirinn — a multi-agent system for coding, inspired by OpenAI Swarm and paired with a custom eval harness.
-  - Nishikihebi — AI pipelines built with LangGraph, wired into GitHub.
+Unpublished work, ordered alphabetically by project name. Heading `AI Automation`. Each project gets its own `###` sub-heading with the project name, followed by a short note (no links) and a **Tech Stack** line listing the tools:
+
+  ### Kirinn
+
+  A multi-agent system for coding, inspired by OpenAI Swarm and paired with a custom eval harness.
+
+  **Tech Stack:** Ruby
+
+  ### Nishikihebi
+
+  AI pipelines for coding, wired into GitHub.
+
+  **Tech Stack:** Python, LangGraph
 
 ### 5. Open Source
 A bullet list, ordered alphabetically by project name. Heading `Open Source`:
