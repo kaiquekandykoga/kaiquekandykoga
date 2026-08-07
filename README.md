@@ -13,8 +13,17 @@ This README.md was auto-generated. All the content was originally written by me 
 
 ## AI Automation
 
-- Kirinn — a multi-agent system for coding, inspired by OpenAI Swarm and paired with a custom eval harness.
-- Nishikihebi — AI pipelines built with LangGraph, wired into GitHub.
+### Kirinn
+
+A multi-agent system for coding, inspired by OpenAI Swarm and paired with a custom eval harness.
+
+**Tech Stack:** Ruby
+
+### Nishikihebi
+
+AI pipelines for coding, wired into GitHub.
+
+**Tech Stack:** Python, LangGraph
 
 ## Open Source
 
