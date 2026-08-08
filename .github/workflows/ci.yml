@@ -1,0 +1,70 @@
+name: ci
+
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  readme-freshness:
+    name: README regenerated with PROMPT.md
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Check README.md was regenerated
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PUSH_BEFORE_SHA: ${{ github.event.before }}
+          PUSH_AFTER_SHA: ${{ github.event.after }}
+        run: |
+          set -euo pipefail
+
+          case "$EVENT_NAME" in
+            pull_request)
+              range="$PR_BASE_SHA...$PR_HEAD_SHA"
+              ;;
+            push)
+              if git cat-file -e "$PUSH_BEFORE_SHA^{commit}" 2>/dev/null; then
+                range="$PUSH_BEFORE_SHA $PUSH_AFTER_SHA"
+              elif git cat-file -e "HEAD~1^{commit}" 2>/dev/null; then
+                echo "::notice::No usable 'before' commit, comparing against HEAD~1"
+                range="HEAD~1 HEAD"
+              else
+                echo "::notice::No comparable commit range, skipping check"
+                exit 0
+              fi
+              ;;
+            *)
+              echo "::notice::No comparable commit range for $EVENT_NAME, skipping check"
+              exit 0
+              ;;
+          esac
+
+          changed=$(git diff --name-only $range)
+          echo "Changed files:"
+          echo "$changed"
+
+          if grep -qx 'PROMPT.md' <<<"$changed" && ! grep -qx 'README.md' <<<"$changed"; then
+            echo "::error file=PROMPT.md::PROMPT.md changed but README.md was not regenerated. Regenerate README.md from PROMPT.md and include it in this change."
+            {
+              echo "### README.md is stale"
+              echo
+              echo "\`PROMPT.md\` changed but \`README.md\` was not."
+              echo "\`README.md\` is generated from \`PROMPT.md\`, so regenerate it from the prompt and include it in this change."
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+          echo "README.md freshness check passed."
