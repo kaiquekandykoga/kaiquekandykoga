@@ -40,6 +40,10 @@ Nishikihebi is a code-review assistant for GitHub. You label a pull request or i
 - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp): an MCP server that lets an agent query and inspect a PostgreSQL database, read-only by default.
 - [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude): a lightweight Ruby SDK that drives the Claude Code CLI using a Claude Pro/Max subscription rather than an API key.
 
+## Digital Footprint
+
+- [LinkedIn](https://www.linkedin.com/in/kandy-koga/)
+
 ---
 
 You can find the prompt used to generate this README here:

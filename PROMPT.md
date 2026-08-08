@@ -25,9 +25,9 @@ Structure the file exactly like this:
 1. A single top-level heading (`#`) with the name. It is the page title, and appears **once** at the very top.
 2. Immediately below it:
 - the auto-generation notice and the **Last Updated** line (section 2),
-- the three content sections (Tooling Stack, AI Automation, Open Source) as `##` sub-headings, with each AI Automation project as a `###` sub-heading beneath it,
+- the four content sections (Tooling Stack, AI Automation, Open Source, Digital Footprint) as `##` sub-headings, with each AI Automation project as a `###` sub-heading beneath it,
 - a horizontal rule (`---`),
-- the footer note (section 6).
+- the footer note (section 7).
 
 ## Required Content (in order)
 Each item gives the text to use verbatim. Keep all project names, URLs, and tool names identical.
@@ -82,7 +82,11 @@ A bullet list, ordered alphabetically by project name. Heading `Open Source`:
   - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp): an MCP server that lets an agent query and inspect a PostgreSQL database, read-only by default.
   - [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude): a lightweight Ruby SDK that drives the Claude Code CLI using a Claude Pro/Max subscription rather than an API key.
 
-### 6. Footer Note
+### 6. Digital Footprint
+A bullet list of links to my profiles elsewhere. Heading `Digital Footprint`:
+  - [LinkedIn](https://www.linkedin.com/in/kandy-koga/)
+
+### 7. Footer Note
 At the end, after a horizontal rule (`---`), add a note pointing to the prompt.
 
   You can find the prompt used to generate this README here:
