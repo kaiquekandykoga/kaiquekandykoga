@@ -53,7 +53,7 @@ A two-column Markdown table, in this order. Heading `Tooling Stack`:
 | **Language** | Ruby, TypeScript, Python |
 
 ### 4. AI Automation
-Unpublished work, ordered alphabetically by project name. Heading `AI Automation`. Each project gets its own `###` sub-heading with the project name, followed by a note (no links) and a **Tech Stack** line listing the tools:
+Unpublished work, ordered alphabetically by project name. Heading `AI Automation`. Each project gets its own `###` sub-heading with the project name, followed by a note (no links), a **Tech Stack** line listing the tools, and a **Visibility** line stating whether the project is public or private:
 
   ### Kirinn
 
@@ -61,11 +61,15 @@ Unpublished work, ordered alphabetically by project name. Heading `AI Automation
 
   **Tech Stack:** Ruby
 
+  **Visibility:** Private
+
   ### Nishikihebi
 
   Nishikihebi is a code-review assistant for GitHub. You label a pull request or issue with nishikihebi, and it reads the discussion and, for pull requests, the proposed changes. It then posts a review comment and performs additional reviews only when new information appears. It works across any repositories you have granted access to, with no list to maintain, and it also provides a simple interactive chat mode from the command line.
 
   **Tech Stack:** Python, LangGraph
+
+  **Visibility:** Private
 
 ### 5. Open Source
 A bullet list, ordered alphabetically by project name. Heading `Open Source`:
