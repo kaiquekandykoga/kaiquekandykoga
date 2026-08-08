@@ -8,8 +8,8 @@ This README.md was auto-generated. All the content was originally written by me,
 
 | Category | Tools |
 | :--- | :--- |
-| **AI** | Hermes Agent, LangGraph, Claude Code |
-| **Language** | Ruby, TypeScript, Python |
+| **AI** | Claude Code, LangGraph, Hermes Agent |
+| **Language** | Ruby, TypeScript, Python (AI), Rust (TUI) |
 
 ## AI Automation
 
