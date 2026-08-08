@@ -49,8 +49,8 @@ A two-column Markdown table, in this order. Heading `Tooling Stack`:
 
 | Category | Tools |
 | :--- | :--- |
-| **AI** | Hermes Agent, LangGraph, Claude Code |
-| **Language** | Ruby, TypeScript, Python |
+| **AI** | Claude Code, LangGraph, Hermes Agent |
+| **Language** | Ruby, TypeScript, Python (AI), Rust (TUI) |
 
 ### 4. AI Automation
 Unpublished work, ordered alphabetically by project name. Heading `AI Automation`. Each project gets its own `###` sub-heading with the project name, followed by a note (no links), a **Tech Stack** line listing the tools, and a **Visibility** line stating whether the project is public or private:
