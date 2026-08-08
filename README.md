@@ -2,7 +2,7 @@
 
 This README.md was auto-generated. All the content was originally written by me, and AI just tidied up the wording during generation.
 
-**Last Updated:** 7 August 2026 (UTC)
+**Last Updated:** 8 August 2026 (UTC)
 
 ## Tooling Stack
 
@@ -19,11 +19,15 @@ Kirinn is a command-line assistant for coding work. You start a chat session in 
 
 **Tech Stack:** Ruby
 
+**Visibility:** Private
+
 ### Nishikihebi
 
 Nishikihebi is a code-review assistant for GitHub. You label a pull request or issue with nishikihebi, and it reads the discussion and, for pull requests, the proposed changes. It then posts a review comment and performs additional reviews only when new information appears. It works across any repositories you have granted access to, with no list to maintain, and it also provides a simple interactive chat mode from the command line.
 
 **Tech Stack:** Python, LangGraph
+
+**Visibility:** Private
 
 ## Open Source
 
