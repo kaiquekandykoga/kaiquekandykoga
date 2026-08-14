@@ -15,7 +15,7 @@ This may be regenerated repeatedly, so the output must be **stable**: regenerati
 - **New Zealand English.** Use NZ/Commonwealth spelling and vocabulary (e.g. `-ise`, `-our`, and `-re` endings such as `organise`, `colour`, `centre`) and the NZ day-month date format (`7 June 2026`). Express ideas the Kiwi way: understated, modest, and plain-spoken, with the occasional friendly turn of phrase ("a wee project", "keep at it", "save on"), and steer clear of hype or self-promotion, in keeping with the local tall-poppy modesty.
 - **No em dashes.** Never use an em dash (`—`) anywhere in `README.md`. Do not use an en dash (`–`) as sentence punctuation either. Use a comma, colon, semicolon, brackets, or a separate sentence instead. Hyphens inside compound words (`read-only`, `command-line`) are fine.
 - Keep the tone concise, professional, and factual. Prefer plain statements over marketing language.
-- Use GitHub-flavored Markdown: a table for the tooling stack, bullet lists for projects.
+- Use GitHub-flavored Markdown: bullet lists for projects.
 - Do **not** add badges, shields, images, emojis, banners, or any sections beyond those specified below.
 - The NZ-English cultural flavour is already baked into the pinned wording below. Reproduce it **verbatim** so the file changes only the date between runs.
 
@@ -25,9 +25,9 @@ Structure the file exactly like this:
 1. A single top-level heading (`#`) with the name. It is the page title, and appears **once** at the very top.
 2. Immediately below it:
 - the auto-generation notice and the **Last Updated** line (section 2),
-- the four content sections (Tooling Stack, AI Automation, Open Source, Digital Footprint) as `##` sub-headings, with each AI Automation project as a `###` sub-heading beneath it,
+- the three content sections (AI Automation, Open Source, Digital Footprint) as `##` sub-headings, with each AI Automation project as a `###` sub-heading beneath it,
 - a horizontal rule (`---`),
-- the footer note (section 7).
+- the footer note (section 6).
 
 ## Required Content (in order)
 Each item gives the text to use verbatim. Keep all project names, URLs, and tool names identical.
@@ -44,15 +44,7 @@ Label **Last Updated:**, current UTC date in the NZ day-month format `D Month YY
 
   **Last Updated:** D Month YYYY (UTC)
 
-### 3. Tooling Stack
-A two-column Markdown table, in this order. Heading `Tooling Stack`:
-
-| Category | Tools |
-| :--- | :--- |
-| **AI** | Claude Code, LangGraph, Hermes Agent |
-| **Language** | Ruby, TypeScript, Python (AI), Rust (TUI) |
-
-### 4. AI Automation
+### 3. AI Automation
 Unpublished work, ordered alphabetically by project name. Heading `AI Automation`. Each project gets its own `###` sub-heading with the project name, followed by a note (no links), a **Tech Stack** line listing the tools, and a **Visibility** line stating whether the project is public or private:
 
   ### Kirinn
@@ -71,7 +63,7 @@ Unpublished work, ordered alphabetically by project name. Heading `AI Automation
 
   **Visibility:** Private
 
-### 5. Open Source
+### 4. Open Source
 A bullet list, ordered alphabetically by project name. Heading `Open Source`:
   - [AI Git](https://github.com/kaiquekandykoga/ai_git): a wee project that uses AI to help manage Git repositories.
   - [AI Spider](https://github.com/kaiquekandykoga/ai_spider): a desktop app, built with PySide6, for spidering and gathering data with AI.
@@ -82,11 +74,11 @@ A bullet list, ordered alphabetically by project name. Heading `Open Source`:
   - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp): an MCP server that lets an agent query and inspect a PostgreSQL database, read-only by default.
   - [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude): a lightweight Ruby SDK that drives the Claude Code CLI using a Claude Pro/Max subscription rather than an API key.
 
-### 6. Digital Footprint
+### 5. Digital Footprint
 A bullet list of links to my profiles elsewhere. Heading `Digital Footprint`:
   - [LinkedIn](https://www.linkedin.com/in/kandy-koga/)
 
-### 7. Footer Note
+### 6. Footer Note
 At the end, after a horizontal rule (`---`), add a note pointing to the prompt.
 
   You can find the prompt used to generate this README here:
