@@ -2,14 +2,7 @@
 
 This README.md was auto-generated. All the content was originally written by me, and AI just tidied up the wording during generation.
 
-**Last Updated:** 8 August 2026 (UTC)
-
-## Tooling Stack
-
-| Category | Tools |
-| :--- | :--- |
-| **AI** | Claude Code, LangGraph, Hermes Agent |
-| **Language** | Ruby, TypeScript, Python (AI), Rust (TUI) |
+**Last Updated:** 15 August 2026 (UTC)
 
 ## AI Automation
 
