@@ -25,9 +25,9 @@ Structure the file exactly like this:
 1. A single top-level heading (`#`) with the name. It is the page title, and appears **once** at the very top.
 2. Immediately below it:
 - the auto-generation notice and the **Last Updated** line (section 2),
-- the three content sections (AI Automation, Open Source, Digital Footprint) as `##` sub-headings, with each AI Automation project as a `###` sub-heading beneath it,
+- the two content sections (AI Automation, Digital Footprint) as `##` sub-headings, with each AI Automation project as a `###` sub-heading beneath it,
 - a horizontal rule (`---`),
-- the footer note (section 6).
+- the footer note (section 5).
 
 ## Required Content (in order)
 Each item gives the text to use verbatim. Keep all project names, URLs, and tool names identical.
@@ -63,22 +63,11 @@ Unpublished work, ordered alphabetically by project name. Heading `AI Automation
 
   **Visibility:** Private
 
-### 4. Open Source
-A bullet list, ordered alphabetically by project name. Heading `Open Source`:
-  - [AI Git](https://github.com/kaiquekandykoga/ai_git): a wee project that uses AI to help manage Git repositories.
-  - [AI Spider](https://github.com/kaiquekandykoga/ai_spider): a desktop app, built with PySide6, for spidering and gathering data with AI.
-  - [Bitbucket MCP](https://github.com/kaiquekandykoga/bitbucket_mcp): an MCP server that puts the Bitbucket Cloud API within reach of Claude Code and other MCP-compatible agents.
-  - [BSD Way](https://github.com/kaiquekandykoga/bsd_way): a collection of resources for the BSD operating systems: hosting providers, sites, and communities.
-  - [Docker MCP](https://github.com/kaiquekandykoga/docker_mcp): an MCP server that puts the Docker Engine API within reach of Claude Code and other MCP-compatible agents.
-  - [Oracle MCP](https://github.com/kaiquekandykoga/oracle_mcp): an MCP server that lets an agent run SQL and inspect schema on an Oracle database.
-  - [PostgreSQL MCP](https://github.com/kaiquekandykoga/postgresql_mcp): an MCP server that lets an agent query and inspect a PostgreSQL database, read-only by default.
-  - [Ruby Claude](https://github.com/kaiquekandykoga/ruby_claude): a lightweight Ruby SDK that drives the Claude Code CLI using a Claude Pro/Max subscription rather than an API key.
-
-### 5. Digital Footprint
+### 4. Digital Footprint
 A bullet list of links to my profiles elsewhere. Heading `Digital Footprint`:
   - [LinkedIn](https://www.linkedin.com/in/kandy-koga/)
 
-### 6. Footer Note
+### 5. Footer Note
 At the end, after a horizontal rule (`---`), add a note pointing to the prompt.
 
   You can find the prompt used to generate this README here:
