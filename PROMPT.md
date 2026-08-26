@@ -24,10 +24,8 @@ Structure the file exactly like this:
 
 1. A single top-level heading (`#`) with the name. It is the page title, and appears **once** at the very top.
 2. Immediately below it:
-- the auto-generation notice and the **Last Updated** line (section 2),
-- the two content sections (AI Automation, Digital Footprint) as `##` sub-headings, with each AI Automation project as a `###` sub-heading beneath it,
-- a horizontal rule (`---`),
-- the footer note (section 5).
+- the **Last Updated** line (section 2),
+- the two content sections (Personal Apps, Digital Footprint) as `##` sub-headings, with each Personal Apps project as one compact bullet line beneath it.
 
 ## Required Content (in order)
 Each item gives the text to use verbatim. Keep all project names, URLs, and tool names identical.
@@ -35,43 +33,26 @@ Each item gives the text to use verbatim. Keep all project names, URLs, and tool
 ### 1. Name
 Single top-level heading (`#`) with the full name: **Kaíque Kandy Koga**. Appears once as the page title.
 
-### 2. Auto-generation Notice
-State that `README.md` was auto-generated, that all content was originally written by me and only rephrased by AI during the generation process, and show when the file was last updated on its own line.
-
+### 2. Last Updated
 Label **Last Updated:**, current UTC date in the NZ day-month format `D Month YYYY (UTC)` (e.g., `30 May 2026 (UTC)`):
-
-  This README.md was auto-generated. All the content was originally written by me, and AI just tidied up the wording during generation.
 
   **Last Updated:** D Month YYYY (UTC)
 
-### 3. AI Automation
-Unpublished work, ordered alphabetically by project name. Heading `AI Automation`. Each project gets its own `###` sub-heading with the project name, followed by a note (no links), a **Tech Stack** line listing the tools, and a **Visibility** line stating whether the project is public or private:
+### 3. Personal Apps
+Unpublished work, ordered alphabetically by project name. Heading `Personal Apps`. Each project is a single compact bullet line in this exact shape, with no links:
 
-  ### Kirinn
+  `<Name>: <description>. Tech Stack: <stack>. Visibility: Public/Private.`
 
-  Kirinn is a command-line assistant for coding work. You start a chat session in your terminal, describe what you need, and it operates directly on your project's files. Instead of acting as a single assistant, it functions as a small team: a conversational agent that interacts with you and a set of specialists it can hand work to, including reviewing code and addressing issues found during review. Handed-off tasks run independently in the background so the chat remains responsive, and every action taken by each agent is recorded in a log you can review later. Kirinn can run against a locally hosted model or a hosted one configured through an environment variable, and it includes an evaluation harness for verifying agent behaviour. It is an internal, unpublished project.
+Use these facts:
 
-  **Tech Stack:** Ruby
+  - Kirinn: Kirinn is a command-line assistant for coding work. You start a chat session in your terminal, describe what you need, and it operates directly on your project's files. Instead of acting as a single assistant, it functions as a small team: a conversational agent that interacts with you and a set of specialists it can hand work to, including reviewing code and addressing issues found during review. Handed-off tasks run independently in the background so the chat remains responsive, and every action taken by each agent is recorded in a log you can review later. Kirinn can run against a locally hosted model or a hosted one configured through an environment variable, and it includes an evaluation harness for verifying agent behaviour. It is an internal, unpublished project. Tech Stack: Ruby. Visibility: Private.
 
-  **Visibility:** Private
-
-  ### Nishikihebi
-
-  Nishikihebi is a code-review assistant for GitHub. You label a pull request or issue with nishikihebi, and it reads the discussion and, for pull requests, the proposed changes. It then posts a review comment and performs additional reviews only when new information appears. It works across any repositories you have granted access to, with no list to maintain, and it also provides a simple interactive chat mode from the command line.
-
-  **Tech Stack:** Python, LangGraph
-
-  **Visibility:** Private
+  - Nishikihebi: Nishikihebi is a code-review assistant for GitHub. You label a pull request or issue with nishikihebi, and it reads the discussion and, for pull requests, the proposed changes. It then posts a review comment and performs additional reviews only when new information appears. It works across any repositories you have granted access to, with no list to maintain, and it also provides a simple interactive chat mode from the command line. Tech Stack: Python, LangGraph. Visibility: Private.
 
 ### 4. Digital Footprint
 A bullet list of links to my profiles elsewhere. Heading `Digital Footprint`:
   - [LinkedIn](https://www.linkedin.com/in/kandy-koga/)
-
-### 5. Footer Note
-At the end, after a horizontal rule (`---`), add a note pointing to the prompt.
-
-  You can find the prompt used to generate this README here:
-  https://github.com/kaiquekandykoga/kaiquekandykoga/blob/master/PROMPT.md
+  - [Personal Branding](https://kaiquekandykoga.vercel.app)
 
 ## Constraints
 - Only modify `README.md`. Do not change `PROMPT.md`, `AGENTS.md`, `opencode.json`, or any workflow files.
