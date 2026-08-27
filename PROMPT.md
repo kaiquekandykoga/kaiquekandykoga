@@ -22,34 +22,35 @@ This may be regenerated repeatedly, so the output must be **stable**: regenerati
 ## Output Layout
 Structure the file exactly like this:
 
-1. A single top-level heading (`#`) with the name. It is the page title, and appears **once** at the very top.
-2. Immediately below it:
-- the **Last Updated** line (section 2),
-- the two content sections (Personal Apps, Digital Footprint) as `##` sub-headings, with each Personal Apps project as one compact bullet line beneath it.
+1. The **Last Updated** line, appearing first, at the very top of the file.
+2. Immediately below it, the two content sections (Personal Apps, Digital Footprint) as `##` sub-headings, with each Personal Apps project as one compact bullet line beneath it.
 
 ## Required Content (in order)
 Each item gives the text to use verbatim. Keep all project names, URLs, and tool names identical.
 
-### 1. Name
-Single top-level heading (`#`) with the full name: **Kaíque Kandy Koga**. Appears once as the page title.
-
-### 2. Last Updated
-Label **Last Updated:**, current UTC date in the NZ day-month format `D Month YYYY (UTC)` (e.g., `30 May 2026 (UTC)`):
+### 1. Last Updated
+Label **Last Updated:**, current UTC date in the NZ day-month format `D Month YYYY (UTC)` (e.g., `30 May 2026 (UTC)`), appearing first in the file:
 
   **Last Updated:** D Month YYYY (UTC)
 
-### 3. Personal Apps
-Unpublished work, ordered alphabetically by project name. Heading `Personal Apps`. Each project is a single compact bullet line in this exact shape, with no links. The app name, `Tech Stack`, and `Visibility` are bold:
+### 2. Personal Apps
+Unpublished work, ordered alphabetically by project name. Heading `Personal Apps`. Each project is a single compact bullet line in this exact shape. The app name and `Tech Stack` are bold. Projects with a public repository end with a `Link:` instead of a visibility marker:
 
-  `**<Name>**: <description>. **Tech Stack:** <stack>. **Visibility:** Public/Private.`
+  `**<Name>**: <description>. **Tech Stack:** <stack>. Link: <url>`
+
+  `**<Name>**: <description>. **Tech Stack:** <stack>.`
 
 Use these facts:
 
-  - **Kirinn**: Kirinn is a command-line assistant for coding work. You start a chat session in your terminal, describe what you need, and it operates directly on your project's files. Instead of acting as a single assistant, it functions as a small team: a conversational agent that interacts with you and a set of specialists it can hand work to, including reviewing code and addressing issues found during review. Handed-off tasks run independently in the background so the chat remains responsive, and every action taken by each agent is recorded in a log you can review later. Kirinn can run against a locally hosted model or a hosted one configured through an environment variable, and it includes an evaluation harness for verifying agent behaviour. It is an internal, unpublished project. **Tech Stack:** Ruby. **Visibility:** Private.
+  - **AI Git**: AI-powered Git commit messages using a local LLM. **Tech Stack:** Ruby, llama.cpp. Link: https://github.com/kaiquekandykoga/ai_git
 
-  - **Nishikihebi**: Nishikihebi is a code-review assistant for GitHub. You label a pull request or issue with nishikihebi, and it reads the discussion and, for pull requests, the proposed changes. It then posts a review comment and performs additional reviews only when new information appears. It works across any repositories you have granted access to, with no list to maintain, and it also provides a simple interactive chat mode from the command line. **Tech Stack:** Python, LangGraph. **Visibility:** Private.
+  - **Electron Git**: Desktop git companion supporting macOS, Linux, and Windows. **Tech Stack:** TypeScript, Electron, React. Link: https://github.com/kaiquekandykoga/electron_git
 
-### 4. Digital Footprint
+  - **Kirinn**: Kirinn is a command-line assistant for coding work. You start a chat session in your terminal, describe what you need, and it operates directly on your project's files. Instead of acting as a single assistant, it functions as a small team: a conversational agent that interacts with you and a set of specialists it can hand work to, including reviewing code and addressing issues found during review. Handed-off tasks run independently in the background so the chat remains responsive, and every action taken by each agent is recorded in a log you can review later. Kirinn can run against a locally hosted model or a hosted one configured through an environment variable, and it includes an evaluation harness for verifying agent behaviour. It is an internal, unpublished project. **Tech Stack:** Ruby.
+
+  - **Nishikihebi**: Nishikihebi is a code-review assistant for GitHub. You label a pull request or issue with nishikihebi, and it reads the discussion and, for pull requests, the proposed changes. It then posts a review comment and performs additional reviews only when new information appears. It works across any repositories you have granted access to, with no list to maintain, and it also provides a simple interactive chat mode from the command line. **Tech Stack:** Python, LangGraph.
+
+### 3. Digital Footprint
 A single line of links to my profiles elsewhere, separated by a star, no list. Heading `Digital Footprint`:
 
   [LinkedIn](https://www.linkedin.com/in/kandy-koga/) ☆ [Personal Branding](https://kaiquekandykoga.vercel.app)
