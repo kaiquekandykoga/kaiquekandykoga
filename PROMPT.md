@@ -36,15 +36,15 @@ Label **Last Updated:**, current UTC date in the NZ day-month format `D Month YY
 ### 2. Personal Apps
 Unpublished work, ordered alphabetically by project name. Heading `Personal Apps`. Each project is a single compact bullet line in this exact shape. The app name and `Tech Stack` are bold. Projects with a public repository end with a `Link:` instead of a visibility marker:
 
-  `**<Name>**: <description>. **Tech Stack:** <stack>. Link: <url>`
+  `**<Name>**: <description>. **Tech Stack:** <stack>. **Link:** <url>`
 
   `**<Name>**: <description>. **Tech Stack:** <stack>.`
 
 Use these facts:
 
-  - **AI Git**: AI-powered Git commit messages using a local LLM. **Tech Stack:** Ruby, llama.cpp. Link: https://github.com/kaiquekandykoga/ai_git
+  - **AI Git**: AI-powered Git commit messages using a local LLM. **Tech Stack:** Ruby, llama.cpp. **Link:** https://github.com/kaiquekandykoga/ai_git
 
-  - **Electron Git**: Desktop git companion supporting macOS, Linux, and Windows. **Tech Stack:** TypeScript, Electron, React. Link: https://github.com/kaiquekandykoga/electron_git
+  - **Electron Git**: Desktop git companion supporting macOS, Linux, and Windows. **Tech Stack:** TypeScript, Electron, React. **Link:** https://github.com/kaiquekandykoga/electron_git
 
   - **Kirinn**: Kirinn is a command-line assistant for coding work. You start a chat session in your terminal, describe what you need, and it operates directly on your project's files. Instead of acting as a single assistant, it functions as a small team: a conversational agent that interacts with you and a set of specialists it can hand work to, including reviewing code and addressing issues found during review. Handed-off tasks run independently in the background so the chat remains responsive, and every action taken by each agent is recorded in a log you can review later. Kirinn can run against a locally hosted model or a hosted one configured through an environment variable, and it includes an evaluation harness for verifying agent behaviour. It is an internal, unpublished project. **Tech Stack:** Ruby.
 
