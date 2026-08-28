@@ -1,11 +1,7 @@
-**Last Updated:** 27 August 2026 (UTC)
+#### Open Source
 
-## Personal Apps
+* [Angel](https://github.com/kaiquekandykoga/angel): Multi-Agent System using LangGraph
+* [AI Git](https://github.com/kaiquekandykoga/ai_git): AI-powered Git commit messages using a local LLM
+* [Electron Git](https://github.com/kaiquekandykoga/electron_git): Desktop git companion supporting macOS, Linux, and Windows
 
-- **Angel**: Multi-Agent System using LangGraph. **Tech Stack:** TypeScript, LangGraph. **Link:** https://github.com/kaiquekandykoga/angel
-- **AI Git**: AI-powered Git commit messages using a local LLM. **Tech Stack:** Ruby, llama.cpp. **Link:** https://github.com/kaiquekandykoga/ai_git
-- **Electron Git**: Desktop git companion supporting macOS, Linux, and Windows. **Tech Stack:** TypeScript, Electron, React. **Link:** https://github.com/kaiquekandykoga/electron_git
-
-## Digital Footprint
-
-[LinkedIn](https://www.linkedin.com/in/kandy-koga/) ☆ [Personal Branding](https://kaiquekandykoga.vercel.app)
+[LinkedIn](https://www.linkedin.com/in/kandy-koga/)
